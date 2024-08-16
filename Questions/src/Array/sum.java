@@ -24,6 +24,8 @@ class Sum {
 
 public class sum {
     public static void main(String[] args) {
-        new Sum();
+        Sum ob=new Sum();
+        int Result=ob.result();
+        System.out.println("Result :"+Result);
     }
 }
