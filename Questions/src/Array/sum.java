@@ -23,5 +23,7 @@ class Sum {
 }
 
 public class sum {
-
+    public static void main(String[] args) {
+        new Sum();
+    }
 }
