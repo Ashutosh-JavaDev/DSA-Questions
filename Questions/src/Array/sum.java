@@ -18,7 +18,7 @@ class Sum {
         for(int i=0;i<size;i++){
             sum+=arr[i];
         }
-        
+        return sum;
     }
 }
 
