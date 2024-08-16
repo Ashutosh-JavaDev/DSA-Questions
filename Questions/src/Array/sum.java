@@ -5,8 +5,9 @@ import java.util.Scanner;
 class Sum {
     int arr[], size;
 
-    void result() {
+    int result() {
         Scanner sc = new Scanner(System.in);
+        int sum=0;
         System.out.println("Enter the size of the Array");
         size = sc.nextInt();
         arr = new int[size];
@@ -14,6 +15,10 @@ class Sum {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        for(int i=0;i<size;i++){
+            sum+=arr[i];
+        }
+        
     }
 }
 
