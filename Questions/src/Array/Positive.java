@@ -8,7 +8,7 @@ public class Positive {
 
         BasicClass ob=new BasicClass();
         this.arr = ob.getArr();
-        this.size = size;
+        this.size = ob.getSize();
         for (int i = 0; i < size; i++) {
             if (arr[i] > 0) {
                 System.out.print(arr[i] + " ");
