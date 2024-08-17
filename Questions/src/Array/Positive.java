@@ -1,12 +1,13 @@
 package Array;
 
 public class Positive {
-    int arr[], size;
+    int arr[];
+    int size;
 
     Positive() {
 
-        new BasicClass(arr, size);
-        this.arr = arr;
+        BasicClass ob=new BasicClass();
+        this.arr = ob.getArr();
         this.size = size;
         for (int i = 0; i < size; i++) {
             if (arr[i] > 0) {
