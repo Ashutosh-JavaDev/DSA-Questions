@@ -8,5 +8,8 @@ public class Positive {
         size=sc.nextInt();
         arr=new int[size]; 
         System.out.println("Enter the Value in the Array");
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
     }
 }
