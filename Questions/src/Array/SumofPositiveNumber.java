@@ -16,6 +16,7 @@ public class SumofPositiveNumber {
         }
 
         System.out.print(sum);
+        System.out.println();
     }
 
     public static void main(String[] args) {
