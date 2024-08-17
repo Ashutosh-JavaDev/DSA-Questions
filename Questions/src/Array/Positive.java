@@ -6,6 +6,6 @@ public class Positive {
 
     Positive() {
        new BasicClass();
-
+        
     }
 }
