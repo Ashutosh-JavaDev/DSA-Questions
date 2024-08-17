@@ -1,8 +1,10 @@
 package Array;
+
 import java.util.Scanner;
+
 public class BasicClass {
-    class basic{
-        public void Basic(){
+    class basic {
+        public void Basic() {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the Size of the Array");
             int size = sc.nextInt();
