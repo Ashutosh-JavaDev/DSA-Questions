@@ -17,11 +17,11 @@ public class BasicClass {
         }
     }
 
-    private int[] getArr() {
+    public int[] getArr() {
         return arr;
     }
 
-    private int getSize() {
+    public int getSize() {
         return size;
     }
 
