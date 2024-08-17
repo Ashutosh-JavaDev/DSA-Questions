@@ -7,7 +7,7 @@ public class Positive {
     Positive() {
         this.arr=arr;
         this.size=size;
-       new BasicClass();
+       new BasicClass(arr,size);
 
     }
 }
