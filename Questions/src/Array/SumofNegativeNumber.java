@@ -13,5 +13,6 @@ public class SumofNegativeNumber {
                 sum+=arr[i];
             }
         }
+        System.out.println();
     }
 }
