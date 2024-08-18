@@ -7,5 +7,9 @@ public class Negative {
         BasicClass ob = new BasicClass();
         this.arr=ob.getArr();
         this.size=ob.getSize();
+        System.out.print("Negative Number are: ");
+        for(int i=0;i<size;i++){
+            
+        }
     }
 }
