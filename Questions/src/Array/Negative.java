@@ -1,7 +1,9 @@
 package Array;
+
 public class Negative {
-    int arr[],size;
-    Negative(){
-        BasicClass ob=new BasicClass();
+    int arr[], size;
+
+    Negative() {
+        BasicClass ob = new BasicClass();
     }
 }
