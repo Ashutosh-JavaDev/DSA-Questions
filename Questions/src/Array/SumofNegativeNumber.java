@@ -14,6 +14,7 @@ public class SumofNegativeNumber {
                 sum += arr[i];
             }
         }
+        System.out.print(sum);
         System.out.println();
     }
 
