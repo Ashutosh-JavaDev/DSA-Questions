@@ -21,6 +21,9 @@ public class CommonArray {
          if(count>=(size%2)){
             System.out.print(num);    
         }
+        else{
+            System.out.println("No Common Element Found");
+        }
         System.out.println();
 
     }
