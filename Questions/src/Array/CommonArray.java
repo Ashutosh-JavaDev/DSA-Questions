@@ -22,4 +22,7 @@ public class CommonArray {
         }
 
     }
+    public static void main(String[] args) {
+        new CommonArray();
+    }
 }
