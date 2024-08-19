@@ -5,6 +5,6 @@ public class CommonArray {
     CommonArray() {
         BasicClass ob = new BasicClass();
         this.arr=ob.getArr();
-
+        this.size=ob.getSize();
     }
 }
