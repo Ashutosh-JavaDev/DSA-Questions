@@ -1,7 +1,8 @@
 package Array;
 
 public class CommonArray {
-    CommonArray(){
-        
+    CommonArray() {
+        BasicClass ob = new BasicClass();
+
     }
 }
