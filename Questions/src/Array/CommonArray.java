@@ -9,7 +9,6 @@ public class CommonArray {
         this.size = ob.getSize();
         int count = 0;
         int num=0;
-        System.out.print("Common Number in the Array: ");
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] == arr[j]) {
@@ -18,8 +17,8 @@ public class CommonArray {
                 }
             }
         }
-         if(count>=(size%2)){
-            System.out.print(num);    
+         if(count>=(size/2)){
+            System.out.print("Common Number in Array is : "+num);    
         }
         else{
             System.out.println("No Common Element Found");
