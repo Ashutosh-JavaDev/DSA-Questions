@@ -15,4 +15,7 @@ public class TwoDArray {
         }
         System.out.println();
     }
+    public static  void main(String[]args){
+        new TwoDArray();
+    }
 }
