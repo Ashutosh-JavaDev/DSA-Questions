@@ -3,7 +3,7 @@ package Array;
 public class LargestElement {
     int arr[], size;
 
-    int LargestElement() {
+    int     LargestElement() {
         BasicClass ob = new BasicClass();
         this.arr = ob.getArr();
         this.size = ob.getSize();
