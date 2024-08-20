@@ -14,4 +14,7 @@ public class LargestElement {
         }
         return max;
     }
+    public static void main(String[]args){
+        new LargestElement();
+    }
 }
