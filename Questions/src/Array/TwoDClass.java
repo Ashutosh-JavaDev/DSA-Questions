@@ -3,7 +3,7 @@ package Array;
 import java.util.Scanner;
 
 public class TwoDClass {
-    int arr[][], row, col, size;
+    int arr[][], row, col;
 
     TwoDClass() {
         Scanner sc = new Scanner(System.in);
@@ -18,5 +18,14 @@ public class TwoDClass {
                 arr[i][j] = sc.nextInt();
             }
         }
+    }
+    public int getRow(){
+        return row;
+    }
+    public int getCol(){
+        return col;
+    }
+    public int[][] arr(){
+        return arr;
     }
 }
