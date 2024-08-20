@@ -6,5 +6,6 @@ public class LargestElement {
         BasicClass ob=new BasicClass();
         this.arr=arr;
         this.size=size;
+        int max=arr[0];
     }
 }
