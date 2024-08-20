@@ -10,7 +10,7 @@ public class TwoDArray {
         System.out.println("Two D Array");
         for(int i=0;i<row;i++){
             for(int j=0;i<col;j++){
-                System.out.print(arr[i]+" "+arr[j]);
+                System.out.print(arr[i][j]+" ");
             }
         }
         System.out.println();
