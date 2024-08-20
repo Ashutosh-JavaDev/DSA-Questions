@@ -29,5 +29,7 @@ public class CompareTwoMatrics {
             System.out.println("Matrics are not same");
         }
     }
-
+    public static void main(String[]args){
+        new CompareTwoMatrics();
+    }
 }
