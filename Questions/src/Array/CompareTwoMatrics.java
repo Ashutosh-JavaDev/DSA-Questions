@@ -7,10 +7,12 @@ public class CompareTwoMatrics {
 
         TwoDClass ob = new TwoDClass();
         this.arr1 = ob.arr();
-        this.arr2 = ob.arr();
         this.row = ob.getRow();
         this.col = ob.getCol();
-        int count=0,noncount=0,roll=0;
+        System.out.println("Enter the value in Second Matrics");
+        TwoDClass ob2=new TwoDClass();
+        this.arr2 = ob2.arr();
+
         for (int i = 0; i < row; i++) {
             for(int j=0;j<col;j++){
                 if(arr1[i][j]==arr2[i][j]){
