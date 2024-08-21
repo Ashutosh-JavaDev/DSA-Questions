@@ -14,10 +14,14 @@ public class Search {
         for(int i=0;i<size;i++){
             if(arr[i]==num){
                 count++;
+                System.out.println("Position["+i+"]");
             }
         }
         if(count>0){
-            
+            System.out.println("Number Found");
+        }
+        else{
+            System.out.println("Number Not Found");
         }
     }
 }
