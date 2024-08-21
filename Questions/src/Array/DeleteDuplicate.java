@@ -5,7 +5,7 @@ public class DeleteDuplicate {
 
     DeleteDuplicate() {
         BasicClass ob = new BasicClass();
-        this.arr=ob.getArr();
-        this.size=ob.getSize();
-            }
+        this.arr = ob.getArr();
+        this.size = ob.getSize();
+    }
 }
