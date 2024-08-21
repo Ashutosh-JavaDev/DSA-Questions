@@ -10,5 +10,14 @@ public class Search {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number wants to be Search");
         int num=sc.nextInt();
+        int  count=0;
+        for(int i=0;i<size;i++){
+            if(arr[i]==num){
+                count++;
+            }
+        }
+        if(count>0){
+            
+        }
     }
 }
