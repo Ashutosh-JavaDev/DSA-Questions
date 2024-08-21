@@ -1,8 +1,9 @@
 package Array;
 
 public class DeleteDuplicate {
-    int arr[],size;
+    int arr[], size;
+
     DeleteDuplicate() {
-        BasicClass  ob=new BasicClass();
+        BasicClass ob = new BasicClass();
     }
 }
