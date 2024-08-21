@@ -22,6 +22,7 @@ public class CompareTwoMatrics {
                if(!areEqual){
                 break;
                }
+               
             }
         }
         if(areEqual){
