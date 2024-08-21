@@ -25,4 +25,7 @@ public class Search {
             System.out.println("Number Not Found");
         }
     }
+    public static void main(String[]args){
+        new Search();
+    }
 }
