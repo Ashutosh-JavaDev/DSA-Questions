@@ -15,5 +15,8 @@ public class DeleteDuplicate {
                 }
             }
         }
+        if(count>0){
+            System.out.println("Total Number of Duplicate found in array: "+count);
+        }
     }
 }
