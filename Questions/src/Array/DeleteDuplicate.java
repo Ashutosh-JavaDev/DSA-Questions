@@ -21,7 +21,8 @@ public class DeleteDuplicate {
             System.out.println("No Duplicates Found");
         }
     }
-    public static void main(String[]args){
+
+    public static void main(String[] args) {
         new DeleteDuplicate();
     }
 }
