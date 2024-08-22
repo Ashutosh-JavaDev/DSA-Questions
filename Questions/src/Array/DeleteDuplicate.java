@@ -20,8 +20,9 @@ public class DeleteDuplicate {
                 }
             }
         }
-        for(int i=0;i<count;i++){
-            
+        int totalSize=size-count;
+        for(int i=0;i<totalSize;i++){
+            System.out.print(arr[i]+" ");
         }
         if (count > 0) {
             System.out.println("Total Number of Duplicate found in array: " + count);
