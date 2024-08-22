@@ -7,28 +7,26 @@ public class DeleteDuplicate {
         BasicClass ob = new BasicClass();
         this.arr = ob.getArr();
         this.size = ob.getSize();
-        int count = 0;
-        int k=0;
-        int temp[] = new int[count];
+       int newSize=size;
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] == arr[j]) {
-                    temp[k] = arr[i];
-                    count++;
-                    k++;
+                   for(int k=j;k<newSize-1;k++){
+                    arr[k]=arr[k+1];
+                   }
+                   newSize--;
+                   j--;
 
                 }
             }
         }
-        int totalSize=size-count;
-        for(int i=0;i<totalSize;i++){
+       
+        for(int i=0;i<newSize;i++){
             System.out.print(arr[i]+" ");
         }
-        if (count > 0) {
-            System.out.println("Total Number of Duplicate found in array: " + count);
-        } else {
-            System.out.println("No Duplicates Found");
-        }
+    
+            System.out.println("Total Number of Duplicate found in array: " + (size-newSize));
+
     }
 
     public static void main(String[] args) {
