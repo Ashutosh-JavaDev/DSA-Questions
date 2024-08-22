@@ -8,8 +8,8 @@ public class DeleteDuplicate {
         this.arr = ob.getArr();
         this.size = ob.getSize();
         int newSize = size;
-        for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
+        for (int i = 0; i < newSize; i++) {
+            for (int j = i + 1; j < newSize; j++) {
                 if (arr[i] == arr[j]) {
                     for (int k = j; k < newSize - 1; k++) {
                         arr[k] = arr[k + 1];
@@ -24,7 +24,7 @@ public class DeleteDuplicate {
         for (int i = 0; i < newSize; i++) {
             System.out.print(arr[i] + " ");
         }
-
+        System.out.println();
         System.out.println("Total Number of Duplicate found in array: " + (size - newSize));
 
     }
