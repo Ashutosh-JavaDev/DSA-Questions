@@ -8,12 +8,14 @@ public class DeleteDuplicate {
         this.arr = ob.getArr();
         this.size = ob.getSize();
         int count = 0;
+        int k=0;
         int temp[] = new int[count];
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (arr[i] == arr[j]) {
-                    temp[i] = arr[i];
+                    temp[k] = arr[i];
                     count++;
+                    k++;
 
                 }
             }
