@@ -10,6 +10,6 @@ public class PrintCubic {
         for(int i=0;i<size;i++){
             num=arr[i]*arr[i]*arr[i];
         }
-        
+        System.out.print(num+" ");
     }
 }
