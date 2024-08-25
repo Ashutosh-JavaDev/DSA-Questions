@@ -13,7 +13,7 @@ public class CopyArray {
         }
         System.out.println("Copied array from Array");
         for (int i = 0; i < size; i++) {
-
+            System.out.print(copy[i]+" ");
         }
     }
 }
