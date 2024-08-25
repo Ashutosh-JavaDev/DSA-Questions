@@ -10,5 +10,7 @@ public class StoreEven {
         BasicClass ob2 = new BasicClass();
         this.arr = ob2.getArr();
         this.size = ob2.getSize();
+        int even=0;
+        third=new int[even];
     }
 }
