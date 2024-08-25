@@ -7,6 +7,6 @@ public class CopyArray {
         BasicClass ob = new BasicClass();
         this.arr = ob.getArr();
         this.size = ob.getSize();
-        copy=new int [size];
+        copy = new int[size];
     }
 }
