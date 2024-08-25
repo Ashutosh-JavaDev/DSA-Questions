@@ -16,4 +16,7 @@ public class CopyArray {
             System.out.print(copy[i]+" ");
         }
     }
+    public static void main(String[]args){
+        new CopyArray();
+    }
 }
