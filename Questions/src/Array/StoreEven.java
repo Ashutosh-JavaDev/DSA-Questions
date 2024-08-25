@@ -16,7 +16,7 @@ public class StoreEven {
         third = new int[total];
         for(int i=0;i<size;i++){
             if(arr[i]%2==0){
-                total++;
+                even1++;
             }
         }
     }
