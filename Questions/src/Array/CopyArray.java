@@ -8,8 +8,8 @@ public class CopyArray {
         this.arr = ob.getArr();
         this.size = ob.getSize();
         copy = new int[size];
-        for(int i=0;i<size;i++){
-            copy[i]=arr[i];
+        for (int i = 0; i < size; i++) {
+            copy[i] = arr[i];
         }
     }
 }
