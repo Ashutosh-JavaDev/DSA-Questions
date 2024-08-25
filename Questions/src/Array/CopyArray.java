@@ -11,5 +11,9 @@ public class CopyArray {
         for (int i = 0; i < size; i++) {
             copy[i] = arr[i];
         }
+        System.out.println("Copied array from Array");
+        for (int i = 0; i < size; i++) {
+
+        }
     }
 }
