@@ -24,5 +24,8 @@ public class StoreEven {
                 even2++;
             }
         }
+        for(int i=0;i<total;i++){
+            
+        }
     }
 }
