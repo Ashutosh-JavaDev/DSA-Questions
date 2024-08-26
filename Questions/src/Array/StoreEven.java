@@ -31,9 +31,9 @@ public class StoreEven {
 
             }
         }
-        for(int i=0;i<size2;i++){
-            if(second[i]%2==0){
-                third[index++]=second[i];
+        for (int i = 0; i < size2; i++) {
+            if (second[i] % 2 == 0) {
+                third[index++] = second[i];
             }
         }
     }
