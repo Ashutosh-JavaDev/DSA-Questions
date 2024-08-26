@@ -8,7 +8,7 @@ public class StoreEven {
         this.arr = ob.getArr();
         this.size = ob.getSize();
         BasicClass ob2 = new BasicClass();
-        this.arr = ob2.getArr();
+        this.second = ob2.getArr();
         this.size = ob2.getSize();
         int even1 = 0;
         int even2=0;
@@ -20,12 +20,12 @@ public class StoreEven {
             }
         }
         for(int i=0;i<size;i++){
-            if(arr[i]%2==0){
+            if(second[i]%2==0){
                 even2++;
             }
         }
         for(int i=0;i<total;i++){
-            
+
         }
     }
 }
