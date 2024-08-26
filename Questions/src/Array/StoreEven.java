@@ -38,6 +38,10 @@ public class StoreEven {
         }
     }
     public static void main(String[]args){
-        new StoreEven();
+        StoreEven se = new StoreEven();
+        // Displaying the even numbers stored in the third array
+        for (int num : se.third) {
+            System.out.print(num + " ");
+        }
     }
 }
