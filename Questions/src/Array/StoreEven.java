@@ -37,4 +37,7 @@ public class StoreEven {
             }
         }
     }
+    public static void main(String[]args){
+        
+    }
 }
