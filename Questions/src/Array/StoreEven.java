@@ -37,7 +37,8 @@ public class StoreEven {
             }
         }
     }
-    public static void main(String[]args){
+
+    public static void main(String[] args) {
         StoreEven se = new StoreEven();
         // Displaying the even numbers stored in the third array
         for (int num : se.third) {
