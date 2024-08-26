@@ -25,7 +25,7 @@ public class StoreEven {
             }
         }
         for(int i=0;i<total;i++){
-
+            third[i]=arr[i];
         }
     }
 }
