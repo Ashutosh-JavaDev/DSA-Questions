@@ -37,6 +37,7 @@ public class StoreEven {
                 third[index++] = second[i];
             }
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
