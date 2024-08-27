@@ -16,6 +16,7 @@ public class DiagonalMatrix {
             System.out.println();
 
         }
+        System.out.println();
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (i == j) {
@@ -25,6 +26,7 @@ public class DiagonalMatrix {
                 }
             }
         }
+        System.out.println();
         System.out.println("Sum of Diagonal Matrix: " + sum);
     }
 
