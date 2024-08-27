@@ -12,8 +12,7 @@ public class StoreEven {
         this.size2 = ob2.getSize();
         int even1 = 0;
         int even2 = 0;
-        int total = even1 + even2;
-        third = new int[total];
+       
         for (int i = 0; i < size1; i++) {
             if (arr[i] % 2 == 0) {
                 even1++;
@@ -24,6 +23,8 @@ public class StoreEven {
                 even2++;
             }
         }
+        int total = even1 + even2;
+        third = new int[total];
         int index = 0;
         for (int i = 0; i < size1; i++) {
             if (arr[i] % 2 == 0) {
