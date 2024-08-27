@@ -27,4 +27,7 @@ public class DiagonalMatrix {
         }
         System.out.println("Sum of Diagonal Matrix: " + sum);
     }
+    public static void main(String[]args){
+        new DiagonalMatrix();
+    }
 }
