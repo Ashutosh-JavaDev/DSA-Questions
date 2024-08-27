@@ -19,12 +19,12 @@ public class DiagonalMatrix {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (i == j) {
-                    System.out.print(arr[i][j]+" ");
+                    System.out.print(arr[i][j] + " ");
                     sum += arr[i][j];
 
                 }
             }
         }
-        System.out.println("Sum of Diagonal Matrix: "+sum);
+        System.out.println("Sum of Diagonal Matrix: " + sum);
     }
 }
