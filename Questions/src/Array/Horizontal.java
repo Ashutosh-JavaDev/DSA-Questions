@@ -17,6 +17,7 @@ public class Horizontal {
                 }
             }
         }
+        System.out.println();
         
     }
 }
