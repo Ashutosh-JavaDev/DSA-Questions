@@ -20,14 +20,17 @@ public class Horizontal {
                 if (j == 0) {
                     System.out.print(arr[i][j] + " ");
                     sum += arr[i][j];
+                    System.out.println();
+
                 }
             }
         }
         System.out.println();
-        System.out.print(sum);
+        System.out.println(sum);
 
     }
-    public static  void  main(String[]args){
+
+    public static void main(String[] args) {
         new Horizontal();
     }
 }
