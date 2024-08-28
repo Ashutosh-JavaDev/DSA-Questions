@@ -27,4 +27,7 @@ public class Horizontal {
         System.out.print(sum);
 
     }
+    public static  void  main(String[]args){
+        new Horizontal();
+    }
 }
