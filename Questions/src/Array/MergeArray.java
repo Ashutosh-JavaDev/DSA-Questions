@@ -16,6 +16,10 @@ public class MergeArray {
         int thirdCol=ob.getCol()+ob2.getCol();
 
         third=new int[thirdRow][thirdCol];
-        // for(int i=0;i<)
+        for(int i=0;i<thirdRow;i++){
+            for(int j=0;j<thirdCol;j++){
+                
+            }
+        }
     }
 }
