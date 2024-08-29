@@ -22,6 +22,7 @@ public class MergeArray {
             }
         }
         System.out.print("\b");
-        
+        System.out.println();
     }
+
 }
