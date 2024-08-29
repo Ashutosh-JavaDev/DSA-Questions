@@ -21,8 +21,10 @@ public class MergeArray {
                 System.out.print(ob.arr[i][j]+" "+ob2.arr[i][j]+" ");
             }
         }
-        System.out.print("\b");
+        System.out.print("\b"); 
         System.out.println();
     }
-
+    public static void main(String[]args){
+        new MergeArray();
+    }
 }
