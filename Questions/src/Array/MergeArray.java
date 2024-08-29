@@ -18,7 +18,8 @@ public class MergeArray {
         third = new int[thirdRow][thirdCol];
         for (int i = 0; i < thirdRow; i++) {
             for (int j = 0; j < thirdCol; j++) {
-                System.out.print(ob.arr[i][j]+" "+ob2.arr[i][j]+" ");
+                System.out.print(ob.arr[i][j]+" ");
+                System.out.print(ob2.arr[i][j]+" ");
             }
         }
         System.out.print("\b"); 
