@@ -12,5 +12,7 @@ public class MergeArray {
         this.arr2 = ob.arr();
         this.row = ob2.getRow();
         this.col = ob2.getCol();
+        third=new int[3][4];
+        // for(int i=0;i<)
     }
 }
