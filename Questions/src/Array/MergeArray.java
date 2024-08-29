@@ -1,7 +1,7 @@
 package Array;
 
 public class MergeArray {
-    int arr1[][], row, col, arr2[][];
+    int arr1[][], row, col, arr2[][],third[][];
 
     MergeArray() {
         TwoDClass ob = new TwoDClass();
