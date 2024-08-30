@@ -25,10 +25,10 @@ public class MergeArray {
         //
         for (int i = 0; i < row2; i++) {
             for (int j = 0; j < col2; j++) {
-                third[row + i][j] = arr2[i][j];
-
+                third[row + i][j] = arr2[i][j]; // Potential issue here
             }
         }
+
         for (int i = 0; i < thirdRow; i++) {
             for (int j = 0; j < thirdCol; j++) {
                 System.out.print(third[i][j] + " ");
