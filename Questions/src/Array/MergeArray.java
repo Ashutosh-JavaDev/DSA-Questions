@@ -19,14 +19,14 @@ public class MergeArray {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                third[i][j]=arr1[i][j];
-               System.out.print(third[i][j]);
+               System.out.print(third[i][j]+" ");
             }
         }
         // 
            for (int i = 0; i < row2; i++) {
             for (int j = 0; j < col2; j++) {
                third[i][j]=arr2[i][j];
-               System.out.print(third[i][j]);
+               System.out.print(third[i][j]+" ");
 
             }
         }
