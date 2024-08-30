@@ -1,7 +1,7 @@
 package Array;
 
 public class MergeArray {
-    int arr1[][], row, col,row2,col2, arr2[][], third[][];
+    int arr1[][], row, col, row2, col2, arr2[][], third[][];
 
     MergeArray() {
         TwoDClass ob = new TwoDClass();
@@ -18,22 +18,23 @@ public class MergeArray {
         third = new int[thirdRow][thirdCol];
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-               third[i][j]=arr1[i][j];
-               System.out.print(third[i][j]+" ");
+                third[i][j] = arr1[i][j];
+                System.out.print(third[i][j] + " ");
             }
         }
-        // 
-           for (int i = 0; i < row2; i++) {
+        //
+        for (int i = 0; i < row2; i++) {
             for (int j = 0; j < col2; j++) {
-               third[i][j]=arr2[i][j];
-               System.out.print(third[i][j]+" ");
+                third[i][j] = arr2[i][j];
+                System.out.print(third[i][j] + " ");
 
             }
         }
-        System.out.print("\b"); 
+        System.out.print("\b");
         System.out.println();
     }
-    public static void main(String[]args){
+
+    public static void main(String[] args) {
         new MergeArray();
     }
 }
