@@ -10,8 +10,8 @@ public class MergeArray {
         this.col = ob.getCol();
         TwoDClass ob2 = new TwoDClass();
         this.arr2 = ob.arr();
-        this.row = ob2.getRow();
-        this.col = ob2.getCol();
+        this.row2 = ob2.getRow();
+        this.col2 = ob2.getCol();
         int thirdRow = ob.getRow() + ob2.getRow();
         int thirdCol = ob.getCol() + ob2.getCol();
 
