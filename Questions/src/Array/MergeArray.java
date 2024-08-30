@@ -13,7 +13,7 @@ public class MergeArray {
         this.row2 = ob2.getRow();
         this.col2 = ob2.getCol();
         int thirdRow = row + row2;
-        int thirdCol = col + col2;
+        int thirdCol = col;
 
         third = new int[thirdRow][thirdCol];
         for (int i = 0; i < row; i++) {
@@ -29,13 +29,12 @@ public class MergeArray {
 
             }
         }
-        for(int i=0;i<thirdRow;i++){
-            for(int j=0;j<thirdCol;j++){
-                System.out.print(third[i][j]+" ");
+        for (int i = 0; i < thirdRow; i++) {
+            for (int j = 0; j < thirdCol; j++) {
+                System.out.print(third[i][j] + " ");
             }
             System.out.println();
         }
-        System.out.println();
     }
 
     public static void main(String[] args) {
