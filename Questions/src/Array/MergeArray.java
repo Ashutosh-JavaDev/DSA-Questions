@@ -29,7 +29,12 @@ public class MergeArray {
 
             }
         }
-        System.out.print("\b");
+        for(int i=0;i<thirdRow;i++){
+            for(int j=0;j<thirdCol;j++){
+                System.out.print(third[i][j]+" ");
+            }
+            System.out.println();
+        }
         System.out.println();
     }
 
