@@ -17,8 +17,10 @@ public class RecursiveSum {
     }
     public static void main(String[]args){
         RecursiveSum ob=new RecursiveSum();
-
-        int result=ob.recursiveSum(0);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Value till Number wants Print");
+        int num=sc.nextInt();
+        int result=ob.recursiveSum(0,num);
         System.out.println(result);
     }
 }
