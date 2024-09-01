@@ -3,8 +3,9 @@ package Array;
 public class RecursiveSum {
     // int arr[],size;
     // ,size=1;
+    int sum=0;
     public int recursiveSum(int size){
-        int sum=0;
+        // int sum=0;
         if(size==5){
             return 0;
         }
