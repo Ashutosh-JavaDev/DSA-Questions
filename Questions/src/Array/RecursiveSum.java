@@ -16,6 +16,7 @@ public class RecursiveSum {
     }
     public static void main(String[]args){
         RecursiveSum ob=new RecursiveSum();
+        int result=ob.recursiveSum(0);
         
     }
 }
