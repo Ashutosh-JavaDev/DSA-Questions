@@ -8,6 +8,8 @@ public class Factorial {
         }
         else{
             fact*=size;
+            factorial(size, num);
         }
+        return fact;
     }
 }
