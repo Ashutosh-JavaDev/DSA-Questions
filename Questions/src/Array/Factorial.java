@@ -15,6 +15,8 @@ public class Factorial {
     public static void main(String[]args){
         Factorial ob=new Factorial();
         Scanner sc=new Scanner(System.in);
-        int res=ob.factorial(1, 0);
+        System.out.println("Enter the size of the Factorial");
+        int num=sc.nextInt();
+        int res=ob.factorial(1, num);
     }
 }
