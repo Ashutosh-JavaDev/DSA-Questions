@@ -14,5 +14,7 @@ public class Factorial {
     }
     public static void main(String[]args){
         Factorial ob=new Factorial();
+        Scanner sc=new Scanner(System.in);
+        int res=ob.factorial(1, 0);
     }
 }
