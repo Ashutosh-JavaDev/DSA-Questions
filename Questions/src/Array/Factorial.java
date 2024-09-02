@@ -1,7 +1,10 @@
 package Array;
 
 public class Factorial {
-    Factorial() {
-
+    
+    public int factorial(int size,int num) {
+        if(size==num){
+            return 0;
+        }
     }
 }
