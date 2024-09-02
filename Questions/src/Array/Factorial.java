@@ -1,5 +1,5 @@
 package Array;
-
+import java.util.Scanner;
 public class Factorial {
     int fact=1;
     public int factorial(int size,int num) {
