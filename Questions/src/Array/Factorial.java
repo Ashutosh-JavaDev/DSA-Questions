@@ -13,6 +13,6 @@ public class Factorial {
         return fact;
     }
     public static void main(String[]args){
-        
+        Factorial ob=new Factorial();
     }
 }
