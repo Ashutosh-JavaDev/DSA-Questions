@@ -8,8 +8,9 @@ public class SumofDigit {
             return 0;
         }
         else{
-
-            return 0;
+            sum+=n;
+            sumofDigit(num/10);
+            return sum;
         }
     }
 }
