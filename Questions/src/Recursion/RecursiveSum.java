@@ -1,4 +1,4 @@
-package Array;
+package Recursion;
 import java.util.Scanner;
 public class RecursiveSum {
     // int arr[],size;
