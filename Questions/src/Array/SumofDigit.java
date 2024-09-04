@@ -12,5 +12,6 @@ public class SumofDigit {
     public static void main(String[]args){
         SumofDigit ob=new SumofDigit();
         int res=ob.sumofdigit(12345);   
+        System.out.println(res);
     }
 }
