@@ -4,12 +4,12 @@ public class SumofDigit {
     int sum=0;
     public int sumofDigit(int num){
         int n=num;
-        if(n/10==0){
+        if(n>0){
             return 0;
         }
         else{
-            sum+=n/10;
-            sumofDigit(num/10);
+            sum+=n%10;
+            sumofDigit(n/10);
             return sum;
         }
     }
