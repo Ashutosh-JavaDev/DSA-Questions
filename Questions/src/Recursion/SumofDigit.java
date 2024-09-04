@@ -1,16 +1,14 @@
 package Recursion;
 import java.util.Scanner;
 public class SumofDigit {
-    int sum=0;
+    // int sum=0,n=num;
     public int sumofDigit(int num){
-        int n=num;
-        if(n>0){
+        // int n=num;
+        if(num==0){
             return 0;
         }
         else{
-            sum+=n%10;
-            sumofDigit(n/10);
-            return sum;
+           return (num%10)+sumofDigit(num/10);
         }
     }
     public static void main(String[]args){
