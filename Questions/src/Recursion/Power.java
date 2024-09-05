@@ -22,7 +22,7 @@ public class Power {
         int num=sc.nextInt();
         System.out.println("Enter the Power");
         int pow=sc.nextInt();
-        int res=ob.power(2, 5);
+        int res=ob.power(num, pow);
         System.out.println("Result: "+res);
     }
 }
