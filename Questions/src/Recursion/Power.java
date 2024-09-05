@@ -8,6 +8,7 @@ public class Power {
         }
         else{
             result*=number;
+            power(number, pow-1);
         }
         return result;
     }
