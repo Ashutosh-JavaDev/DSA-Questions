@@ -15,6 +15,6 @@ public class Power {
     public static void main(String[]args){
         Power ob=new Power();
         int res=ob.power(2, 5);
-        
+        System.out.println("Result: "+res);
     }
 }
