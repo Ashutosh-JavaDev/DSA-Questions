@@ -6,6 +6,9 @@ public class Power {
         if(pow<1){
             return 0;
         }
+        else{
+            result=number*pow;
+        }
         return result;
     }
 }
