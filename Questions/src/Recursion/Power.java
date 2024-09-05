@@ -12,4 +12,9 @@ public class Power {
         }
         return result;
     }
+    public static void main(String[]args){
+        Power ob=new Power();
+        int res=ob.power(2, 5);
+        
+    }
 }
