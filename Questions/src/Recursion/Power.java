@@ -7,7 +7,7 @@ public class Power {
             return 0;
         }
         else{
-            result=number*pow;
+            
         }
         return result;
     }
