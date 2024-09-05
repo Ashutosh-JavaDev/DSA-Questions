@@ -1,8 +1,11 @@
 package Recursion;
+import java.util.Scanner;
 public class Power {
+
+    int result=1;
+
     public int power(int number,int pow){
 
-        int result=1;
         if(pow<1){
             return 0;
         }
@@ -13,7 +16,12 @@ public class Power {
         return result;
     }
     public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
         Power ob=new Power();
+        System.out.println("Enter the Number");
+        int num=sc.nextInt();
+        System.out.println("Enter the Power");
+        int pow=sc.nextInt();
         int res=ob.power(2, 5);
         System.out.println("Result: "+res);
     }
