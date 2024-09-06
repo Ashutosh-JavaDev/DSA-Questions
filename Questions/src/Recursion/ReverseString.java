@@ -13,4 +13,9 @@ public class ReverseString {
         }
         return str;
     }
+    public static void main(String[]args){
+        ReverseString ob=new ReverseString();
+        String res=ob.reverseString("Ashutosh");
+        System.out.println("Result: "+res);
+    }
 }
