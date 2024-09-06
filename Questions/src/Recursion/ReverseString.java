@@ -4,12 +4,12 @@ public class ReverseString {
     String str="";
 
     public String reverseString(String st) {
-        if (st.length() > st.length()+1) {
-            return "";
+        if (st.length() == 0) {
+            return str;
         }
         else{
-            str+=st.length()-1;
-            reverseString(st+1);
+            str+=st.charAt(st.length()-1);
+            reverseString(st.substring(0, st.length()-1));
         }
         return str;
     }
