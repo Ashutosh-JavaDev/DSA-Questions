@@ -4,7 +4,7 @@ public class ReverseString {
     String str="";
 
     public String reverseString(String st) {
-        if (st.length() < 0) {
+        if (st.length() > st.length()+1) {
             return "";
         }
         else{
