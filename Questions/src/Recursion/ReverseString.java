@@ -4,8 +4,8 @@ public class ReverseString {
     String str;
 
     public String reverseString(String st) {
-        if(st.length()<1){
-        return 0;
+        if (st.length() < 1) {
+            return "";
         }
         return str;
     }
