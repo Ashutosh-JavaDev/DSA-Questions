@@ -8,7 +8,7 @@ public class sumOfArray {
             return 0;
         }
         else{
-            sum+=arr[size-1];
+            sum+=arr[size];
             result(arr, size-1);
         }
         return sum;
