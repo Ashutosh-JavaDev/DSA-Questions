@@ -17,5 +17,6 @@ public class sumOfArray {
         sumOfArray ob=new sumOfArray();
         int arr[]={1,2,3,4,5};
         int res=ob.result(arr, arr.length);
+        System.out.println("Result: "+res);
     }
 }
