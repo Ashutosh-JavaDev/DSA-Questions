@@ -11,10 +11,22 @@ public class Pallindrome {
             check(num / 10);
         }
     }
+    public boolean Result(int num){
+        rev=0;
+        check(num);
+        return rev==num;
 
+    }
     public static void main(String[] args) {
         Pallindrome ob = new Pallindrome();
-        ob.check(121);
+        int num=121;
+        // ob.check(121);
+        if(ob.Result(num)){
+            System.out.println("Number is Palindrome");
+        }
+        else{
+            System.out.println("Number is not Palindrome");
+        }
 
     }
 }
