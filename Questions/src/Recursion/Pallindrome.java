@@ -8,6 +8,7 @@ public class Pallindrome {
         }
         else{
             rev=num%10;
+            check(num/10);
         }
     }
 }
