@@ -11,4 +11,7 @@ public class Pallindrome {
             check(num/10);
         }
     }
+    public static void main(String[]args){
+        Pallindrome  ob=new Pallindrome();
+    }
 }
