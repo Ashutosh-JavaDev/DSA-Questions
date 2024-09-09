@@ -7,7 +7,7 @@ public class Pallindrome {
             return;
         }
         else{
-            rev=num/10;
+            rev=num%10;
         }
     }
 }
