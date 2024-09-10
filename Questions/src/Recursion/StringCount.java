@@ -4,7 +4,7 @@ public class StringCount {
     int count = 0;
 
     public int result(String str) {
-        if (str.length() < 0) {
+        if (str.length() == 0) {
             return 0;
         } else {
             // char ch=str.charAt(str.length()-1);
