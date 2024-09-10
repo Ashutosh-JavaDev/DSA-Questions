@@ -10,7 +10,7 @@ public class SumofNaturalNumber {
             sum+=size;
             Result(size-1);
         }
-        return 0;
+        return sum;
     }
     public static void main(String[]args){
         SumofNaturalNumber ob=new SumofNaturalNumber();
