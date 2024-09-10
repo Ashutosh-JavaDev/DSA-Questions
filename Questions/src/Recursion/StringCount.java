@@ -16,5 +16,6 @@ public class StringCount {
     public static void main(String[]args){
         StringCount ob=new StringCount();
         int res=ob.result("Ashutosh");
+        System.out.println("Result: "+res);
     } 
 }
