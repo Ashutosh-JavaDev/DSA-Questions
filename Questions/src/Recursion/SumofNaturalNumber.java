@@ -15,5 +15,6 @@ public class SumofNaturalNumber {
     public static void main(String[]args){
         SumofNaturalNumber ob=new SumofNaturalNumber();
         int res=ob.Result(5);
+        System.out.println("Result: "+res);
     }
 }
