@@ -14,6 +14,7 @@ public class StringCount {
         return count;
     }   
     public static void main(String[]args){
-        
+        StringCount ob=new StringCount();
+        int res=ob.result("Ashutosh");
     } 
 }
