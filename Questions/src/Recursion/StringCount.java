@@ -12,5 +12,8 @@ public class StringCount {
             result(str.substring(0, str.length()-1));
         }
         return count;
-    }    
+    }   
+    public static void main(String[]args){
+        
+    } 
 }
