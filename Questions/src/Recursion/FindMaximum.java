@@ -7,8 +7,12 @@ public class FindMaximum {
             return 0;
         }
         else{
-            if(max<arr[size-1]){
-                
+            if(max>arr[size-1]){
+                max=arr[size-1];
+                maximum(arr, size-1);
+            }
+            else{
+                maximum(arr, size-1);
             }
         }
         return max;
