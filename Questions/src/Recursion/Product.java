@@ -16,5 +16,6 @@ public class Product {
         Product ob=new Product();
         int arr[]={1,2,3,4,5};
         int res=ob.result(arr, arr.length-1);
+        System.out.println("Result: "+res);
     }
 }
