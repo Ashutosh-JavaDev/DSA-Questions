@@ -6,6 +6,10 @@ public class Product {
         if(size==0){
             return 0;
         }
+        else{
+            pro*=arr[size-1];
+            result(arr, size-1);
+        }
         return pro;
     }
 }
