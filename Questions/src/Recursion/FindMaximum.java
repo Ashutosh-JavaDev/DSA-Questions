@@ -7,7 +7,9 @@ public class FindMaximum {
             return 0;
         }
         else{
-            max=arr[size-1];
+            if(max<arr[size-1]){
+                
+            }
         }
         return max;
     }
