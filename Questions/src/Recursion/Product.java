@@ -12,4 +12,9 @@ public class Product {
         }
         return pro;
     }
+    public static void main(String[]args){
+        Product ob=new Product();
+        int arr[]={1,2,3,4,5};
+        int res=ob.result(arr, arr.length-1);
+    }
 }
