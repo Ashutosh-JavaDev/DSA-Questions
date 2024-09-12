@@ -14,7 +14,7 @@ public class chrckArray {
 
             }
             else{
-                check(arr, size-1);
+                result=false;
             }
         }
         return result;
