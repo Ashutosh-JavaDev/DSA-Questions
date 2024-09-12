@@ -4,13 +4,12 @@ public class PrimeCheck {
     public boolean check(int num, int counter) {
         if (counter * counter > num) {
             return true;
-        } else {
-            if (num % counter == 0) {
-                return false;
-
-            }
+        }
+        if (num % counter == 0) {
+            return false;
 
         }
+
         return check(num, counter + 1);
     }
 
