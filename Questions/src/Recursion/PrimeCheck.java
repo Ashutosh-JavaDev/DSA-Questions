@@ -2,16 +2,26 @@ package Recursion;
 
 public class PrimeCheck {
     int count=0;
-    boolean result=true;
+    boolean result=false;
     public boolean check(int num,int counter){
-        if(num==0){
+        if(counter==num){
             return true;
         }
         else{
             if(num%counter==0){
                 count++;
+                res();
             }
+            
         }
-        return result;
+        return check(num, counter+1);
+    }
+    public boolean res(){
+        if(count ==2){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
