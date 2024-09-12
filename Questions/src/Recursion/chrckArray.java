@@ -20,7 +20,7 @@ public class chrckArray {
 
     public static void main(String[] args) {
         chrckArray ob = new chrckArray();
-        int arr[] = { 1,2,4,3,5 };
+        int arr[] = { 1,2,3,4,5 };
         boolean res = ob.check(arr, arr.length );
         System.out.println("Result: " + res);
     }
