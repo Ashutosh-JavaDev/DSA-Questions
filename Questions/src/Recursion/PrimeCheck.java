@@ -2,7 +2,7 @@ package Recursion;
 
 public class PrimeCheck {
     public boolean check(int num, int counter) {
-        if (counter > num) {
+        if (counter * counter > num) {
             return true;
         } else {
             if (num % counter == 0) {
