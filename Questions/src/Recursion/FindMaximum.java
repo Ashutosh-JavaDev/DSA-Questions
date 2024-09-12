@@ -21,7 +21,7 @@ public class FindMaximum {
     public static void main(String[] args) {
         FindMaximum ob = new FindMaximum();
         int arr[] = { 1, 3, 5, 23, 2, 6 };
-        int maxi = ob.maximum(arr, arr.length);
+        int maxi = ob.maximum(arr, arr.length-1);
         System.out.println("Result: " + maxi);
     }
 }
