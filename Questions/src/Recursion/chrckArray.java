@@ -19,4 +19,10 @@ public class chrckArray {
         }
         return result;
     }
+    public static void main(String[]args){
+        chrckArray ob=new chrckArray();
+        int arr[]={5,4,3,2,1};
+        boolean res=ob.check(arr, arr.length-1);
+        System.out.println("Result: "+res);
+    }
 }
