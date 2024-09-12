@@ -24,4 +24,9 @@ public class PrimeCheck {
             return false;
         }
     }
+    public static void main(String []args){
+        PrimeCheck ob=new PrimeCheck();
+        boolean re=ob.check(4, 1);
+        System.out.println("Result: "+re);
+    }
 }
