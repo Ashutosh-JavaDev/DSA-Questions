@@ -16,4 +16,9 @@ public class CountVowel {
         }
         return count;
     }
+    public static void main(String[]args){
+        CountVowel ob=new CountVowel();
+        int res=ob.check("Ashutosh");
+        System.out.println("Result: "+res);
+    }
 }
