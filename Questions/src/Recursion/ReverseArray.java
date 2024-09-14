@@ -12,6 +12,8 @@ public class ReverseArray {
     }
     public static void main(String[]args){
         ReverseArray ob=new ReverseArray();
-        
+        int arr[]={1,2,3,4,5};
+        ob.print(arr, arr.length-1);
+
     }
 }
