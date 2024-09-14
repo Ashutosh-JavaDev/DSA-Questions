@@ -10,4 +10,7 @@ public class ReverseArray {
             System.out.println(arr[size-1]);
         }
     }
+    public static void main(String[]args){
+        
+    }
 }
