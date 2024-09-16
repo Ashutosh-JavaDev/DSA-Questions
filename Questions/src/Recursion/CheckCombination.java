@@ -13,6 +13,6 @@ public class CheckCombination {
         }
     }
     public static void main(String[]args){
-        
+        CheckCombination ob=new CheckCombination();
     }
 }
