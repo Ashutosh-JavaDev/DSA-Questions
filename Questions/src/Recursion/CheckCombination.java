@@ -12,4 +12,7 @@ public class CheckCombination {
             check(arr, size - 1, target);
         }
     }
+    public static void main(String[]args){
+        
+    }
 }
