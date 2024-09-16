@@ -14,6 +14,7 @@ public class CheckCombination {
     }
     public static void main(String[]args){
         CheckCombination ob=new CheckCombination();
+        int arr[]={1,2,3,4,5};
         ob.check(null, 0, 0);
     }
 }
