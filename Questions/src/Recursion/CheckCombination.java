@@ -2,7 +2,7 @@ package Recursion;
 
 public class CheckCombination {
     public void check(int arr[], int size, int target) {
-        if (size <= 1) {
+        if (size <=1) {
             return;
         }
         if (arr[size - 1] + arr[size - 2] == target) {
@@ -15,6 +15,6 @@ public class CheckCombination {
     public static void main(String[]args){
         CheckCombination ob=new CheckCombination();
         int arr[]={1,2,3,4,5};
-        ob.check(arr, arr.length-1, 7);
+        ob.check(arr, arr.length, 6);
     }
 }
