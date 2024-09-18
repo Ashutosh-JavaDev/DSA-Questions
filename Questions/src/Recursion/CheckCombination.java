@@ -1,20 +1,23 @@
-package Recursion;
-
 public class CheckCombination {
-    public void check(int arr[], int size, int target) {
-        if (size <= 1) {
+
+    // Function to print all combinations of an array
+    public static void printCombinations(int[] arr, int index, String current) {
+        // Base condition: if we've considered all elements
+        if (index == arr.length) {
+            System.out.println(current);
             return;
         }
-        if (arr[size - 1] + arr[size - 2] == target) {
-            System.out.println("arr[" + arr[size - 2] + "] + arr[" + arr[size - 1] + "] = " + target);
-        }
-        check(arr, size - 1, target);
 
+        // Case 1: Include the current element in the combination
+        printCombinations(arr, index + 1, current + arr[index] + " ");
+
+        // Case 2: Exclude the current element and move to the next
+        printCombinations(arr, index + 1, current);
     }
 
     public static void main(String[] args) {
-        CheckCombination ob = new CheckCombination();
-        int arr[] = { 1, 2, 3, 4, 5 };
-        ob.check(arr, arr.length, 6);
+        int[] arr = {1, 2, 3};
+        System.out.println("All possible combinations of array elements:");
+        printCombinations(arr, 0, "");
     }
 }
