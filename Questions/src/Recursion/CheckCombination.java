@@ -1,7 +1,7 @@
 package Recursion;
 
 public class CheckCombination {
-
+    int count=0;;
     // Function to print all combinations of an array
     public static void printCombinations(int[] arr, int index, String current) {
         // Base condition: if we've considered all elements
@@ -18,7 +18,7 @@ public class CheckCombination {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3 };
+        int[] arr = { 1, 2, 3 , 4};
         System.out.println("All possible combinations of array elements:");
         printCombinations(arr, 0, "");
     }
