@@ -1,4 +1,5 @@
-public class CheckCombination {
+package Recursion;
+ public class CheckCombination {
 
     // Function to print all combinations of an array
     public static void printCombinations(int[] arr, int index, String current) {
