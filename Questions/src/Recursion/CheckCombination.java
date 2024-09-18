@@ -1,7 +1,7 @@
 package Recursion;
 
 public class CheckCombination {
-    static int count = 0;;
+ 
 
     // Function to print all combinations of an array
     public static void printCombinations(int[] arr, int index, String current) {
@@ -16,8 +16,7 @@ public class CheckCombination {
 
         // Case 2: Exclude the current element and move to the next
         printCombinations(arr, index + 1, current);
-        count++;
-        System.out.println(count);
+     
     }
 
     public static void main(String[] args) {
