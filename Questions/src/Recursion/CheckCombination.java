@@ -7,7 +7,7 @@ public class CheckCombination {
     public static void printCombinations(int[] arr, int index, String current) {
         // Base condition: if we've considered all elements
         if (index == arr.length) {
-            System.out.println(current+" count: "+count);
+            System.out.println(current);
             return;
         }
 
@@ -17,6 +17,7 @@ public class CheckCombination {
         // Case 2: Exclude the current element and move to the next
         printCombinations(arr, index + 1, current);
         count++;
+        System.out.println(count);
     }
 
     public static void main(String[] args) {
