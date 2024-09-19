@@ -1,9 +1,10 @@
-class Reverse{
+class Reverse {
 
 }
+
 public class reverse {
 
-    public static  void main(String[]args){
+    public static void main(String[] args) {
 
-    }    
+    }
 }
