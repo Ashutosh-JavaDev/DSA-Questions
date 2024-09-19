@@ -2,7 +2,10 @@ class Reverse {
     String str;
 
     public void result() {
-
+        for(int i=str.length()-1;i>=0;i--){
+            System.out.print(i);
+        }
+        System.out.println();
     }
 }
 
