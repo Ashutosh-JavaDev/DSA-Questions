@@ -1,5 +1,8 @@
 class Reverse {
-
+String str;
+public void result(){
+    
+}
 }
 
 public class reverse {
