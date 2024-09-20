@@ -8,11 +8,13 @@ public class Unique {
         }
         if(index==valuse){
             if(arr[size-1]==arr[index]){
+                valuse++;
                 check(arr, size-1, index);
             }
-            if(arr[size-1]!=arr[index]){
+            if(arr[size-1]!=arr[index+1]){
                 System.out.print(arr[size-1]+" ");
-                check(arr, size, index);
+                valuse++;
+                check(arr, size, index+1);
             }
         }
     }
