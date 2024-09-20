@@ -11,7 +11,8 @@ public class Unique {
                 check(arr, size-1, index);
             }
             if(arr[size-1]!=arr[index]){
-
+                System.out.print(arr[size-1]+" ");
+                check(arr, size, index);
             }
         }
     }
