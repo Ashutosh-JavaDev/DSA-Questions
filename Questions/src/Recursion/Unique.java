@@ -7,8 +7,11 @@ public class Unique {
             return;
         }
         if(index==valuse){
-            if(arr[size-1]==index){
+            if(arr[size-1]==arr[index]){
                 check(arr, size-1, index);
+            }
+            if(arr[size-1]!=arr[index]){
+
             }
         }
     }
