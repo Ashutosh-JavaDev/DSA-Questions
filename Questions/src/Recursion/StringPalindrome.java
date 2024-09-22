@@ -2,7 +2,7 @@ package Recursion;
 
 public class StringPalindrome {
     public String check(String str) {
-        String st="";
+        String st = "";
         return st;
     }
 }
