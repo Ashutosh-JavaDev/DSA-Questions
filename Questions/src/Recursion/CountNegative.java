@@ -18,5 +18,6 @@ public class CountNegative {
         CountNegative ob = new CountNegative();
         int arr[] = { 1, 2, -2, -3, 5 };
         int result = ob.count(arr, arr.length - 1);
+        System.out.println("Result: "+result);
     }
 }
