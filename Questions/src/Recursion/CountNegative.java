@@ -13,4 +13,7 @@ public class CountNegative {
         count(arr, size-1);
         return Count;
     }
+    public static void main(String[]args){
+        
+    }
 }
