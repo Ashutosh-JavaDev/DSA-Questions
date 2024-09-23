@@ -14,6 +14,8 @@ public class CountNegative {
         return Count;
     }
     public static void main(String[]args){
-        
+        CountNegative ob=new CountNegative();
+        int arr[]={1,2,-2,-3,5};
+        int result=ob.count(arr, arr.length-1);
     }
 }
