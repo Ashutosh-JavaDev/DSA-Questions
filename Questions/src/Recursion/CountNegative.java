@@ -10,6 +10,7 @@ public class CountNegative {
         if(arr[size-1]<0){
             Count++;
         }
+        count(arr, size-1);
         return Count;
     }
 }
