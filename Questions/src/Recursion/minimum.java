@@ -12,4 +12,8 @@ public class minimum {
         }
         return min;
     }
+    public static void main(String[]args){
+        minimum ob=new minimum();
+        
+    }
 }
