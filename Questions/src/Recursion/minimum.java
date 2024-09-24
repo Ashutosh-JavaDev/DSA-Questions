@@ -1,7 +1,10 @@
 package Recursion;
 
 public class minimum {
-    int min = 0;
+    int min;
+   public minimum(){
+    min=Integer.MAX_VALUE;
+   }
 
     public int CheckMinimum(int arr[], int size) {
 
