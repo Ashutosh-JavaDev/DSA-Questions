@@ -18,6 +18,7 @@ public class minimum {
         int arr[]={12,21,23,32,24};
 
         int result=ob.CheckMinimum(arr);
+        System.out.println("Result: "+result);
 
     }
 }
