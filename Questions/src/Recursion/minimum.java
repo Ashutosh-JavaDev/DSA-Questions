@@ -2,9 +2,10 @@ package Recursion;
 
 public class minimum {
     int min;
-   public minimum(){
-    min=Integer.MAX_VALUE;
-   }
+
+    public minimum() {
+        min = Integer.MAX_VALUE;
+    }
 
     public int CheckMinimum(int arr[], int size) {
 
@@ -13,10 +14,10 @@ public class minimum {
         }
         if (arr[size - 1] < min) {
             min = arr[size - 1];
-            CheckMinimum(arr, size - 1);
 
         }
-        return min;
+        return CheckMinimum(arr, size - 1);
+
     }
 
     public static void main(String[] args) {
