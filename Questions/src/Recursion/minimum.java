@@ -1,9 +1,11 @@
 package Recursion;
 
 public class minimum {
-    int arr[], min = arr[0];
+    int arr[], size=0,min = arr[0];
 
-    public void CheckMinimum() {
-
+    public int CheckMinimum() {
+        if(size==0){
+            return 0;
+        }
     }
 }
