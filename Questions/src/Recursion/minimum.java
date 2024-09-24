@@ -10,5 +10,6 @@ public class minimum {
         if(arr[size-1]<min){
             min=arr[size-1];
         }
+        return min;
     }
 }
