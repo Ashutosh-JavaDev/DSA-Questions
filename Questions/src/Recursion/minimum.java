@@ -7,5 +7,8 @@ public class minimum {
         if(size==0){
             return 0;
         }
+        if(arr[size-1]<min){
+            min=arr[size-1];
+        }
     }
 }
