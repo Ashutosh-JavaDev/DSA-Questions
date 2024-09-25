@@ -11,4 +11,7 @@ public class Index {
         }
         return value;
     }
+    public static void main(String[]args){
+        
+    }
 }
