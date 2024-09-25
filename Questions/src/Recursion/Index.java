@@ -1,7 +1,11 @@
 package Recursion;
 
 public class Index {
-    public int Result(int arr[]){
-        
+    int value=0;
+    public int Result(int arr[],int size){
+        if(size==0){
+
+        }
+        return value;
     }
 }
