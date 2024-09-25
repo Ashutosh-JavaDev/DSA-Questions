@@ -12,6 +12,7 @@ public class Index {
         return value;
     }
     public static void main(String[]args){
-        
+        Index ob=new Index();
+        int arr[]={12,21,23,43,24};
     }
 }
