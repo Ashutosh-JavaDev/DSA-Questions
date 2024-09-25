@@ -5,12 +5,12 @@ public class Index {
 
     public int Result(int arr[], int size, int target) {
         if (size == 0) {
-            return 0;
+            return value;
         }
         if (arr[size - 1] == target) {
             value = size - 1;
         }
-        return value;
+        return Result(arr, size-1, target);
     }
 
     public static void main(String[] args) {
