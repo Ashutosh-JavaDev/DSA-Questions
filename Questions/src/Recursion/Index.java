@@ -7,7 +7,7 @@ public class Index {
             return 0;
         }
         if(arr[size-1]==target){
-            
+            value = size-1;
         }
         return value;
     }
