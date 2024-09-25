@@ -16,7 +16,7 @@ public class Index {
     public static void main(String[] args) {
         Index ob = new Index();
         int arr[] = { 12, 21, 23, 43, 24 };
-        int result = ob.Result(arr, arr.length, 23);
+        int result = ob.Result(arr, arr.length, 12);
 
         System.out.println("Result: " + result);
     }
