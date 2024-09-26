@@ -6,6 +6,6 @@ public class Duplicate {
         if(size==0){
             return 0;
         }
-        if()
+        
     }
 }
