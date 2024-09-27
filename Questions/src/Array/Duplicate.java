@@ -8,9 +8,9 @@ public class Duplicate {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the Size of Array");
             size = sc.nextInt();
-            arr=new int[size];
+            arr = new int[size];
             System.out.println("Enter the Value in the Array");
-            for(int i=0;i<size;i++){
+            for (int i = 0; i < size; i++) {
 
             }
         }
