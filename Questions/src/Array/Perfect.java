@@ -6,8 +6,14 @@ class perfect{
         Scanner sc=new Scanner(System.in);
         for(int i=1;i<=num;i++){
             if(num%i==0){
-                sum+=i
+                sum+=i;
             }
+        }
+        if(sum==num){
+            System.out.println("Number is Perfect Number");
+        }
+        else{
+            System.out.println("Number is Not a Perfect Number");
         }
     }
 }
