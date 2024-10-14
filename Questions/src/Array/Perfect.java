@@ -1,11 +1,11 @@
 package Array;
 import java.util.Scanner;
 class perfect{
-    void check(int num){
+    void check(){
         int sum=0;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number");
-        num=sc.nextInt();
+        int num=sc.nextInt();
         for(int i=1;i<=num;i++){
             if(num%i==0){
                 sum+=i;
@@ -20,5 +20,8 @@ class perfect{
     }
 }
 public class Perfect {
-    
+    public static void main(String[]args){
+        perfect ob=new perfect();
+        ob.check();
+    }
 }
