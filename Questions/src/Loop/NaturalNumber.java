@@ -8,6 +8,7 @@ class naturalNumber {
         int i=1;
         while(i<=size){
             System.out.print(i+" ");
+            i++;
         }
         System.out.println();
     }
