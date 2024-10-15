@@ -1,7 +1,4 @@
 package Loop;
-
-import java.util.Scanner;
-
 class prime {
     void Result() {
         int count = 0;
@@ -23,6 +20,6 @@ class prime {
 public class Prime {
     public static void main(System[]args){
         prime ob=new prime();
-        
+
     }
 }
