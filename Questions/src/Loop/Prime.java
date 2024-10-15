@@ -1,4 +1,5 @@
 package Loop;
+
 class prime {
     void Result() {
         int count = 0;
@@ -18,8 +19,8 @@ class prime {
 }
 
 public class Prime {
-    public static void main(System[]args){
-        prime ob=new prime();
+    public static void main(String[]args) {
+        prime ob = new prime();
         ob.Result();
     }
 }
