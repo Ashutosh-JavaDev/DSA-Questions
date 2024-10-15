@@ -10,11 +10,11 @@ class prime{
                 }
             }
             if(count==2){
-                
+                System.out.print(i+" ");
             }
         }
-
     }
+    System.out.println();
 }
 public class Prime {
     
