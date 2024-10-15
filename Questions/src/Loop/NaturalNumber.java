@@ -16,6 +16,6 @@ class naturalNumber {
 public class NaturalNumber {
     public static void main(String[]args){
         naturalNumber ob=new naturalNumber();
-        ob.Print(0);
+        ob.Print();
     }
 }
