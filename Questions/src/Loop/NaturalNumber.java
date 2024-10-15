@@ -1,10 +1,10 @@
 package Loop;
 import java.util.Scanner;
 class naturalNumber {
-    void Print(int size) {
+    void Print() {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Size the till the output want to Print");
-        size=sc.nextInt();
+        int size=sc.nextInt();
         int i=1;
         while(i<=size){
             System.out.print(i+" ");
@@ -14,5 +14,8 @@ class naturalNumber {
 }
 
 public class NaturalNumber {
-
+    public static void main(String[]args){
+        naturalNumber ob=new naturalNumber();
+        ob.Print(0);
+    }
 }
