@@ -20,6 +20,6 @@ class prime {
 public class Prime {
     public static void main(System[]args){
         prime ob=new prime();
-
+        ob.Result();
     }
 }
