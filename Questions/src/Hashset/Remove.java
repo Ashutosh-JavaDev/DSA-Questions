@@ -17,6 +17,8 @@ class RemoveElement{
             }
         }
         System.out.println(set);
+        set.remove(sc);
+        System.out.println(set);
     }
 }
 public class Remove {
