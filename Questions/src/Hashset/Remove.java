@@ -1,7 +1,9 @@
 package Hashset;
+
 import java.util.HashSet;
 import java.util.Scanner;
-class RemoveElement{
+
+class RemoveElement {
     public void removeElement(HashSet set){
         set=new HashSet<>();
         Scanner sc=new Scanner(System.in);
@@ -17,13 +19,14 @@ class RemoveElement{
             }
         }
         System.out.println(set);
-        set.remove(sc);
-        System.out.println(set);
+   `    set.removeAll(set);
+   System.out.println(set);
     }
 }
+
 public class Remove {
-    public static void main(String[]args){
-        RemoveElement ob=new RemoveElement();
+    public static void main(String[] args) {
+        RemoveElement ob = new RemoveElement();
         ob.removeElement(null);
     }
 }
