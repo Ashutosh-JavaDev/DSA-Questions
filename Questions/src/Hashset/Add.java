@@ -17,6 +17,7 @@ class add {
                 set.add(str);
             }
         }
+        System.out.println(set);
     }
 }
 
