@@ -1,12 +1,22 @@
 package Hashset;
+
 import java.util.HashSet;
-class add{
-    
+import java.util.Scanner;
+
+class add {
+    public void AddValue() {
+        HashSet<Integer> set = new HashSet<>();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Value in Set\nPress Enter to Stop");
+        while (true) {
+            String str = sc.nextLine();
+        }
+    }
 }
+
 public class Add {
 
-
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
     }
 }
