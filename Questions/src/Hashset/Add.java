@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 class add {
     public void AddValue() {
-        HashSet<String> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Value in Set\nPress Enter to Stop");
         while (true) {
@@ -14,7 +14,8 @@ class add {
                 break;
             }
             else{
-                set.add(str);
+                int num=Integer.parseInt(str);
+                set.add(num);
             }
         }
         System.out.println(set);
