@@ -20,5 +20,8 @@ class RemoveElement{
     }
 }
 public class Remove {
-    
+    public static void main(String[]args){
+        RemoveElement ob=new RemoveElement();
+        ob.removeElement(null);
+    }
 }
