@@ -18,7 +18,8 @@ class RemoveElement {
             }
         }
         System.out.println(set);
-        set.removeAll(set);
+        // set.removeAll(set);
+        set.clear();
         System.out.println(set);
     }
 }
