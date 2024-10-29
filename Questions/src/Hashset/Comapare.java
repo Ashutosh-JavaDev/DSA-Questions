@@ -23,5 +23,8 @@ class comapare{
     }
 }
 public class Comapare {
-    
+    public static void main(String[]args){
+        comapare ob=new comapare();
+        ob.Comparision();
+    }
 }
