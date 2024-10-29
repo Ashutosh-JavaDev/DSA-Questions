@@ -1,6 +1,5 @@
 package Hashset;
 import java.util.HashSet;
-// import java.util.Scanner;
 
 class comapare{
     public void Comparision(){
