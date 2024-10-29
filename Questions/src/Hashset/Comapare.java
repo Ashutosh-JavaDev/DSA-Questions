@@ -18,8 +18,8 @@ class comapare{
         set2.add(5);
         set2.add(4);
 
-        set.equals(set2);
-        // System.out.println();
+       boolean res= set.equals(set2);
+        System.out.println(res);
     }
 }
 public class Comapare {
