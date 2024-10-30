@@ -11,5 +11,8 @@ class Conversion{
     }
 }
 public class CovertHastSet {
-    
+    public static void main(String[]args){
+        Conversion ob=new Conversion();
+        ob.convert();
+    }
 }
