@@ -8,6 +8,7 @@ class Conversion{
         set.add(3);
         // int arr[]=new int[set.size()];
         set.toArray();
+        System.out.println(set);
     }
 }
 public class CovertHastSet {
