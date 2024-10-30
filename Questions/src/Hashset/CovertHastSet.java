@@ -6,6 +6,7 @@ class Conversion{
         set.add(1);
         set.add(2);
         set.add(3);
+        // int arr[]=new int[set.size()];
         set.toArray();
     }
 }
