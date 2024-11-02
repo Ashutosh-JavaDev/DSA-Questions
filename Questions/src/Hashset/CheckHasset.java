@@ -20,5 +20,7 @@ class checkSet{
     }
 }
 public class CheckHasset {
-    
+    public static void main(String[]args){
+        
+    }
 }
