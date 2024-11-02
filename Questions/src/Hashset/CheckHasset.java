@@ -5,7 +5,10 @@ class checkSet{
     public void CheckSet(){
         HashSet<Integer>set=new HashSet<>();
         Scanner sc=new Scanner(System.in);
-        
+        System.out.println("Enter the value in the Set\npress Enter to Stop");
+        while(true){
+            
+        }
     }
 }
 public class CheckHasset {
