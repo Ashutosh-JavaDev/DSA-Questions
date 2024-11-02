@@ -8,6 +8,14 @@ class checkSet{
         System.out.println("Enter the value in the Set\npress Enter to Stop");
         while(true){
             String str=sc.nextLine();
+            if(str.equals("")){
+                break;
+            }
+            else{
+                int num=Integer.parseInt(str);
+
+                set.add(num);
+            }
         }
     }
 }
