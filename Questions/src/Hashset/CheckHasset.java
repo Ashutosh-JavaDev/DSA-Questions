@@ -16,6 +16,7 @@ class checkSet{
                 set.add(num);
             }
         }
+        System.out.println(set);
     }
 }
 public class CheckHasset {
