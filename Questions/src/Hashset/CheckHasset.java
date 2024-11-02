@@ -13,7 +13,6 @@ class checkSet{
             }
             else{
                 int num=Integer.parseInt(str);
-
                 set.add(num);
             }
         }
