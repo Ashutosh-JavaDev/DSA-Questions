@@ -7,7 +7,7 @@ class checkSet{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value in the Set\npress Enter to Stop");
         while(true){
-            
+            String str=sc.nextLine();
         }
     }
 }
