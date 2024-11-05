@@ -24,6 +24,7 @@ class checkSet{
         else{
             result=false;
         }
+        return result;
     }
 }
 public class CheckHasset {
