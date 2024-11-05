@@ -19,7 +19,7 @@ class checkSet{
         }
         System.out.println(set);
         if(set.contains(sc)){
-            return result;
+            result=true;
         }
         else{
             result=false;
