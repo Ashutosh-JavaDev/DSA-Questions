@@ -18,7 +18,7 @@ class checkSet{
             }
         }
         System.out.println(set);
-        if(set.contains(sc)){
+        if(set.isEmpty()){
             result=true;
         }
         else{
