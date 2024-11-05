@@ -18,7 +18,7 @@ class checkSet{
             }
         }
         System.out.println(set);
-        if(sc.hasNext()){
+        if(set.contains(sc)){
             return result;
         }
         else{
