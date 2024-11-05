@@ -2,7 +2,8 @@ package Hashset;
 import java.util.Scanner;
 import java.util.HashSet;
 class checkSet{
-    public void CheckSet(){
+    public boolean CheckSet(){
+        boolean result=true;
         HashSet<Integer>set=new HashSet<>();
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value in the Set\npress Enter to Stop");
@@ -16,10 +17,13 @@ class checkSet{
                 set.add(num);
             }
         }
-        if(sc.hasNext()){
-
-        }
         System.out.println(set);
+        if(sc.hasNext()){
+            return result;
+        }
+        else{
+            result=false;
+        }
     }
 }
 public class CheckHasset {
