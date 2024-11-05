@@ -16,7 +16,7 @@ class checkSet{
                 set.add(num);
             }
         }
-        if(set.hasNext()){
+        if(sc.hasNext()){
 
         }
         System.out.println(set);
