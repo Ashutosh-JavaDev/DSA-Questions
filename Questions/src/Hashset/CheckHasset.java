@@ -30,6 +30,7 @@ class checkSet{
 public class CheckHasset {
     public static void main(String[]args){
         checkSet obb=new checkSet();
-        obb.CheckSet();
+        boolean res=obb.CheckSet();
+        System.out.println(res);
     }
 }
