@@ -23,5 +23,8 @@ class convertArray {
 }
 
 public class ConvertToArray {
-
+    public static void main(String[]args){
+        convertArray ob=new convertArray();
+        ob.ArrayConversion();
+    }
 }
