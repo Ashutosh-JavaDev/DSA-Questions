@@ -10,6 +10,12 @@ class convertArray {
         System.out.println("Enter the  Value in the list\nPress Enter to Stop");
         while (true) {
             String str=sc.nextLine();
+            if(str.equals("")){
+                break;
+            }
+            else{
+                
+            }
         }
 
     }
