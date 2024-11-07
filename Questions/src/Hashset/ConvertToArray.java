@@ -15,7 +15,6 @@ class convertArray {
             }
             else{
                 int num=Integer.parseInt(str);
-
                 set.add(str);
             }
         }
