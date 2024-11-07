@@ -19,6 +19,8 @@ class convertArray {
             }
         }
         System.out.println(set);
+        set.toArray();
+        System.out.println(set);
 
     }
 }
