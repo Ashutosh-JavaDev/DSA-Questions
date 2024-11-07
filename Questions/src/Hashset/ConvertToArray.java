@@ -19,8 +19,14 @@ class convertArray {
             }
         }
         System.out.println(set);
-        set.toArray();
-        System.out.println(set);
+        int arr[] = new int[set.size()]; 
+       int i=0;
+       for(int val:set){
+        arr[i++]=val;
+       }
+       for(int n:arr){
+       System.out.println(n); 
+       }
 
     }
 }
