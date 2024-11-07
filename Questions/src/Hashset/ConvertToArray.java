@@ -18,6 +18,7 @@ class convertArray {
                 set.add(num);
             }
         }
+        System.out.println(set);
 
     }
 }
