@@ -9,7 +9,7 @@ class convertArray {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the  Value in the list\nPress Enter to Stop");
         while (true) {
-            String str=sc.nextInt();
+            String str=sc.nextLine();
         }
 
     }
