@@ -11,8 +11,8 @@ class countVechile {
 
     public int wheel(int two, int four) {
         // this.wheel(two, four);
-        int countWheel = 0;
-        countWheel=((two*2)+(four*4));
+        int vechileCount=countVechile(two,four) ;
+       int countWheel=((two*2)+(four*4));
         return countWheel;
     }
 }
