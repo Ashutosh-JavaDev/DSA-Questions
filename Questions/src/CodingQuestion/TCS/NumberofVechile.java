@@ -3,14 +3,14 @@ package CodingQuestion.TCS;
 import java.util.Scanner;
 
 class countVechile {
-    public int countVechile(int twoVechicle, int fourVechile) {
-        Scanner sc=new Scanner(System.in);
-        int count=0;
+    public int countVechile(int two, int four) {
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
         System.out.println("Enter the number of Two Wheeler Vechile");
-        int two=sc.nextInt();
+        two = sc.nextInt();
         System.out.println("Enter the Number of Four Wheelers Vechile");
-        int four=sc.nextInt();
-        count=two+four;
+        four = sc.nextInt();
+        count = two + four;
         return count;
     }
 }
@@ -18,7 +18,7 @@ class countVechile {
 public class NumberofVechile {
     public static void main(String[]args){
         countVechile ob=new countVechile();
-        int result=ob.countVechile(130, 210);
+        int result=ob.countVechile(, 210);
         System.out.println(result);
 
     }
