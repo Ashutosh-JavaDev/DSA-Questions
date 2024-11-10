@@ -10,6 +10,7 @@ class countVechile {
         int two=sc.nextInt();
         System.out.println("Enter the Number of Four Wheelers Vechile");
         int four=sc.nextInt();
+        count=two+four;
         return count;
     }
 }
