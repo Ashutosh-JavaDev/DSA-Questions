@@ -6,22 +6,23 @@ class countVechile {
     public int countVechile(int two, int four) {
         Scanner sc = new Scanner(System.in);
         int count = 0;
-        System.out.println("Enter the number of Two Wheeler Vechile");
-        two = sc.nextInt();
-        System.out.println("Enter the Number of Four Wheelers Vechile");
-        four = sc.nextInt();
+      
         count = two + four;
         return count;
     }
 }
 
 public class NumberofVechile {
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        countVechile ob=new countVechile();
-        int result=ob.countVechile(sc.nextInt(),sc.nextInt());
+        countVechile ob = new countVechile();
+        System.out.println("Enter the number of Two Wheeler Vechile");
+        int two = sc.nextInt();
+        System.out.println("Enter the Number of Four Wheelers Vechile");
+        int four = sc.nextInt();
+        int result = ob.countVechile(two, four);
         System.out.println(result);
 
     }
