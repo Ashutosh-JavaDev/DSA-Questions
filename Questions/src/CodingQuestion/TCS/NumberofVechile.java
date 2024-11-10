@@ -18,5 +18,8 @@ class countVechile {
 public class NumberofVechile {
     public static void main(String[]args){
         countVechile ob=new countVechile();
+        int result=ob.countVechile(130, 210);
+        System.out.println(result);
+
     }
 }
