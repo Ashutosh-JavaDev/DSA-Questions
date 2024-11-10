@@ -21,7 +21,7 @@ public class NumberofVechile {
         System.out.println("Enter the Number of Four Wheelers Vechile");
         int four = sc.nextInt();
         int result = ob.countVechile(two, four);
-        System.out.println(result);
+        System.out.println("Total Number of Vechile: "+result);
 
     }
 }
