@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 class countVechile {
     public int countVechile(int two, int four) {
-        Scanner sc = new Scanner(System.in);
         int count = 0;
-      
         count = two + four;
         return count;
     }
