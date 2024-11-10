@@ -16,5 +16,7 @@ class countVechile {
 }
 
 public class NumberofVechile {
-
+    public static void main(String[]args){
+        countVechile ob=new countVechile();
+    }
 }
