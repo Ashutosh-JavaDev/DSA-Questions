@@ -29,6 +29,7 @@ public class NumberofVechile {
         int four = sc.nextInt();
         int result = ob.countVechile(two, four);
         System.out.println("Total Number of Vechile: " + result);
-
+        int res=ob.wheel(two, four);
+        System.out.println("Number of Wheel: "+res);
     }
 }
