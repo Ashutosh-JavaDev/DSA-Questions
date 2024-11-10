@@ -17,8 +17,11 @@ class countVechile {
 
 public class NumberofVechile {
     public static void main(String[]args){
+
+        Scanner sc = new Scanner(System.in);
+
         countVechile ob=new countVechile();
-        int result=ob.countVechile(, 210);
+        int result=ob.countVechile(sc.nextInt(),sc.nextInt());
         System.out.println(result);
 
     }
