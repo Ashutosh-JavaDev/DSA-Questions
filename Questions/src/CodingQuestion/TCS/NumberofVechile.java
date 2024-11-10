@@ -8,6 +8,10 @@ class countVechile {
         count = two + four;
         return count;
     }
+    public int wheel(){
+        int countWheel=0;
+        return countWheel;
+    }
 }
 
 public class NumberofVechile {
