@@ -15,7 +15,11 @@ class countAsterikHash{
         int value=count-count2;
         System.out.println(value);
         if(value<0){
-            System.out.println("Positive");
+            System.out.println("# is More than *");
+        }
+
+        else if(value>0){
+            System.out.println("* is More than #");
         }
     }
 }
