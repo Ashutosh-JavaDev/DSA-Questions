@@ -8,6 +8,9 @@ class countAsterikHash{
             if(str.charAt(i)=='*'){
                 count++;
             }
+            else if(str.charAt(i)=='#'){
+                count2++;
+            }
         }
     }
 }
