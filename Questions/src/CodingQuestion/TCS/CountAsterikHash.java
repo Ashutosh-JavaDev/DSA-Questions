@@ -1,6 +1,6 @@
 package CodingQuestion.TCS;
 class countAsterikHash{
-    public void countAsterikHash(){
+    public void CountAsterikHash(){
         int count=0;
         int count2=0;
         String str="#**##*";
@@ -16,5 +16,8 @@ class countAsterikHash{
     }
 }
 public class CountAsterikHash {
-    
+    public static void main(String[]args){
+        countAsterikHash ob=new countAsterikHash();
+        ob.CountAsterikHash();
+    }
 }
