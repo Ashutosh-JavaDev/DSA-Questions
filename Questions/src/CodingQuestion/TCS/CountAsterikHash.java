@@ -12,6 +12,7 @@ class countAsterikHash{
                 count2++;
             }
         }
+        System.out.println(count-count2);
     }
 }
 public class CountAsterikHash {
