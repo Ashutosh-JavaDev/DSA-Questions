@@ -21,6 +21,9 @@ class countAsterikHash{
         else if(value>0){
             System.out.println("* is More than #");
         }
+        else{
+            System.out.println("Both are Equal");
+        }
     }
 }
 public class CountAsterikHash {
