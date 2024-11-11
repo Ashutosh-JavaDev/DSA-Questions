@@ -4,7 +4,11 @@ class countAsterikHash{
         int count=0;
         int count2=0;
         String str="#**##*";
-        
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='*'){
+                
+            }
+        }
     }
 }
 public class CountAsterikHash {
