@@ -12,7 +12,11 @@ class countAsterikHash{
                 count2++;
             }
         }
-        System.out.println(count-count2);
+        int value=count-count2;
+        System.out.println(value);
+        if(value<0){
+            System.out.println("Positive");
+        }
     }
 }
 public class CountAsterikHash {
