@@ -8,11 +8,10 @@ void main (){
         for(j=1;j<i;j++){
             if(i%j==0){
                 sum+=j;
-                printf("%d ",sum);
-                d+=sum;
             }
         }
         if(sum==i){
+            d+=sum;
             printf("%d ",i);
         }
     }
