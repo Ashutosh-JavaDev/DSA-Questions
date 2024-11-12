@@ -10,5 +10,8 @@ void main (){
                 sum+=j;
             }
         }
+        if(sum==i){
+            printf("%d ",i);
+        }
     }
 }
