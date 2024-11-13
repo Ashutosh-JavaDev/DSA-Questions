@@ -5,7 +5,9 @@ void main(){
         p=&a;
         q=&b;
         r=&c;
-        *p=*q+*r;
-        printf("%d",p);
+        *p=*q + *r;
+        printf("%d\n",*p);
+        printf("%p\n",*p);
+
 
 }
