@@ -5,6 +5,7 @@ void main(){
         p=&a;
         q=&b;
         r=&c;
+        *p=*q+*r;
         
 
 }
