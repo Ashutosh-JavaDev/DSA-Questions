@@ -6,6 +6,6 @@ void main(){
         q=&b;
         r=&c;
         *p=*q+*r;
-        printf("%d\n",p);
+        printf("%d",p);
 
 }
