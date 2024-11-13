@@ -8,6 +8,4 @@ void main(){
         *p=*q + *r;
         printf("%d\n",*p);
         printf("%p\n",*p);
-
-
 }
