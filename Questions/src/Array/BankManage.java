@@ -18,13 +18,14 @@ class Bankcheck {
 
     // Read the current balance
     public void read() {
-        System.out.println(amount);
+        System.out.println("Current balance: " + amount);
     }
 
     // Credit money to the account
     public void credit(int addMoney) {
         transactions.add("credit " + addMoney);
         amount += addMoney;
+        System.out.println("Credited " + addMoney + ". New balance: " + amount);
     }
 
     // Debit money from the account
@@ -34,6 +35,7 @@ class Bankcheck {
         } else {
             transactions.add("debit " + subMoney);
             amount -= subMoney;
+            System.out.println("Debited " + subMoney + ". New balance: " + amount);
         }
     }
 
@@ -41,6 +43,7 @@ class Bankcheck {
     public void commit() {
         balanceAfterCommits.add(amount);  // Save the balance at commit point
         commitCount++;
+        System.out.println("Changes committed. Current balance: " + amount);
     }
 
     // Abort the Xth transaction (undo it)
@@ -54,9 +57,11 @@ class Bankcheck {
             if (transaction.startsWith("credit")) {
                 int creditAmount = Integer.parseInt(transaction.split(" ")[1]);
                 amount -= creditAmount;  // Undo the credit
+                System.out.println("Aborted credit of " + creditAmount + ". New balance: " + amount);
             } else if (transaction.startsWith("debit")) {
                 int debitAmount = Integer.parseInt(transaction.split(" ")[1]);
                 amount += debitAmount;  // Undo the debit
+                System.out.println("Aborted debit of " + debitAmount + ". New balance: " + amount);
             }
             transactions.remove(transactionIndex - 1);  // Remove the aborted transaction
         }
@@ -68,6 +73,7 @@ class Bankcheck {
             System.out.println("Invalid commit index");
         } else {
             amount = balanceAfterCommits.get(commitIndex - 1);  // Restore balance to commit point
+            System.out.println("Rolled back to commit " + commitIndex + ". New balance: " + amount);
             transactions.clear();  // Clear all transactions after the rollback commit
             for (int i = 0; i < commitIndex; i++) {
                 // Restore transactions before the commit
