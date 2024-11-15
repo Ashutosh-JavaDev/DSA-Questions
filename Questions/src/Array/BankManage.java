@@ -103,9 +103,9 @@ public class BankManage {
         sc.nextLine();  // Consume the newline character
 
         for (int i = 0; i < N; i++) {
+            System.out.println("Choose the Statement: ");
             String operation = sc.nextLine();
             String[] parts = operation.split(" ");
-            
             switch (parts[0]) {
                 case "read":
                     bank.read();
