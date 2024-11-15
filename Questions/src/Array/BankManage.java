@@ -26,7 +26,9 @@ class Bankcheck {
             return DebitMoney;
         }
        }
-
+    }
+    public void abort(){
+        // if()
     }
 }
 
