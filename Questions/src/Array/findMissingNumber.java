@@ -23,5 +23,6 @@ public class findMissingNumber {
         MissingNumber ob=new MissingNumber();
         int res=ob.findNumber(arr, size);
         System.out.println("Result: "+res);
+        System.err.println(arr.length);
     }
 }
