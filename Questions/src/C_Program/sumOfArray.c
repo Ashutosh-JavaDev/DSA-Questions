@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int result(){
     int arr[100],n,sum=0;
     printf("Enter the Size of the  Array\n");
     scanf("%d",&n);
@@ -10,5 +10,14 @@ void main(){
     for(int i=0;i<n;i++){
         sum+=arr[i];
     }
-    printf("%d\n",sum);
+    printf("Sum: %d\n",sum);
+}
+void main(){
+    int n;
+    printf("How many time you want to call the Function\n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        printf("Enter the Value in %d\n",i);
+        result();
+    }
 }
