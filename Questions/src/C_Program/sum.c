@@ -6,4 +6,6 @@ int Sum(int a,int b){
 }
 void main(){
     Sum(10,20);
+    printf("Hello WOrld\n");
+    Sum(40,50);
 }
