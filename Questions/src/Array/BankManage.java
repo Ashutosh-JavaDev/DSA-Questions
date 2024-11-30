@@ -93,12 +93,13 @@ public class BankManage {
         Scanner sc = new Scanner(System.in);
         
         // Read the initial balance
-        int initialBalance = sc.nextInt();
+        int initialBalance = 90; // You can change this to sc.nextInt() if you want dynamic input
         sc.nextLine();  // Consume the newline character
 
         Bankcheck bank = new Bankcheck(initialBalance);
         
         // Read the number of operations
+        System.out.println("Enter the number of operations you want to perform: ");
         int N = sc.nextInt();
         sc.nextLine();  // Consume the newline character
 
@@ -106,19 +107,39 @@ public class BankManage {
             System.out.println("Choose the Statement: ");
             String operation = sc.nextLine();
             String[] parts = operation.split(" ");
+            
+            // Validate that the user input has enough parts
+            if (parts.length < 1) {
+                System.out.println("Invalid operation. Try again.");
+                continue;
+            }
+            
+            // Ensure you access parts[0] (operation) and parts[1] (amount if needed)
             switch (parts[0]) {
                 case "read":
                     bank.read();
                     break;
                 case "credit":
+                    if (parts.length < 2) {
+                        System.out.println("Credit amount is missing.");
+                        break;
+                    }
                     int creditAmount = Integer.parseInt(parts[1]);
                     bank.credit(creditAmount);
                     break;
                 case "debit":
+                    if (parts.length < 2) {
+                        System.out.println("Debit amount is missing.");
+                        break;
+                    }
                     int debitAmount = Integer.parseInt(parts[1]);
                     bank.debit(debitAmount);
                     break;
                 case "abort":
+                    if (parts.length < 2) {
+                        System.out.println("Transaction index is missing.");
+                        break;
+                    }
                     int abortIndex = Integer.parseInt(parts[1]);
                     bank.abort(abortIndex);
                     break;
@@ -126,6 +147,10 @@ public class BankManage {
                     bank.commit();
                     break;
                 case "rollback":
+                    if (parts.length < 2) {
+                        System.out.println("Commit index is missing.");
+                        break;
+                    }
                     int rollbackIndex = Integer.parseInt(parts[1]);
                     bank.rollback(rollbackIndex);
                     break;
