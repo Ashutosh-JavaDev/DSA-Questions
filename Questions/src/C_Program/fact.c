@@ -5,5 +5,6 @@ int fact(int num){
     return;
     }
     mul*=num;
-    
+    fact(num-1);
+    return mul;
 }
