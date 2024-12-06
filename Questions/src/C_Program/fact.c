@@ -13,4 +13,5 @@ void main(){
     printf("Enter the Number\n");
     scanf("%d",&num);
     int result=fact(num);
+    System.out.println("Factorial of the Given Number is: %d \n",result);
 }
