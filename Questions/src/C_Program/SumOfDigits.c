@@ -6,7 +6,7 @@ int sOd(int num){
     }
     sum+=num%10;
     sOd(num/10);
-    return sOd(num/10);
+    return sum;
 }
 void main(){
     int num;
