@@ -10,4 +10,5 @@ void main(){
     printf("Enter the Number\n");
     scanf("%d\n",&num);
     int res=SOD(num);
+    printf("Result: %d",res);
 }
