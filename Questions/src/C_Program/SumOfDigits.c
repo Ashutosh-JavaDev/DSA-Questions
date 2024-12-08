@@ -1,11 +1,10 @@
 #include<stdio.h>
 int sOd(int num,int sum){
-    if(num<0){
+    if(num==0){
         return 0;
     }
     sum+=num%10;
-    sOd(num/10,sum);
-    return sum;
+    return sOd(num/10,sum);
 }
 void main(){
     int num;
