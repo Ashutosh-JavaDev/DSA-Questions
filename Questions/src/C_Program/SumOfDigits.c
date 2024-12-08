@@ -9,4 +9,5 @@ void main(){
     int num;
     printf("Enter the Number\n");
     scanf("%d\n",&num);
+    int res=SOD(num);
 }
