@@ -8,7 +8,7 @@ int SOD(int num){
 void main(){
     int num;
     printf("Enter the Number\n");
-    scanf("%d\n",&num);
+    scanf("%d",&num);
     int res=SOD(num);
     printf("Result: %d",res);
 }
