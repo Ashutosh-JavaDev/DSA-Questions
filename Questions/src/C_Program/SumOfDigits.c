@@ -6,5 +6,5 @@ int SOD(int num){
     return SOD(num%10)+SOD(num/10);
 }
 void main(){
-
+    printf("Enter the Number\n");
 }
