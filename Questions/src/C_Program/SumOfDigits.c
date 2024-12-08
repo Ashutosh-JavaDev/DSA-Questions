@@ -1,4 +1,7 @@
 #include<stdio.h>
-void main(){
+int SOD(int num){
     
+}
+void main(){
+
 }
