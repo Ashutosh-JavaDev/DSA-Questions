@@ -36,7 +36,9 @@ int pop(Stack *s){
 int peek(Stack s){
    if(isEmpty(s)){
     printf("Stack UnderFlow\n");
+    return -1;
    } 
+   return s.arr[s.top];
 }
 void main()
 {
