@@ -19,7 +19,7 @@ int isFull(Stack s)
 {
     return s.top == MAX - 1;
 }
-void push(struct stack, int arr[])
+void push(Stack *s, int value)
 {
     if (isFull(stack))
     {
