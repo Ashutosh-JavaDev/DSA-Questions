@@ -6,7 +6,9 @@ struct stack
     int arr[];
 };
 void push(struct stack,int arr[]){
-
+    if(isFull(stack)){
+        
+    }
 }
 void main()
 {
