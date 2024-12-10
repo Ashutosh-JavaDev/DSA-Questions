@@ -8,8 +8,11 @@ typedef struct
     int top;
     int arr[];
 }Stack;
+void initilization(Stack *s){
+    s->top=-1
+}
 int isFull(Stack s){
-    return 
+    return s.top==MAX-1;
 }
 void push(struct stack,int arr[]){
     if(isFull(stack)){
