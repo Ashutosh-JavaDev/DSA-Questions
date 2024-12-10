@@ -40,7 +40,19 @@ int peek(Stack s){
    } 
    return s.arr[s.top];
 }
-void main()
-{
+int main() {
+    Stack s;
+    initialize(&s);
 
+    push(&s, 10);
+    push(&s, 20);
+    push(&s, 30);
+
+    printf("Top element: %d\n", peek(s));
+    printf("Popped element: %d\n", pop(&s));
+    printf("Popped element: %d\n", pop(&s));
+    printf("Popped element: %d\n", pop(&s));
+    printf("Popped element: %d\n", pop(&s));  // Attempt to pop from empty stack
+
+    return 0;
 }
