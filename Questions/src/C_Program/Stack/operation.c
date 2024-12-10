@@ -28,7 +28,10 @@ void push(Stack *s, int value)
      s->arr[++(s->top)]==value;
 }
 int pop(Stack *s){
-    
+    if(isEmpty(*s)){
+        printf("Stack UnderFlow\n");
+    }
+    return s->arr[(s-top)--];
 }
 void main()
 {
