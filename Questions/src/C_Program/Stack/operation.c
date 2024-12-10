@@ -7,7 +7,7 @@ typedef struct
     int top;
     int arr[MAX];
 } Stack;
-void initilization(Stack *s)
+void initialize(Stack *s)
 {
     s->top = -1;
 }
