@@ -1,10 +1,13 @@
 #include <stdio.h>
-struct Stack
+struct stack
 {
     int size;
     int top;
     int arr[];
 };
+void push(struct stack,int arr[]){
+
+}
 void main()
 {
 }
