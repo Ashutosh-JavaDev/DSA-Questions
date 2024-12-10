@@ -21,7 +21,7 @@ int isFull(Stack s)
 }
 void push(Stack *s, int value)
 {
-    if (isFull(stack))
+    if (isFull(*s))
     {
     }
 }
