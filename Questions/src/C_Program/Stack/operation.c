@@ -5,7 +5,7 @@ typedef struct
 {
     int size;
     int top;
-    int arr[];
+    int arr[MAX];
 } Stack;
 void initilization(Stack *s)
 {
@@ -25,7 +25,7 @@ void push(Stack *s, int value)
     {
         printf("Stack Overflow Condition Occur\n");
     }
-    return 
+     s->arr[++(s->top)]==value;
 }
 void main()
 {
