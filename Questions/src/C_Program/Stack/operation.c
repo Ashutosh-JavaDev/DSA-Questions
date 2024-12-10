@@ -27,6 +27,10 @@ void push(Stack *s, int value)
     }
      s->arr[++(s->top)]==value;
 }
+int pop(Stack *s){
+    
+}
 void main()
 {
+
 }
