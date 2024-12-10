@@ -23,7 +23,9 @@ void push(Stack *s, int value)
 {
     if (isFull(*s))
     {
+        printf("Stack Overflow Condition Occur\n");
     }
+    return 
 }
 void main()
 {
