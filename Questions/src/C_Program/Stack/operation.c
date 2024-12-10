@@ -31,7 +31,7 @@ int pop(Stack *s){
     if(isEmpty(*s)){
         printf("Stack UnderFlow\n");
     }
-    return s->arr[(s-top)--];
+    return s->arr[(s->top)--];
 }
 void main()
 {
