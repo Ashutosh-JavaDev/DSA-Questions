@@ -1,11 +1,11 @@
 package Recursion;
 class fibo{
-    void series(int num,int sum){
+    void series(int num,int n,int m){
         if(num==0){
             return;
         }
-        sum+=num;
-        System.err.println();
+        n+=m;
+        System.out.print(n);
     }
 }
 public class Fibonacci {
