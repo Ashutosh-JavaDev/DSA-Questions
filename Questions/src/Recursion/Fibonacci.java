@@ -4,8 +4,9 @@ class fibo{
         if(num==0){
             return;
         }
-        n+=m;
+
         System.out.print(n+" ");
+        n+=m;
 
         series(num-1, m, n);
     }
@@ -14,5 +15,6 @@ public class Fibonacci {
     public static void main(String[]args){
         fibo ob=new fibo();
         ob.series(5, 0, 1);
+        System.out.println();
     }
 }
