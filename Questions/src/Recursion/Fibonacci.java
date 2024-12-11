@@ -1,5 +1,11 @@
 package Recursion;
-import java.util.Scanner;
+class fibo{
+    void series(int num){
+        if(num==0){
+            return;
+        }
+    }
+}
 public class Fibonacci {
     
 }
