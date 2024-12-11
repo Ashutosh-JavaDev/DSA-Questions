@@ -11,5 +11,8 @@ class fibo{
     }
 }
 public class Fibonacci {
-    
+    public static void main(String[]args){
+        fibo ob=new fibo();
+        ob.series(5, 0, 1);
+    }
 }
