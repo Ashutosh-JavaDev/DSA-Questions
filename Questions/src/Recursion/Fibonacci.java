@@ -5,7 +5,7 @@ class fibo{
             return;
         }
         n+=m;
-        System.out.print(n);
+        System.out.print(n+" ");
     }
 }
 public class Fibonacci {
