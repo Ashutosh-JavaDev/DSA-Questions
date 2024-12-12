@@ -41,4 +41,15 @@ void roundRobinScheduling(int processes[], int n, int brustTime[], int quantum)
         if (allDone)
             break;
     }
+    //Calculate Turnaround Times
+    for(int i=0;i<n;i++){
+        turnaroundTime[i]=brustTime[i]+waitingTime[i];
+    }
+    //Display Results
+    printf("Process\tBrust TIme\tWaiting Time\tTurn Around\n");
+    for(int i=0;i<n;i++){
+        printf("P%d\t\t%d\t\t%d\n",processes[i],brustTime[i,waitingTime[i],turnaroundTime[i]]);
+        totalWaitingTime+=waitingTime[i];
+        totalWaitingTime+=turnaroundTime[i];
+    }
 }
