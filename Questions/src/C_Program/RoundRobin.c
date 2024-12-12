@@ -19,6 +19,14 @@ void roundRobinScheduling(int processes[],int n,int brustTime[],int quantum){
 
                 if(remainingbrustTime[i]>quantum){
                     time+=quantum;
+                    remainingbrustTime[i]-=quantum;
+                }
+                else{
+                    //Process Finishes Execution
+                    time+=remainingbrustTime[i];
+                    waitingTime[i]=time-brustTime[i];
+                    // waitingTime[i]=time-brustTime[i];
+                    remainingbrustTime[i]=0;
                 }
             }
         }
