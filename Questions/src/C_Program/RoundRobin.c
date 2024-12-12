@@ -60,4 +60,16 @@ int main(){
     int n,quantum;
     printf("Enter the Number of Processes: ");
     scanf("%d",&n);
+
+    int processes[n],brustTime[n];
+    printf("Enter the burst time of each process:\n");
+    for(int i=0;i<n;i++){
+        processes[i]=i+1;
+        printf("p%d: ",processes[i]);
+        scanf("%d",&brustTime[i]);
+    }
+    printf("Enter the Time Quantum:");
+    scanf("%d",&quantum);
+    roundRobinScheduling(processes,n,brustTime,quantum);
+    return 0;
 }
