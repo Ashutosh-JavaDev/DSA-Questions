@@ -4,7 +4,7 @@
 void roundRobinScheduling(int processes[], int n, int brustTime[], int quantum)
 {
     int waitingTime[n], turnaroundTime[n], remainingbrustTime[n];
-    int totalWaitingTime = 0, totalWaitingTime = 0;
+    int totalWaitingTime = 0, totalTurnAroundTime = 0;
 
     // Initialize remaining burst Times
     for (int i = 0; i < n; i++)
@@ -50,6 +50,14 @@ void roundRobinScheduling(int processes[], int n, int brustTime[], int quantum)
     for(int i=0;i<n;i++){
         printf("P%d\t\t%d\t\t%d\n",processes[i],brustTime[i,waitingTime[i],turnaroundTime[i]]);
         totalWaitingTime+=waitingTime[i];
-        totalWaitingTime+=turnaroundTime[i];
+        totalTurnAroundTime+=turnaroundTime[i];
     }
+
+    printf("\nAverage Waiting TIme: %2f\n",(float)totalWaitingTime/n);
+    printf("Average Turnaround Time: %2f\n",(float)totalTurnAroundTime/n);
+}
+int main(){
+    int n,quantum;
+    printf("Enter the Number of Processes: ");
+    scanf("%d",&n);
 }
