@@ -9,4 +9,18 @@ void roundRobinScheduling(int processes[],int n,int brustTime[],int quantum){
     for(int i=0;i<n;i++){
         remainingbrustTime[i]=brustTime[i];
     }
+    int time=0;
+
+    while(true){
+        bool allDone=true;
+        for(int i=0;i<n;i++){
+            if(remainingbrustTime[i]>0){
+                allDone=false;
+
+                if(remainingbrustTime[i]>quantum){
+                    time+=quantum;
+                }
+            }
+        }
+    }
 }
