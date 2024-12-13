@@ -28,3 +28,8 @@ void sortProcessesByBurstTime(struct Process processes[],int n){
         }
     }
 }
+int main(){
+    int n;
+    printf("Enter the Number of Processes: ");
+    scanf("%d",&n);
+}
