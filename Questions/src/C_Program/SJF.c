@@ -40,4 +40,16 @@ int main(){
         printf("Enter burst Time for Process %d: ",i+1);
         scanf("%d",&processes[i].brustTime);
     }
+
+    sortProcessesByBurstTime(processes,n);
+
+    calculateWaitingTime(processes,n);
+    calculateTurnAroundTime(processes,n);
+
+    int totalWaitingTime=0;
+    int totalTurnAroundTime=0;
+    for(int i=0;i<n;i++){
+        totalWaitingTime+=processes[i].waitingTime;
+        totalTurnAroundTime+=processes[i].turnAroundTime;
+    }
 }
