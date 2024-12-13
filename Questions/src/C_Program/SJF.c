@@ -12,3 +12,8 @@ void calculateWaitingTime(struct Process processes[],int n){
     }
 
 }
+void calculateTurnAroundTime(struct Process processes[],int n){
+    for(int i=0;i<n;i++){
+        processes[i].turnAroundTime=processes->waitingTime+processes[i].brustTime;
+    }
+}
