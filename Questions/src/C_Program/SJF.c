@@ -52,4 +52,8 @@ int main(){
         totalWaitingTime+=processes[i].waitingTime;
         totalTurnAroundTime+=processes[i].turnAroundTime;
     }
+    printf("\nProcess ID\tBrust Time\tWaiting Time\tTurnaround Time\n");
+    for(int i=0;i<n;i++){
+        printf("%d\t\t%d\t\t%d\t\t%d\n",processes[i].pid,processes[i].brustTime,processes[i].waitingTime,processes[i].turnAroundTime);
+    }
 }
