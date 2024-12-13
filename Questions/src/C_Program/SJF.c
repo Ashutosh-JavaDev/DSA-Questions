@@ -20,7 +20,11 @@ void calculateTurnAroundTime(struct Process processes[],int n){
 void sortProcessesByBurstTime(struct Process processes[],int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
-            if(processes[j].brustTime>processes[j+1].brustTime);
+            if(processes[j].brustTime>processes[j+1].brustTime){
+                struct Process temp=processes[j];
+                processes[j]=processes[j+1];
+                processes[j+1]=temp;
+            }
         }
     }
 }
