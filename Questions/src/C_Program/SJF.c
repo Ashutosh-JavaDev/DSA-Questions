@@ -32,4 +32,12 @@ int main(){
     int n;
     printf("Enter the Number of Processes: ");
     scanf("%d",&n);
+
+    struct Process processes[n];
+
+    for(int i=0;i<n;i++){
+        processes[i].pid=i+1;
+        printf("Enter burst Time for Process %d: ",i+1);
+        scanf("%d",&processes[i].brustTime);
+    }
 }
