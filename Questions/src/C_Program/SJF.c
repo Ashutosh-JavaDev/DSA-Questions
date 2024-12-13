@@ -56,4 +56,10 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%d\t\t%d\t\t%d\t\t%d\n",processes[i].pid,processes[i].brustTime,processes[i].waitingTime,processes[i].turnAroundTime);
     }
+
+    double avgWaitingTime=(double)totalWaitingTime/n;
+    double avgTurnAroundTime=(double) totalTurnAroundTime/n;
+    printf("\nAverage Waiting Time: %.2f\n",avgWaitingTime);
+    printf("Average TurnAround Time: $.2f\n",avgTurnAroundTime);
+    return 0;
 }
