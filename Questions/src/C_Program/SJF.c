@@ -6,5 +6,9 @@ struct Process{
     int turnAroundTime;
 };
 void calculateWaitingTime(struct Process processes[],int n){
-    processes[0].waitingTime=0;
+    processes[0].waitingTime=0;//First process has no waiting time
+    for(int i=1;i<n;i++){
+        processes[i].waitingTime=processes[i-1].waitingTime+processes[i-1].brustTime;
+    }
+
 }
