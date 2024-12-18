@@ -13,6 +13,7 @@ class StringCount {
                 count++;
             }
         }
+        return count;
     }
 }
 
