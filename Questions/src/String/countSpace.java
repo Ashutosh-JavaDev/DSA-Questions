@@ -23,5 +23,6 @@ public class countSpace {
         System.out.println("Enter the String");
         String str = sc.nextLine();
         int res = ob.Count(str);
+        System.out.println("Numbers of Space: "+res);
     }
 }
