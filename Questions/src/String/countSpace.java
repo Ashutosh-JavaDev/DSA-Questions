@@ -5,9 +5,7 @@ import java.util.Scanner;
 class StringCount {
     int Count(String str) {
         int count = 0;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String");
-        str = sc.nextLine();
+
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 count++;
@@ -18,5 +16,12 @@ class StringCount {
 }
 
 public class countSpace {
+    public static void main(String[] args) {
 
+        StringCount ob = new StringCount();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String");
+        String str = sc.nextLine();
+        int res = ob.Count(str);
+    }
 }
