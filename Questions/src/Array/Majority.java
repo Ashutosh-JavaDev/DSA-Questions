@@ -15,6 +15,6 @@ class majorityElement{
 }
 public class Majority {
     public static void main(String[]args){
-        
+        Scanner sc=new Scanner(System.in);
     }
 }
