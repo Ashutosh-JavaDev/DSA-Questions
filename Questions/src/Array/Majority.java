@@ -12,7 +12,7 @@ class majorityElement{
             }
         }
         if(count>0){
-            System.out.println("Majority Element Found");
+            System.out.println("Majority Element Found "+count+" Times");
         }
         else{
             System.out.println("No Majority Element Found");
