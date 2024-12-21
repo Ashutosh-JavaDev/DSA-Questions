@@ -30,6 +30,8 @@ public class Majority {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
-
+        majorityElement opb=new majorityElement();
+        int res=opb.element(arr, size);
+        System.out.println("Majority Element: "+res);
     }
 }
