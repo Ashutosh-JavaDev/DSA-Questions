@@ -2,7 +2,7 @@ package Array;
 import java.util.Scanner;
 class majorityElement{
     static int element(int arr[],int size){
-        int count=0,temp;
+        int count=0,temp=0;
         for(int i=0;i<size;i++){
             for(int j=i+1;j<size;j++){
                 if(arr[i]==arr[j]){
@@ -10,6 +10,12 @@ class majorityElement{
                     count++;
                 }
             }
+        }
+        if(count>0){
+            System.out.println("Majority Element Found");
+        }
+        else{
+            System.out.println("No Majority Element Found");
         }
         return temp;
     }
