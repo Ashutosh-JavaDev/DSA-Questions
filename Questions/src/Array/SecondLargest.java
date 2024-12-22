@@ -1,4 +1,5 @@
 package Array;
+import java.util.Scanner;
 class secondLargest{
      int Result(int arr[],int size){
         int max=arr[0];
@@ -14,5 +15,7 @@ class secondLargest{
      }
 }
 public class SecondLargest {
-    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+    }
 }
