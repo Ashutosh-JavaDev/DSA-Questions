@@ -29,6 +29,6 @@ public class SecondLargest {
         }
         secondLargest ob=new secondLargest();
         int result=ob.Result(arr, size);
-        System.out.println("Maximum Number: "+result);
+        System.out.println("Second Maximum Number: "+result);
     }
 }
