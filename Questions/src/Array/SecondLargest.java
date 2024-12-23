@@ -9,7 +9,7 @@ class secondLargest {
         for (int i = 0; i < size; i++) {
 
             if (arr[i] > max) {
-                secMax = arr[i];
+                secMax = max;
                 max = arr[i];
             }
 
