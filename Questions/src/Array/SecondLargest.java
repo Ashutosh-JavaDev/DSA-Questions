@@ -8,10 +8,12 @@ class secondLargest{
             
                 if(arr[i]>max){
                     max=arr[i];
+                    if(secMax<max&&secMax>arr[i]){
+                        secMax=arr[i];
                 }
             
         }
-        return max;
+        return secMax;
      }
 }
 public class SecondLargest {
