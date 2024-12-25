@@ -38,4 +38,9 @@ push(){
     if(top==MAX-1){
         printf("Stack OverFlow\n")
     }
+    else{
+        top=top+1;
+        stack[top]=n;
+        printf("%d",stack[top]);
+    }
 }
