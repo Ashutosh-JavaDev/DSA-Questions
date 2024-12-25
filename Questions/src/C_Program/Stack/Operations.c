@@ -1,32 +1,35 @@
-#include<stdio.h>
-#include<process.h>
+#include <stdio.h>
+#include <process.h>
 #define MAX 10;
 int stack[MAX];
-int top=-1;
+int top = -1;
 void push();
 void pop();
 void peek();
-void main(){
+void main()
+{
     int choice;
     printf("1.to Push\n2.to Pop\n3.to Peek\n4.Exit");
-    scanf("%d",&choice);
-   while(1>0){
-     switch(choice){
+    scanf("%d", &choice);
+    while (1 > 0)
+    {
+        switch (choice)
+        {
         case 1:
-        push();
-        break;
+            push();
+            break;
         case 2:
-        pop();
-        break;
+            pop();
+            break;
         case 3:
-        peek();
-        break;
+            peek();
+            break;
         case 4:
-        exit(0);
-        break;
+            exit(0);
+            break;
         default:
-        printf("Press Valid Button\n");
-        break;
+            printf("Press Valid Button\n");
+            break;
+        }
     }
-   }
 }
