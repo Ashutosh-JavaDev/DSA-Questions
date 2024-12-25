@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <process.h>
+// #include <process.h>
 #define MAX 5;
 int stack[MAX];
 int top = -1;
