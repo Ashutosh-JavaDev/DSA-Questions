@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <process.h>
-#define MAX 10;
+#define MAX 5;
 int stack[MAX];
 int top = -1;
 void push();
@@ -31,5 +31,11 @@ void main()
             printf("Press Valid Button\n");
             break;
         }
+    }
+}
+push(){
+    int n;
+    if(top==MAX-1){
+        printf("Stack OverFlow\n")
     }
 }
