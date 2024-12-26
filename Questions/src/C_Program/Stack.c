@@ -3,13 +3,16 @@
 #include<stdlib.h>
 #define MAX 5;
 int stack[MAX];
+void push();
+void pop();
+void peek();
 int top = -1;
 void main()
 {
     int choice;
     printf("1.to Push\n2.to Pop\n3.to Peek\n4.Exit");
     scanf("%d", &choice);
-    while (1 > 0)
+    while (1)
     {
         switch (choice)
         {
@@ -45,22 +48,22 @@ void push(){
     }
 }
 void pop(){
-    int n;
+   
     if(top==-1){
         printf("Stack is Empty\n");
     }
     else{
         top=top-1;
-        printf("%d is Remove from the Stack...\n",n);
+        printf("%d is Remove from the Stack...\n",stack[top]);
     }
 }
 
 void peek(){
-    int n;
+ 
     if(top==-1){
         printf("Stack Is Empty\n");
     }
     else{
-        printf("Top Element is %d\n",n);
+        printf("Top Element is %d\n",stack[top]);
     }
 }
