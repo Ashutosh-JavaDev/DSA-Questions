@@ -52,5 +52,9 @@ pop(){
     if(top==-1){
         printf("Stack is Empty\n");
     }
-    
+    else{
+        printf("Enter the Number want to remove\n");
+        scanf("%d",&n);
+        
+    }
 }
