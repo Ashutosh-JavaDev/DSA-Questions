@@ -47,3 +47,9 @@ push(){
         printf("Pushed %d onto the stack\n", stack[top]);
     }
 }
+pop(){
+    int n;
+    if(top==-1){
+        printf("Stack is Empty\n");
+    }
+}
