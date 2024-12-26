@@ -53,8 +53,7 @@ pop(){
         printf("Stack is Empty\n");
     }
     else{
-        printf("Enter the Number want to remove\n");
-        scanf("%d",&n);
-        
+        top=top-1;
+        printf("%d is Remove from the Stack...\n",n);
     }
 }
