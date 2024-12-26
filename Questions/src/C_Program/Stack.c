@@ -4,9 +4,6 @@
 #define MAX 5;
 int stack[MAX];
 int top = -1;
-void push();
-void pop();
-void peek();
 void main()
 {
     int choice;
@@ -34,7 +31,7 @@ void main()
         }
     }
 }
-push(){
+void push(){
     int n;
     if(top==MAX-1){
         printf("Stack OverFlow\n");
@@ -47,7 +44,7 @@ push(){
         printf("Pushed %d onto the stack\n", stack[top]);
     }
 }
-pop(){
+void pop(){
     int n;
     if(top==-1){
         printf("Stack is Empty\n");
@@ -58,7 +55,7 @@ pop(){
     }
 }
 
-peek(){
+void peek(){
     int n;
     if(top==-1){
         printf("Stack Is Empty\n");
