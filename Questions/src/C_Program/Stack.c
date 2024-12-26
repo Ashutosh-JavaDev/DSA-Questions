@@ -59,10 +59,11 @@ pop(){
 }
 
 peek(){
+    int n;
     if(top==-1){
         printf("Stack Is Empty\n");
     }
     else{
-        
+        printf("Top Element is %d\n",n);
     }
 }
