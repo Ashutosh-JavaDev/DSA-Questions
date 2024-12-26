@@ -57,3 +57,12 @@ pop(){
         printf("%d is Remove from the Stack...\n",n);
     }
 }
+
+peek(){
+    if(top==-1){
+        printf("Stack Is Empty\n");
+    }
+    else{
+        
+    }
+}
