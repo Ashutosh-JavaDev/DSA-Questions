@@ -11,10 +11,12 @@ class secondLargest {
             if (arr[i] > max) {
                 secMax = max;
                 max = arr[i];
+            } else if (arr[i] > secMax && arr[i] < max) {
+                secMax = arr[i];
             }
 
         }
-        System.out.println("Maximum Number: "+max);
+        System.out.println("Maximum Number: " + max);
         return secMax;
     }
 }
