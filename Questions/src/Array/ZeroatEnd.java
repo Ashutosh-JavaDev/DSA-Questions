@@ -22,5 +22,7 @@ public class ZeroatEnd {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
+        setZeroAtEnd ob=new setZeroAtEnd();
+        ob.result(arr, size);
     }
 }
