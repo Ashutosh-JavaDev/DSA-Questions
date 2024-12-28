@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 class setZeroAtEnd {
     void result(int arr[], int size) {
+        int count=0;
         for (int i = 0; i < size; i++) {
             if (arr[i] != 0) {
+
                 System.out.print(arr[i] + " ");
+                count++;
             }
-            int temp=arr[i];
-            if(temp==0){
-                System.out.print(temp+" ");
-            }
+           
         }
         System.out.println();
     }
