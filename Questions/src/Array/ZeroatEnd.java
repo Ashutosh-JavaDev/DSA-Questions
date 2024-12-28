@@ -4,16 +4,21 @@ import java.util.Scanner;
 
 class setZeroAtEnd {
     void result(int arr[], int size) {
-        int count = 0;
-        for (int i = 0; i < size; i++) {
+
+        int nonZeroIndex = 0;
+
+        // Traverse the array
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
+                // Swap non-zero element with the element at nonZeroIndex
+                int temp = arr[i];
+                arr[i] = arr[nonZeroIndex];
+                arr[nonZeroIndex] = temp;
 
-                System.out.print(arr[i] + " ");
-                count++;
+                // Increment the nonZeroIndex
+                nonZeroIndex++;
             }
-
         }
-        System.out.println();
     }
 }
 
