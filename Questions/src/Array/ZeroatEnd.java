@@ -34,5 +34,10 @@ public class ZeroatEnd {
         }
         setZeroAtEnd ob = new setZeroAtEnd();
         ob.result(arr, size);
+        System.out.println("Array After sending all zero at end");
+        for(int num:arr){
+            System.out.print(num+" ");
+        }
+        System.out.println();
     }
 }
