@@ -8,7 +8,12 @@ class setZeroAtEnd {
             if (arr[i] != 0) {
                 System.out.print(arr[i] + " ");
             }
+            int temp=arr[i];
+            if(temp==0){
+                System.out.print(temp+" ");
+            }
         }
+        System.out.println();
     }
 }
 
