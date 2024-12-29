@@ -1,7 +1,7 @@
 package Array;
 class reverse{
-    void result(int arr[],int size){
-        if(0<size){
+    void result(int arr[]){
+        if(0<arr.length){
             return;
         }
         else{
@@ -11,5 +11,7 @@ class reverse{
     }
 }
 public class Reverse {
-    
+    public static void main(String[]args){
+        
+    }
 }
