@@ -1,12 +1,13 @@
 package Array;
 class reverse{
     void result(int arr[],int size){
-        if(0<size){
+        if(size==-1){
             return;
         }
         else{
-            result(arr, size-1);
             System.out.println(arr[size]);
+
+            result(arr, size-1);
         }
     }
 }
