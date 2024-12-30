@@ -9,12 +9,12 @@ void peek();
 void main()
 {
     int choose;
-printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n");
-scanf("%d",&choose);
+    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n");
+    scanf("%d", &choose);
     while (1)
     {
-        switch(choose){
-
+        switch (choose)
+        {
         }
     }
 }
