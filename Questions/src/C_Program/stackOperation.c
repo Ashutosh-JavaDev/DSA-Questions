@@ -48,5 +48,6 @@ void pop(){
     if(top==-1){
         printf("Stack is UnderFlow, Store the data first..\n");
     }
-    
+    printf("%d is removed from the stack...",stack[top]);
+    top=top-1;
 }
