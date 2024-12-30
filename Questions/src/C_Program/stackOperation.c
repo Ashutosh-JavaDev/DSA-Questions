@@ -9,7 +9,7 @@ int top = -1;
 void main()
 {
     int choose;
-    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n");
+    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n4.To Exit");
     scanf("%d", &choose);
     while (1)
     {
