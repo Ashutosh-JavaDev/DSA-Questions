@@ -39,4 +39,6 @@ void push()
     {
         printf("Stack Overflow...\n");
     }
+    printf("Enter the Number\n");
+    scanf("%d",&data);
 }
