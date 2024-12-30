@@ -8,7 +8,9 @@ void pop();
 void peek();
 void main()
 {
+printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n");
     while (1)
     {
+
     }
 }
