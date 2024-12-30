@@ -3,9 +3,9 @@
 #define MAX 5
 int stack[MAX];
 int top = -1;
-void push();
-void pop();
-void peek();
+// void push();
+// void pop();
+// void peek();
 void main()
 {
     int choose;
@@ -15,23 +15,28 @@ void main()
     {
         switch (choose)
         {
-            case 1:
+        case 1:
             push();
             break;
-            case 2:
+        case 2:
             pop();
             break;
-            case 3:
+        case 3:
             peek();
             break;
-            case 4:
+        case 4:
             exit(0);
-            default:
+        default:
             printf("Choose Wisely\n");
             break;
         }
     }
 }
-push(){
-    
+void push()
+{
+    int data;
+    if (top == MAX - 1)
+    {
+        printf("Stack Overflow...\n");
+    }
 }
