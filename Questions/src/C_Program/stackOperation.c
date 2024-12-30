@@ -51,3 +51,9 @@ void pop(){
     printf("%d is removed from the stack...",stack[top]);
     top=top-1;
 }
+void peek(){
+    if(top==-1){
+        printf("Stack is Underflow...\n");
+    }
+    printf("%d is present in the stack...",stack[top]);
+}
