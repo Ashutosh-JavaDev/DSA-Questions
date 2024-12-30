@@ -39,28 +39,34 @@ void push()
     {
         printf("Stack Overflow...\n");
     }
-   else{
-     printf("Enter the Number\n");
-    scanf("%d",&data);
-    data=stack[top];
-    printf("Present Element in Stack is : %d",data);
-   }
+    else
+    {
+        printf("Enter the Number\n");
+        scanf("%d", &data);
+        data = stack[top];
+        printf("Present Element in Stack is : %d", data);
+    }
 }
-void pop(){
-    if(top==-1){
+void pop()
+{
+    if (top == -1)
+    {
         printf("Stack is UnderFlow, Store the data first..\n");
     }
-  else{
-      printf("%d is removed from the stack...",stack[top]);
-    top=top-1;
-  }
+    else
+    {
+        printf("%d is removed from the stack...", stack[top]);
+        top = top - 1;
+    }
 }
-void peek(){
-    if(top==-1){
+void peek()
+{
+    if (top == -1)
+    {
         printf("Stack is Underflow...\n");
     }
-    else{
-    printf("%d is present at the top in the stack...",stack[top]);
-
+    else
+    {
+        printf("%d is present at the top in the stack...", stack[top]);
     }
 }
