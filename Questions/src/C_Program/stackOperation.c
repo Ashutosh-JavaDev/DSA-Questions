@@ -15,6 +15,20 @@ void main()
     {
         switch (choose)
         {
+            case 1:
+            push();
+            break;
+            case 2:
+            pop();
+            break;
+            case 3:
+            peek();
+            break;
+            case 4:
+            exit(0);
+            default:
+            printf("Choose Wisely\n");
+            break;
         }
     }
 }
