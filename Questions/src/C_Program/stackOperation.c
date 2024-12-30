@@ -9,10 +9,11 @@ int top = -1;
 void main()
 {
     int choose;
-    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n4.To Exit\n");
-    scanf("%d", &choose);
+
     while (1)
     {
+        printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n4.To Exit\n");
+        scanf("%d", &choose);
         switch (choose)
         {
         case 1:
@@ -43,8 +44,8 @@ void push()
     {
         printf("Enter the Number\n");
         scanf("%d", &data);
-        top=top+1;
-        stack[top]=data;
+        top = top + 1;
+        stack[top] = data;
         printf("Present Element in Stack is : %d\n", data);
     }
 }
@@ -56,7 +57,7 @@ void pop()
     }
     else
     {
-        printf("%d is removed from the stack...", stack[top]);
+        printf("%d is removed from the stack...\n", stack[top]);
         top = top - 1;
     }
 }
@@ -68,6 +69,6 @@ void peek()
     }
     else
     {
-        printf("%d is present at the top in the stack...", stack[top]);
+        printf("%d is present at the top in the stack...\n", stack[top]);
     }
 }
