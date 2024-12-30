@@ -9,7 +9,7 @@ int top = -1;
 void main()
 {
     int choose;
-    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n4.To Exit");
+    printf("Choose the Option...\n1.To Push\n2.To Pop\n3.To Peek\n4.To Exit\n");
     scanf("%d", &choose);
     while (1)
     {
@@ -43,8 +43,9 @@ void push()
     {
         printf("Enter the Number\n");
         scanf("%d", &data);
-        data = stack[top];
-        printf("Present Element in Stack is : %d", data);
+        top=top+1;
+        stack[top]=data;
+        printf("Present Element in Stack is : %d\n", data);
     }
 }
 void pop()
