@@ -44,3 +44,9 @@ void push()
     data=stack[top];
     printf("Present Element in Stack is : %d",data);
 }
+void pop(){
+    if(top==-1){
+        printf("Stack is UnderFlow, Store the data first..\n");
+    }
+    
+}
