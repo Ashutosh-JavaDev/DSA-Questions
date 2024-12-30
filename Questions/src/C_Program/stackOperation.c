@@ -55,5 +55,5 @@ void peek(){
     if(top==-1){
         printf("Stack is Underflow...\n");
     }
-    printf("%d is present in the stack...",stack[top]);
+    printf("%d is present at the top in the stack...",stack[top]);
 }
