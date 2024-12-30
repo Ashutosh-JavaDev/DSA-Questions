@@ -41,4 +41,6 @@ void push()
     }
     printf("Enter the Number\n");
     scanf("%d",&data);
+    data=stack[top];
+    printf("Present Element in Stack is : %d",data);
 }
