@@ -1,5 +1,7 @@
 package Array;
 
 public class AscendingSort {
-    psvm
+    public static void main(String[] args) {
+        
+    }
 }
