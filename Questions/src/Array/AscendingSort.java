@@ -21,5 +21,7 @@ class Sorting{
 public class AscendingSort {
     public static void main(String[] args) {
         int arr[]={32,24,442,42,65};
+        Sorting ob=new Sorting();
+        ob.sorting(arr);
     }
 }
