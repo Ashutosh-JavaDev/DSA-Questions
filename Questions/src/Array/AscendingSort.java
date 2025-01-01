@@ -11,7 +11,12 @@ class Sorting{
                 }
             }
         }
+        System.out.println("Array After sort in Ascending Order");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]);
+        }
     }
+
 }
 public class AscendingSort {
     public static void main(String[] args) {
