@@ -1,5 +1,5 @@
 package Array;
-
+import java.util.Scanner;
 class rotated {
     void result(int arr[],int size,int rotate){
         int temp[],j=0;
@@ -20,5 +20,7 @@ class rotated {
 }
 
 public class Roated {
-
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+    }
 }
