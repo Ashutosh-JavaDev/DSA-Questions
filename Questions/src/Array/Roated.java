@@ -5,6 +5,7 @@ class rotated {
         int j=0;
         for(int i=0;i<rotate;i++){
            int temp[j]=arr[i];
+           j++;
         }
     }
 }
