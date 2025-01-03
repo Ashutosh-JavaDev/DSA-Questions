@@ -29,5 +29,10 @@ public class Roated {
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
+        System.out.println("Enter the rotated value");
+        int roated=sc.nextInt();
+        rotated ob=new rotated();
+        ob.result(arr, size, size);
+
     }
 }
