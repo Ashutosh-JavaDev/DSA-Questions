@@ -32,7 +32,7 @@ public class Roated {
         System.out.println("Enter the rotated value");
         int roated=sc.nextInt();
         rotated ob=new rotated();
-        ob.result(arr, size, size);
+        ob.result(arr, size, roated);
 
     }
 }
