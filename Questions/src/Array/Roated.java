@@ -10,7 +10,7 @@ class rotated {
            j++;
         }
         for(int i=0;i<rotate;i++){
-            System.out.print(arr[i]);
+            System.out.print(arr[i]+" ");
      
       
         }
