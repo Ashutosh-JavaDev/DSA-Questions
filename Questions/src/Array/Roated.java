@@ -11,8 +11,12 @@ class rotated {
         }
         for(int i=0;i<rotate;i++){
             System.out.print(arr[i]);
+     
+      
         }
+        System.out.println();
     }
+
 }
 
 public class Roated {
