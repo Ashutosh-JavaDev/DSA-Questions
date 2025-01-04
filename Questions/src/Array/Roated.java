@@ -4,7 +4,7 @@ class rotated {
     void result(int arr[],int size,int rotate){
         int temp[],j=0;
         temp=new int[size-rotate];
-        for(int i=rotate-1;i<size;i++){
+        for(int i=rotate;i<size;i++){
             temp[j]=arr[i];
             System.out.print(arr[i]+" ");
            j++;
