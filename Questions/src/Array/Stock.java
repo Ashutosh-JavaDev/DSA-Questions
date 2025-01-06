@@ -9,10 +9,10 @@ class stock {
         while(1>0){
             System.out.println("Enter the Price at which you want to buy the Stock");
             buy=sc.nextInt();
-            System.out.println("Enter the price at which you want to sell the Stock");
-            sell=sc.nextInt();
+            // System.out.println("Enter the price at which you want to sell the Stock");
+            // sell=sc.nextInt();
             for(int i=0;i<size;i++){
-
+                // if(arr[i])
             }
         }
         return sum;
