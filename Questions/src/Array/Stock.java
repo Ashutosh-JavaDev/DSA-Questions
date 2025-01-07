@@ -11,9 +11,9 @@ class stock {
             buy=sc.nextInt();
             // System.out.println("Enter the price at which you want to sell the Stock");
             // sell=sc.nextInt();
-            for(int i=0;i<size;i++){
-                // if(arr[i])
-            }
+            // for(int i=0;i<size;i++){
+            //     if(arr[i])
+            // }
         }
         return sum;
     }
