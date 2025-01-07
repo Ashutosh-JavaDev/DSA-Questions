@@ -12,7 +12,9 @@ class stock {
             // System.out.println("Enter the price at which you want to sell the Stock");
             // sell=sc.nextInt();
             for(int i=0;i<size;i++){
-                if(arr[i])
+                if(arr[i]==size){
+                    
+                }
             }
         }
         return sum;
