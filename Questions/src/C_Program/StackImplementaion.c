@@ -13,7 +13,7 @@ void main()
     int choose;
     while (1)
     {
-        printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()");
+        printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()");
         switch (choose)
         {
         case 1:
