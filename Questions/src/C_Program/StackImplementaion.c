@@ -25,7 +25,11 @@ void main()
         case 3:
             peek();
             break;
+            case 4:
+            exit(0);
+            break;
         default:
+        printf("Choose Wisely");
             break;
         }
     }
