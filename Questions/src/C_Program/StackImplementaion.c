@@ -54,6 +54,6 @@ void pop(){
 }
 void peek(){
     if(top==-1){
-        
+        printf("Stack UnderFlow\n");
     }
 }
