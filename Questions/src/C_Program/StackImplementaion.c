@@ -39,7 +39,7 @@ void main()
     int choose;
     while (1)
     {
-        printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()");
+        printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
         scanf("%d",choose);
         switch (choose)
         {
