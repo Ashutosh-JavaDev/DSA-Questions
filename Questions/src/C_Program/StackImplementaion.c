@@ -1,16 +1,18 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #define MAX 10
-int top=-1;
+int top = -1;
 int arr[MAX];
 
 void push();
 void pop();
 void peek();
 
-void main(){
+void main()
+{
     int choose;
-    while(1){
+    while (1)
+    {
         printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()");
         switch (choose)
         {
@@ -18,13 +20,13 @@ void main(){
             push();
             break;
         case 2:
-        pop();
-        break;
+            pop();
+            break;
         case 3:
-        peek();
-        break;
+            peek();
+            break;
         default:
             break;
         }
-    } 
+    }
 }
