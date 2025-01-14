@@ -11,7 +11,7 @@ void push(){
     }
     else{
         printf("Enter the value You want to add: ");
-        scanf("%d",data);
+        scanf("%d",&data);
         top=top+1;
         arr[top]=data;
         printf("Value at %d is %d \n",top,arr[top]);
@@ -40,7 +40,7 @@ void main()
     while (1)
     {
         printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
-        scanf("%d",choose);
+        scanf("%d",&choose);
         switch (choose)
         {
         case 1:
