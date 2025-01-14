@@ -31,7 +31,7 @@ void peek(){
         printf("Stack UnderFlow\n");
     }
     else{
-        printf("%d is Peeked Up...",arr[top]);
+        printf("%d is Peeked Up...\n",arr[top]);
     }
 }
 void main()
@@ -40,6 +40,7 @@ void main()
     while (1)
     {
         printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()");
+        scanf("%d",choose);
         switch (choose)
         {
         case 1:
