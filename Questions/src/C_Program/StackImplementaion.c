@@ -43,5 +43,7 @@ void push(){
         printf("Value at %d is %d \n",top,arr[top]);
     }
 }
-void pop();
+void pop(){
+    
+}
 void peek();
