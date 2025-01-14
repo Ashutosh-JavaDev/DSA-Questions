@@ -4,10 +4,6 @@
 int top = -1;
 int arr[MAX];
 
-void push();
-void pop();
-void peek();
-
 void main()
 {
     int choose;
@@ -34,3 +30,11 @@ void main()
         }
     }
 }
+void push(){
+    int data;
+    if(top==MAX-1){
+        printf("Stack Overflow\n");
+    }
+}
+void pop();
+void peek();
