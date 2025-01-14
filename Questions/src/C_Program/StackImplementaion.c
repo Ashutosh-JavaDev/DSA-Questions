@@ -52,4 +52,8 @@ void pop(){
         top=top-1;
     }
 }
-void peek();
+void peek(){
+    if(top==-1){
+        
+    }
+}
