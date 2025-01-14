@@ -35,6 +35,10 @@ void push(){
     if(top==MAX-1){
         printf("Stack Overflow\n");
     }
+    else{
+        printf("Enter the value You want to add: ");
+        scanf("%d",data);
+    }
 }
 void pop();
 void peek();
