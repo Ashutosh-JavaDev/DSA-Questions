@@ -22,7 +22,7 @@ void pop(){
         printf("Stack UnderFlow\n");
     }
     else{
-        printf("%d is Removed...",arr[top]);
+        printf("%d is Removed...\n",arr[top]);
         top=top-1;
     }
 }
