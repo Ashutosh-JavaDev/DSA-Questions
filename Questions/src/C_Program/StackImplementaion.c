@@ -38,6 +38,9 @@ void push(){
     else{
         printf("Enter the value You want to add: ");
         scanf("%d",data);
+        top=top+1;
+        arr[top]=data;
+        printf("Value at %d is %d \n",top,arr[top]);
     }
 }
 void pop();
