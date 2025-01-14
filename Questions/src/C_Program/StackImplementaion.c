@@ -56,4 +56,7 @@ void peek(){
     if(top==-1){
         printf("Stack UnderFlow\n");
     }
+    else{
+        printf("%d is Peeked Up...",arr[top]);
+    }
 }
