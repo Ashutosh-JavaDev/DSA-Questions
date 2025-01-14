@@ -14,7 +14,7 @@ void push(){
         scanf("%d",&data);
         top=top+1;
         arr[top]=data;
-        printf("Value at %d is %d \n",top,arr[top]);
+        printf("Value at %d index is %d \n",top,arr[top]);
     }
 }
 void pop(){
@@ -41,6 +41,7 @@ void main()
     {
         printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
         scanf("%d",&choose);
+        printf("--------------------------------------------------------------------")
         switch (choose)
         {
         case 1:
