@@ -44,6 +44,12 @@ void push(){
     }
 }
 void pop(){
-    
+    if(top==-1){
+        printf("Stack UnderFlow\n");
+    }
+    else{
+        printf("%d is Removed...",arr[top]);
+        top=top-1;
+    }
 }
 void peek();
