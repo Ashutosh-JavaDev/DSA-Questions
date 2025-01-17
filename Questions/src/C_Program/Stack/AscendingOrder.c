@@ -8,6 +8,9 @@ void push(){
     if(top==MAX-1){
         printf("Stack OverFlow\n");
     }
+    else{
+        printf("Enter the value to add in the stack\n");
+    }
 }
 void pop();
 void peek();
