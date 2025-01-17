@@ -18,7 +18,9 @@ void push(){
 }
 void pop();
 void peek();
-
+void ascending(){
+    
+}
 void main()
 {
 
