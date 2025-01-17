@@ -32,25 +32,25 @@ void main()
         scanf("%d", &choice);
         switch (choice)
         {
-            case 1:
+        case 1:
             push();
             break;
-            case 2:
+        case 2:
             pop();
             break;
-            case 3:
+        case 3:
             peek();
             break;
-            case 4:
+        case 4:
             ascending();
             break;
-            case 5:
+        case 5:
             descending();
             break;
-            case 6:
+        case 6:
             EXIT(0);
             break;
-            default:
+        default:
             printf("Choose wisely\n");
             break;
         }
