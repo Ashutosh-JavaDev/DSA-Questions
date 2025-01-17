@@ -10,6 +10,9 @@ void push(){
     }
     else{
         printf("Enter the value to add in the stack\n");
+        scanf("%d",&data);
+        top=top+1;
+        data=arr[top];
     }
 }
 void pop();
