@@ -21,18 +21,38 @@ void push()
 }
 void pop();
 void peek();
-void ascending()
-{
-}
+void ascending();
+void descending();
 void main()
 {
     int choice;
     while (1)
     {
-        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To print Ascending\n5.To print Descending\n5.To EXIT");
+        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To print Ascending\n5.To print Descending\n6.To EXIT");
         scanf("%d", &choice);
         switch (choice)
         {
+            case 1:
+            push();
+            break;
+            case 2:
+            pop();
+            break;
+            case 3:
+            peek();
+            break;
+            case 4:
+            ascending();
+            break;
+            case 5:
+            descending();
+            break;
+            case 6:
+            EXIT(0);
+            break;
+            default:
+            printf("Choose wisely\n");
+            break;
         }
     }
 }
