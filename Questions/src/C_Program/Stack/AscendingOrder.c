@@ -48,7 +48,9 @@ void main()
             descending();
             break;
         case 6:
-            printfO("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n")
+        int choice;
+            printf("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n");
+            scanf("%d",&choice);
             EXIT(0);
 
             break;
