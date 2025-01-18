@@ -28,7 +28,7 @@ void main()
     int choice;
     while (1)
     {
-        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To print Ascending\n5.To print Descending\n6.To EXIT");
+        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To EXIT");
         scanf("%d", &choice);
         switch (choice)
         {
