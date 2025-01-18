@@ -19,7 +19,16 @@ void push()
         printf("Value in %d is %d \n", top, arr[top]);
     }
 }
-void pop();
+void pop(){
+    if(top==-1){
+        printf("Stack UnderFlow\n");
+    }
+    else{
+        printf("%d is Remove from the stack...\n",arr[top]);
+        top=top-1;
+        printf("New Top is %d...\n",arr[top]);
+    }
+}
 void peek();
 void ascending();
 void descending();
