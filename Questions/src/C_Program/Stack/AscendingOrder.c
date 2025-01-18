@@ -29,7 +29,14 @@ void pop(){
         printf("New Top is %d...\n",arr[top]);
     }
 }
-void peek();
+void peek(){
+     if(top==-1){
+        printf("Stack UnderFlow\n");
+    }
+    else{
+        printf("%d is Peeked from the stack...\n",arr[top]);       
+    }
+}
 void ascending();
 void descending();
 void main()
