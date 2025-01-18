@@ -42,12 +42,6 @@ void main()
             peek();
             break;
         case 4:
-            ascending();
-            break;
-        case 5:
-            descending();
-            break;
-        case 6:
             int choice;
             while (1)
             {
