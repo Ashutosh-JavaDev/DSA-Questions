@@ -19,31 +19,39 @@ void push()
         printf("Value in %d is %d \n", top, arr[top]);
     }
 }
-void pop(){
-    if(top==-1){
+void pop()
+{
+    if (top == -1)
+    {
         printf("Stack UnderFlow\n");
     }
-    else{
-        printf("%d is Remove from the stack...\n",arr[top]);
-        top=top-1;
-        printf("New Top is %d...\n",arr[top]);
+    else
+    {
+        printf("%d is Remove from the stack...\n", arr[top]);
+        top = top - 1;
+        printf("New Top is %d...\n", arr[top]);
     }
 }
-void peek(){
-     if(top==-1){
+void peek()
+{
+    if (top == -1)
+    {
         printf("Stack UnderFlow\n");
     }
-    else{
-        printf("%d is Peeked from the stack...\n",arr[top]);       
+    else
+    {
+        printf("%d is Peeked from the stack...\n", arr[top]);
     }
 }
-void ascending(){
-if(top==-1){
-    printf("Stack UnderFlow\n");
+void ascending()
+{
+    if (top == -1)
+    {
+        printf("Stack UnderFlow\n");
+    }
 }
-}
-void descending(){
-
+void descending()
+{
 }
 void main()
 {
