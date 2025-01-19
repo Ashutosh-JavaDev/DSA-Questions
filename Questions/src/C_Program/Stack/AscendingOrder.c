@@ -39,7 +39,7 @@ void peek(){
 }
 void ascending(){
 if(top==-1){
-    printf("")
+    printf("Stack UnderFlow\n");
 }
 }
 void descending(){
