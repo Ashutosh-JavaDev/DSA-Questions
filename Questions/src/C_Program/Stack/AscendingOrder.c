@@ -52,6 +52,10 @@ void ascending()
 }
 void descending()
 {
+     if (top == -1)
+    {
+        printf("Stack UnderFlow\n");
+    }
 }
 void main()
 {
