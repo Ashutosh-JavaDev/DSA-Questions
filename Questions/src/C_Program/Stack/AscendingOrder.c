@@ -37,7 +37,9 @@ void peek(){
         printf("%d is Peeked from the stack...\n",arr[top]);       
     }
 }
-void ascending();
+void ascending(){
+    
+}
 void descending();
 void main()
 {
