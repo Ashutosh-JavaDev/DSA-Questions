@@ -38,9 +38,11 @@ void peek(){
     }
 }
 void ascending(){
+
+}
+void descending(){
     
 }
-void descending();
 void main()
 {
     int choice;
