@@ -38,10 +38,12 @@ void peek(){
     }
 }
 void ascending(){
-
+if(top==-1){
+    printf("")
+}
 }
 void descending(){
-    
+
 }
 void main()
 {
