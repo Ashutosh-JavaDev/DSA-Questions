@@ -63,7 +63,7 @@ void descending()
         printf("Stack UnderFlow\n");
     }
     else{
-
+        
     }
 }
 void main()
