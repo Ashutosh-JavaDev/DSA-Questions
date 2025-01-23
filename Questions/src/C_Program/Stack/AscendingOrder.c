@@ -49,6 +49,9 @@ void ascending()
     {
         printf("Stack UnderFlow\n");
     }
+    else{
+        
+    }
 }
 void descending()
 {
