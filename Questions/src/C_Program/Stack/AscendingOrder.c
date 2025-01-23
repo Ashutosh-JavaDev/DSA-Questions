@@ -63,7 +63,10 @@ void descending()
         printf("Stack UnderFlow\n");
     }
     else{
-        
+        int temp=-1;
+        if(arr[top]<arr[top+1]){
+            arr[temp]=arr[top];
+        }
     }
 }
 void main()
