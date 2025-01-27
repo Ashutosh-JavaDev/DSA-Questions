@@ -10,4 +10,8 @@ void Dequeue();
 void Enqueue();
 int main()
 {
+    int choice;
+    while(1){
+        printf("1.To Enqueue()\n2.To Dequeue()\n3.Peek()\n4.To Display()");
+    }
 }
