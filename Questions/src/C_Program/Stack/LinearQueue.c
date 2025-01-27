@@ -7,7 +7,7 @@ int rear = -1;
 //Introduction of the function
 void Enqueue(){
 int data;
-
+    if()
 }
 void Dequeue();
 void Peek();
