@@ -48,7 +48,7 @@ void Peek()
         printf("Queue is Underflow\n");
     }
     else{
-        printf("%d is at the queue\n", queue[rear]);
+        printf("%d is at the Front of the queue\n", queue[rear]);
     }
 }
 void Display(){
