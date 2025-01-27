@@ -33,17 +33,23 @@ void Dequeue()
     }
     else if (front == rear)
     {
-        printf("%d is Removed from the Queue\n");
+        printf("%d is Removed from the Queue\n",queue[front]);
         front = rear = -1;
     }
     else
     {
-        printf("%d is removed from the queue\n");
+        printf("%d is removed from the queue\n",queue[front]);
         front++;
     }
-    
+
 }
-void Peek();
+void Peek(){
+     if (front == -1 && rear == -1)
+    {
+        printf("Queue Underflow\n");
+    }
+
+}
 void Display();
 // Main Function
 int main()
