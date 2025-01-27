@@ -41,6 +41,7 @@ void Dequeue()
         printf("%d is removed from the queue\n");
         front++;
     }
+    
 }
 void Peek();
 void Display();
