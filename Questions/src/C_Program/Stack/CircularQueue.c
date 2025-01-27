@@ -9,7 +9,7 @@ void Enqueue()
     int data;
     if (rear == MAX - 1)
     {
-        printf("Queue is Underflow\n");
+        printf("Queue is OVerFlow\n");
     }
     else if (front == -1 && rear == -1)
     {
@@ -25,7 +25,11 @@ void Enqueue()
         printf("%d is added in Queue\n", queue[rear]);
     }
 }
-void Dequeue();
+void Dequeue(){
+    if(front==-1&&rear==-1){
+        printf("Queue is Underflow\n");
+    }
+}
 void Peek();
 void Display();
 int main()
