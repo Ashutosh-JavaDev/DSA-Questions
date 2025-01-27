@@ -4,8 +4,15 @@ int front=-1;
 int rear=-1;
 
 void Enqueue(){
+    int data;
     if(rear==MAX-1){
         printf("Queue is Underflow\n");
+    }
+    else if(front==-1&&rear==-1){
+        front=rear=0;
+        printf("Enter the value: ");
+        scanf("%d",&data);
+        printf("\n");
     }
 }
 void Dequeue();
