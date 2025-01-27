@@ -7,7 +7,7 @@ int rear = -1;
 void Enqueue()
 {
     int data;
-    if (rear == MAX - 1)
+    if ((rear+1)%5==front)
     {
         printf("Queue is OVerFlow\n");
     }
@@ -17,6 +17,7 @@ void Enqueue()
         printf("Enter the value: ");
         scanf("%d", &data);
         printf("\n");
+        queue[rear]=data;
         printf("%d is added in the queue\n", data);
     }
     else
@@ -52,15 +53,18 @@ void Peek()
     }
 }
 void Display(){
+    int i=front;
       if(front==-1&&rear==-1){
         printf("Queue is Underflow\n");
     }
     else if(rear==front){
         printf("%d is Left...\n",queue[rear]);
     }
-    while(rear!=front){
-
+    while(i!=rear){
+        printf("%d ",queue[i]);
+        i=(i+1)%5;
     }
+    printf("%d ",queue[rear]);
 }
 int main()
 {
