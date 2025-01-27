@@ -18,7 +18,7 @@ void Enqueue()
         printf("Enter the value\n");
         scanf("%d",&data);
         queue[rear] = data;
-        printf("%d is added in the queue\n");
+        printf("%d is added in the queue\n",data);
     }
     else
     {
@@ -26,7 +26,7 @@ void Enqueue()
         printf("Enter the value\n");
         scanf("%d",&data);
         queue[rear] = data;
-        printf("%d is added in the Queue\n");
+        printf("%d is added in the Queue\n",data);
     }
 }
 void Dequeue()
