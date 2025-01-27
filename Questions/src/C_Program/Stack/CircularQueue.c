@@ -64,15 +64,15 @@ void Display()
     {
         printf("Queue is Underflow\n");
     }
-   else{
-     while (i != rear)
+    else
     {
-        printf("%d ", queue[i]);
-        i = (i + 1) % 5;
+        while (i != rear)
+        {
+            printf("%d ", queue[i]);
+            i = (i + 1) % 5;
+        }
+        printf("%d ", queue[rear]);
     }
-    printf("%d ", queue[rear]);
-   }
-   
 }
 int main()
 {
