@@ -25,20 +25,26 @@ void Enqueue()
         printf("%d is added in Queue\n", queue[rear]);
     }
 }
-void Dequeue(){
-    if(front==-1&&rear==-1){
+void Dequeue()
+{
+    if (front == -1 && rear == -1)
+    {
         printf("Queue is Underflow\n");
     }
-    else if(front==rear){
-        front=rear=-1;
+    else if (front == rear)
+    {
+        front = rear = -1;
     }
-    else{
-        printf("%d is removed from the queue\n",queue[front]);
-        front=(front+1)%5;
+    else
+    {
+        printf("%d is removed from the queue\n", queue[front]);
+        front = (front + 1) % 5;
     }
 }
-void Peek(){
-      if(front==-1&&rear==-1){
+void Peek()
+{
+    if (front == -1 && rear == -1)
+    {
         printf("Queue is Underflow\n");
     }
 }
