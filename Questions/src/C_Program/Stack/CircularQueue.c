@@ -72,6 +72,7 @@ void Display()
             i = (i + 1) % 5;
         }
         printf("%d ", queue[rear]);
+        printf("\n");
     }
 }
 int main()
