@@ -9,7 +9,7 @@ void Enqueue()
     int data;
     if ((rear+1)%5==front)
     {
-        printf("Queue is OVerFlow\n");
+        printf("Queue is OverFlow\n");
     }
     else if (front == -1 && rear == -1)
     {
