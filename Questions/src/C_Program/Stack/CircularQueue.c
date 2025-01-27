@@ -1,24 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
 #define MAX 5
 int queue[MAX];
-int front=-1;
-int rear=-1;
+int front = -1;
+int rear = -1;
 
-void Enqueue(){
+void Enqueue()
+{
     int data;
-    if(rear==MAX-1){
+    if (rear == MAX - 1)
+    {
         printf("Queue is Underflow\n");
     }
-    else if(front==-1&&rear==-1){
-        front=rear=0;
+    else if (front == -1 && rear == -1)
+    {
+        front = rear = 0;
         printf("Enter the value: ");
-        scanf("%d",&data);
+        scanf("%d", &data);
         printf("\n");
-        printf("%d is added in the queue\n",data);
+        printf("%d is added in the queue\n", data);
     }
-    else{
-        rear=(rear+1)%5;
-        printf("%d is added in Queue\n",queue[rear]);
+    else
+    {
+        rear = (rear + 1) % 5;
+        printf("%d is added in Queue\n", queue[rear]);
     }
 }
 void Dequeue();
