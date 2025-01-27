@@ -55,6 +55,12 @@ void Display(){
       if(front==-1&&rear==-1){
         printf("Queue is Underflow\n");
     }
+    else if(rear==front){
+        printf("%d is Left...\n",queue[rear]);
+    }
+    while(rear!=front){
+
+    }
 }
 int main()
 {
