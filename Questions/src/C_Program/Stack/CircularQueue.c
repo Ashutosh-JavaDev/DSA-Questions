@@ -3,7 +3,11 @@
 int front=-1;
 int rear=-1;
 
-void Enqueue();
+void Enqueue(){
+    if(rear==MAX-1){
+        printf("Queue is Underflow\n");
+    }
+}
 void Dequeue();
 void Peek();
 void Display();
