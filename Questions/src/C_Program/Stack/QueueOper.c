@@ -4,10 +4,15 @@
 int queue[MAX];
 int front = -1;
 int rear = -1;
-void Display();
-void Peek();
+//Introduction of the function
+void Enqueue(){
+int data;
+
+}
 void Dequeue();
-void Enqueue();
+void Peek();
+void Display();
+//Main Function
 int main()
 {
     int choice;
