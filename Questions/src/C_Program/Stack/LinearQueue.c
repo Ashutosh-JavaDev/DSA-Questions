@@ -4,20 +4,22 @@
 int queue[MAX];
 int front = -1;
 int rear = -1;
-//Introduction of the function
-void Enqueue(){
-int data;
-    if(front==MAX-1){
+// Introduction of the function
+void Enqueue()
+{
+    int data;
+    if (front == MAX - 1)
+    {
         printf("Queue Overflow\n");
     }
-    else if(front==-1&&rear==-1){
-
+    else if (front == -1 && rear == -1)
+    {
     }
 }
 void Dequeue();
 void Peek();
 void Display();
-//Main Function
+// Main Function
 int main()
 {
     int choice;
