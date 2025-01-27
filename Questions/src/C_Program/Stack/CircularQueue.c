@@ -48,10 +48,14 @@ void Peek()
         printf("Queue is Underflow\n");
     }
     else if(){
-        
+
     }
 }
-void Display();
+void Display(){
+      if(front==-1&&rear==-1){
+        printf("Queue is Underflow\n");
+    }
+}
 int main()
 {
     int choice;
