@@ -23,6 +23,9 @@ void Enqueue()
     else
     {
         rear = (rear + 1) % 5;
+         printf("Enter the value: ");
+        scanf("%d", &data);
+        printf("\n");
         queue[rear] = data;
         printf("%d is added in Queue\n", data);
     }
