@@ -35,6 +35,10 @@ void Dequeue()
         printf("%d is Removed from the Queue\n");
         front=rear=-1;
     }
+    else{
+        printf("%d is removed from the queue\n");
+        front++;
+    }
 }
 void Peek();
 void Display();
