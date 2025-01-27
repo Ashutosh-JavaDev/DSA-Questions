@@ -33,7 +33,7 @@ void Dequeue(){
         front=rear=-1;
     }
     else{
-        printf("%d is removed from the queue\n");
+        printf("%d is removed from the queue\n",queue[front]);
         front=(front+1)%5;
     }
 }
