@@ -47,6 +47,9 @@ void Peek()
     {
         printf("Queue is Underflow\n");
     }
+    else if(){
+        
+    }
 }
 void Display();
 int main()
