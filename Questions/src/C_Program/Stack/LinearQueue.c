@@ -53,7 +53,12 @@ void Peek(){
     }
 
 }
-void Display();
+void Display(){
+     if (front == -1 && rear == -1)
+    {
+        printf("Queue Underflow\n");
+    }
+}
 // Main Function
 int main()
 {
