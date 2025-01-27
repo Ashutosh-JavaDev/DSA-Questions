@@ -31,11 +31,13 @@ void Dequeue()
     {
         printf("Queue Underflow\n");
     }
-    else if(front==rear){
+    else if (front == rear)
+    {
         printf("%d is Removed from the Queue\n");
-        front=rear=-1;
+        front = rear = -1;
     }
-    else{
+    else
+    {
         printf("%d is removed from the queue\n");
         front++;
     }
