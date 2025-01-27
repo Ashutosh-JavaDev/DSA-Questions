@@ -8,7 +8,7 @@ int rear = -1;
 void Enqueue()
 {
     int data;
-    if (front == MAX - 1)
+    if (rear == MAX - 1)
     {
         printf("Queue Overflow\n");
     }
@@ -24,7 +24,11 @@ void Enqueue()
         printf("%d is added in the Queue\n");
     }
 }
-void Dequeue();
+void Dequeue(){
+    if(front==-1&& rear==-1){
+        printf("Queue Underflow\n");
+    }
+}
 void Peek();
 void Display();
 // Main Function
