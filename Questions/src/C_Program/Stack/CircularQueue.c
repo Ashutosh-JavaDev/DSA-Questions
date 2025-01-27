@@ -32,6 +32,10 @@ void Dequeue(){
     else if(front==rear){
         front=rear=-1;
     }
+    else{
+        printf("%d is removed from the queue\n");
+        front=(front+1)%5;
+    }
 }
 void Peek();
 void Display();
