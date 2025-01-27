@@ -14,6 +14,9 @@ void Enqueue()
     }
     else if (front == -1 && rear == -1)
     {
+        front=rear=0;
+        queue[rear]=data;
+        printf("%d is added in the queue\n");
     }
 }
 void Dequeue();
