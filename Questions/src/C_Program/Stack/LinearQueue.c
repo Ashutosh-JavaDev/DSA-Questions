@@ -15,12 +15,16 @@ void Enqueue()
     else if (front == -1 && rear == -1)
     {
         front = rear = 0;
+        printf("Enter the value\n");
+        scanf("%d",&data);
         queue[rear] = data;
         printf("%d is added in the queue\n");
     }
     else
     {
         rear++;
+        printf("Enter the value\n");
+        scanf("%d",&data);
         queue[rear] = data;
         printf("%d is added in the Queue\n");
     }
