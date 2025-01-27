@@ -29,6 +29,9 @@ void Dequeue(){
     if(front==-1&&rear==-1){
         printf("Queue is Underflow\n");
     }
+    else if(front==rear){
+        
+    }
 }
 void Peek();
 void Display();
