@@ -3,10 +3,10 @@
 int front=-1;
 int rear=-1;
 
-void front();
-void rear();
-void peek();
-void display();
+void Enqueue();
+void Dequeue();
+void Peek();
+void Display();
 int main()
 {
     int choice;
