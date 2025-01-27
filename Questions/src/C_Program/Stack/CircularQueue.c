@@ -13,6 +13,10 @@ void Enqueue(){
         printf("Enter the value: ");
         scanf("%d",&data);
         printf("\n");
+        printf("%d is added in the queue\n",data);
+    }
+    else{
+
     }
 }
 void Dequeue();
