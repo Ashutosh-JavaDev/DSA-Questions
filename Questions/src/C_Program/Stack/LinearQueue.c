@@ -14,18 +14,21 @@ void Enqueue()
     }
     else if (front == -1 && rear == -1)
     {
-        front=rear=0;
-        queue[rear]=data;
+        front = rear = 0;
+        queue[rear] = data;
         printf("%d is added in the queue\n");
     }
-    else{
+    else
+    {
         rear++;
-        queue[rear]=data;
+        queue[rear] = data;
         printf("%d is added in the Queue\n");
     }
 }
-void Dequeue(){
-    if(front==-1&& rear==-1){
+void Dequeue()
+{
+    if (front == -1 && rear == -1)
+    {
         printf("Queue Underflow\n");
     }
 }
