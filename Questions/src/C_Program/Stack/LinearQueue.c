@@ -7,7 +7,9 @@ int rear = -1;
 //Introduction of the function
 void Enqueue(){
 int data;
-    if()
+    if(front==MAX-1){
+        printf("Queue Overflow\n");
+    }
 }
 void Dequeue();
 void Peek();
