@@ -23,7 +23,7 @@ void Enqueue()
     else
     {
         rear = (rear + 1) % 5;
-        printf("%d is added in Queue\n", queue[rear]);
+        printf("%d is added in Queue\n", data);
     }
 }
 void Dequeue()
