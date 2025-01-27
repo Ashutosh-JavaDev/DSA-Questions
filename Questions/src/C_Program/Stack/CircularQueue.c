@@ -30,7 +30,7 @@ void Dequeue(){
         printf("Queue is Underflow\n");
     }
     else if(front==rear){
-        
+        front=rear=-1;
     }
 }
 void Peek();
