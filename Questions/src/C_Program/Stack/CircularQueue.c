@@ -1,5 +1,6 @@
 #include<stdio.h>
 #define MAX 5
+int queue[MAX];
 int front=-1;
 int rear=-1;
 
@@ -17,6 +18,7 @@ void Enqueue(){
     }
     else{
         rear=(rear+1)%5;
+        printf("%d is added in Queue\n",queue[rear]);
     }
 }
 void Dequeue();
