@@ -18,6 +18,11 @@ void Enqueue()
         queue[rear]=data;
         printf("%d is added in the queue\n");
     }
+    else{
+        rear++;
+        queue[rear]=data;
+        printf("%d is added in the Queue\n");
+    }
 }
 void Dequeue();
 void Peek();
