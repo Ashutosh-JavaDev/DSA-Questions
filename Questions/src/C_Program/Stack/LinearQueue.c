@@ -58,6 +58,11 @@ void Display(){
     {
         printf("Queue Underflow\n");
     }
+    else{
+        for(int i=front;i<rear+1;i++){
+            printf("%d" "",queue[front]);
+        }
+    }
 }
 // Main Function
 int main()
