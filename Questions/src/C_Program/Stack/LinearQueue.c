@@ -64,7 +64,7 @@ void Display(){
     }
     else{
         for(int i=front;i<rear+1;i++){
-            printf("%d" "",queue[front]);
+            printf("%d\n",queue[front]);
         }
     }
 }
@@ -76,11 +76,13 @@ int main()
     {
         printf("1.To Enqueue()\n2.To Dequeue()\n3.Peek()\n4.To Display()\n");
         scanf("%d", &choice);
+        printf("----------------------------------------------------\n");
         switch (choice)
         {
         case 1:
             Enqueue();
             break;
+
         case 2:
             Dequeue();
             break;
