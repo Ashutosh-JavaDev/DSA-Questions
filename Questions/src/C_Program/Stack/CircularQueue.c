@@ -16,7 +16,7 @@ void Enqueue(){
         printf("%d is added in the queue\n",data);
     }
     else{
-
+        rear=(rear+1)%5;
     }
 }
 void Dequeue();
