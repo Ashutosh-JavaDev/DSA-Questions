@@ -14,5 +14,22 @@ int main()
     while(1){
         printf("1.To Enqueue()\n2.To Dequeue()\n3.Peek()\n4.To Display()");
         scanf("%d",&choice);
+        switch(choice){
+            case 1:
+            Enqueue();
+            break;
+            case 2:
+            Dequeue();
+            break;
+            case 3:
+            Peek();
+            break;
+            case 4:
+            Display();
+            break;
+            default:
+            printf("Choose Wisely\n");
+            break;
+        }
     }
 }
