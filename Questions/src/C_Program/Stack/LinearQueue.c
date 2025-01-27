@@ -10,6 +10,9 @@ int data;
     if(front==MAX-1){
         printf("Queue Overflow\n");
     }
+    else if(front==-1&&rear==-1){
+
+    }
 }
 void Dequeue();
 void Peek();
