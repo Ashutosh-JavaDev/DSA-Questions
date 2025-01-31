@@ -108,7 +108,7 @@ int main()
     int choice;
     while (1)
     {
-        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To EXIT\n");
+        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To Printing\n");
         scanf("%d", &choice);
         switch (choice)
         {
