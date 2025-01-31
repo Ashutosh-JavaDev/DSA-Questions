@@ -50,7 +50,7 @@ void sort_stack() {
 
     // Sorting logic
     while (top != -1) {
-        // temp = pop();
+        temp = pop();
         while (sortedTop != -1 && sorted_Stack[sortedTop] < temp) {
             push(sorted_Stack[sortedTop]);
             sortedTop--;
