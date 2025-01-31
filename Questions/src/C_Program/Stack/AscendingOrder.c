@@ -43,30 +43,25 @@ void peek()
         printf("%d is Peeked from the stack...\n", arr[top]);
     }
 }
-void ascending()
-{
-    if (top == -1)
-    {
-        printf("Stack UnderFlow\n");
-    }
-    else{
-        int temp=-1;
-        if(arr[top]>arr[top+1]){
-            arr[temp]=arr[top];
+void sort_stack() {
+    int temp;
+    int sortedTop = -1; // Top of the stack used for sorting
+
+    // Sorting logic
+    while (top != -1) {
+        temp = pop();
+        while (sortedTop != -1 && sorted_Stack[sortedTop] < temp) {
+            push(sorted_Stack[sortedTop]);
+            sortedTop--;
         }
+        sortedTop++;
+        sorted_Stack[sortedTop] = temp;
     }
-}
-void descending()
-{
-     if (top == -1)
-    {
-        printf("Stack UnderFlow\n");
-    }
-    else{
-        int temp=-1;
-        if(arr[top]<arr[top+1]){
-            arr[temp]=arr[top];
-        }
+
+    // Pushing sorted elements back to the original stack
+    while (sortedTop != -1) {
+        push(sorted_Stack[sortedTop]);
+        sortedTop--;
     }
 }
 void main()
