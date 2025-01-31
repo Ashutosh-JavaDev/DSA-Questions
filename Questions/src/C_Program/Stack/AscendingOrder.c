@@ -20,19 +20,21 @@ void push()
         printf("Value in %d is %d \n", top, arr[top]);
     }
 }
-void pop()
+int pop()
 {
     if (top == -1)
     {
         printf("Stack UnderFlow\n");
+        return -1; // Indicating underflow
     }
     else
     {
-        printf("%d is Remove from the stack...\n", arr[top]);
-        top = top - 1;
-        printf("New Top is %d...\n", arr[top]);
+        int val = arr[top]; // Store the value before popping
+        top--;
+        return val; // Return the popped value
     }
 }
+
 void peek()
 {
     if (top == -1)
