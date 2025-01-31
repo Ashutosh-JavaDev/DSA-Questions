@@ -7,9 +7,7 @@ class stock {
         Scanner sc=new Scanner(System.in);
         int sum = 0;
         arr=new int[size];
-        // while(1>0){
-
-        // }
+       
         return sum;
     }
 }
