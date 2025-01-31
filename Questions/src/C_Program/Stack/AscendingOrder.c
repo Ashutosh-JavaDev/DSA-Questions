@@ -43,14 +43,17 @@ void peek()
         printf("%d is Peeked from the stack...\n", arr[top]);
     }
 }
-void sort_stack() {
+void sort_stack()
+{
     int temp;
     int sortedTop = -1; // Top of the stack used for sorting
 
     // Sorting logic
-    while (top != -1) {
+    while (top != -1)
+    {
         temp = pop();
-        while (sortedTop != -1 && sorted_Stack[sortedTop] < temp) {
+        while (sortedTop != -1 && sorted_Stack[sortedTop] < temp)
+        {
             push(sorted_Stack[sortedTop]);
             sortedTop--;
         }
@@ -59,7 +62,8 @@ void sort_stack() {
     }
 
     // Pushing sorted elements back to the original stack
-    while (sortedTop != -1) {
+    while (sortedTop != -1)
+    {
         push(sorted_Stack[sortedTop]);
         sortedTop--;
     }
@@ -83,7 +87,26 @@ void main()
             peek();
             break;
         case 4:
-          
+            int choice;
+            while (1)
+            {
+                printf("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n");
+                scanf("%d", &choice);
+                switch (choice)
+                {
+                case 1:
+                    ascending();
+                    break;
+                case 2:
+                    descending();
+                    break;
+                default:
+                    printf("Choice wisely\n");
+                    break;
+                }
+            }
+            EXIT(0);
+
             EXIT(0);
 
             break;
