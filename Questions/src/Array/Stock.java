@@ -8,6 +8,8 @@ class stock {
         int sum = 0;
         System.out.println("Enter the Buying Price: ");
         buy=sc.nextInt();
+        System.out.println("Enter the Selling Price: ");
+        sell=sc.nextInt();
         return sum;
     }
 }
