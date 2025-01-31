@@ -83,24 +83,7 @@ void main()
             peek();
             break;
         case 4:
-            int choice;
-            while (1)
-            {
-                printf("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n");
-                scanf("%d", &choice);
-                switch (choice)
-                {
-                case 1:
-                    ascending();
-                    break;
-                case 2:
-                    descending();
-                    break;
-                default:
-                    printf("Choice wisely\n");
-                    break;
-                }
-            }
+          
             EXIT(0);
 
             break;
