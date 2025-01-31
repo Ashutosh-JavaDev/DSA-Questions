@@ -4,22 +4,19 @@
 int arr[MAX];
 int sorted_Stack[MAX];
 int top = -1;
-void push()
+void push(int data)
 {
-    int data;
     if (top == MAX - 1)
     {
         printf("Stack OverFlow\n");
     }
     else
     {
-        printf("Enter the value to add in the stack\n");
-        scanf("%d", &data);
-        top = top + 1;
+        top++;
         arr[top] = data;
-        printf("Value in %d is %d \n", top, arr[top]);
     }
 }
+
 int pop()
 {
     if (top == -1)
