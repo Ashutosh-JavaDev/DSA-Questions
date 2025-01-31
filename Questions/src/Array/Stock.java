@@ -1,6 +1,6 @@
 package Array;
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 class stock {
     int maximum(int arr[], int size, int buy, int sell) {
