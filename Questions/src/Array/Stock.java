@@ -7,6 +7,7 @@ class stock {
         Scanner sc=new Scanner(System.in);
         int sum = 0;
         System.out.println("Enter the Buying Price: ");
+        buy=sc.nextInt();
         return sum;
     }
 }
