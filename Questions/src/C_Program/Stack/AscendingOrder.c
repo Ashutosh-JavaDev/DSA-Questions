@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 10
+
 int arr[MAX];
 int sorted_Stack[MAX];
 int top = -1;
+
 void push(int data)
 {
     if (top == MAX - 1)
@@ -14,6 +16,7 @@ void push(int data)
     {
         top++;
         arr[top] = data;
+        printf("Value in %d is %d \n", top, arr[top]);
     }
 }
 
@@ -26,9 +29,9 @@ int pop()
     }
     else
     {
-        int val = arr[top]; // Store the value before popping
+        int val = arr[top];
         top--;
-        return val; // Return the popped value
+        return val;
     }
 }
 
@@ -43,12 +46,12 @@ void peek()
         printf("%d is Peeked from the stack...\n", arr[top]);
     }
 }
+
 void sort_stack()
 {
     int temp;
-    int sortedTop = -1; // Top of the stack used for sorting
+    int sortedTop = -1;
 
-    // Sorting logic
     while (top != -1)
     {
         temp = pop();
@@ -61,50 +64,59 @@ void sort_stack()
         sorted_Stack[sortedTop] = temp;
     }
 
-    // Pushing sorted elements back to the original stack
     while (sortedTop != -1)
     {
         push(sorted_Stack[sortedTop]);
         sortedTop--;
     }
 }
-void ascending() {
-    if (top == -1) {
+
+void ascending()
+{
+    if (top == -1)
+    {
         printf("Stack is empty\n");
         return;
     }
     sort_stack();
     printf("Stack in Ascending Order: ");
-    for (int i = 0; i <= top; i++) {
+    for (int i = 0; i <= top; i++)
+    {
         printf("%d ", arr[i]);
     }
     printf("\n");
 }
 
-void descending() {
-    if (top == -1) {
+void descending()
+{
+    if (top == -1)
+    {
         printf("Stack is empty\n");
         return;
     }
     sort_stack();
     printf("Stack in Descending Order: ");
-    for (int i = top; i >= 0; i--) {
+    for (int i = top; i >= 0; i--)
+    {
         printf("%d ", arr[i]);
     }
     printf("\n");
 }
 
-void main()
+int main()
 {
     int choice;
     while (1)
     {
-        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To EXIT");
+        printf("Enter the choice wisely\n1.To Push\n2.To Pop\n3.To Peek\n4.To EXIT\n");
         scanf("%d", &choice);
         switch (choice)
         {
         case 1:
-            push();
+            printf("Enter the value to add in the stack\n");
+            int val;
+            scanf("%d", &val);
+            push(val);
             break;
         case 2:
             pop();
@@ -113,10 +125,9 @@ void main()
             peek();
             break;
         case 4:
-            int choice;
             while (1)
             {
-                printf("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n");
+                printf("Choose Wisely\n1.For Print Ascending\n2.To Print Descending\n3.To Exit\n");
                 scanf("%d", &choice);
                 switch (choice)
                 {
@@ -126,19 +137,17 @@ void main()
                 case 2:
                     descending();
                     break;
+                case 3:
+                    exit(0);
                 default:
-                    printf("Choice wisely\n");
+                    printf("Choose wisely\n");
                     break;
                 }
             }
-            EXIT(0);
-
-            EXIT(0);
-
-            break;
         default:
             printf("Choose wisely\n");
             break;
         }
     }
+    return 0;
 }
