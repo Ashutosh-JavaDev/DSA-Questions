@@ -13,7 +13,7 @@ class stock {
 
 public class Stock {
     public static void main(String[] args) {
-     
+        int i=1;
      
     }
 }
