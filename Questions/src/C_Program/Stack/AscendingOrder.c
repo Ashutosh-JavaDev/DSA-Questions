@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define MAX 10
 int arr[MAX];
-int sorted_Stack[MAX_SIZE];
+int sorted_Stack[MAX];
 int top = -1;
 void push()
 {
