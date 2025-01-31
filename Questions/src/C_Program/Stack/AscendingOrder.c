@@ -68,6 +68,32 @@ void sort_stack()
         sortedTop--;
     }
 }
+void ascending() {
+    if (top == -1) {
+        printf("Stack is empty\n");
+        return;
+    }
+    sort_stack();
+    printf("Stack in Ascending Order: ");
+    for (int i = 0; i <= top; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+void descending() {
+    if (top == -1) {
+        printf("Stack is empty\n");
+        return;
+    }
+    sort_stack();
+    printf("Stack in Descending Order: ");
+    for (int i = top; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
 void main()
 {
     int choice;
