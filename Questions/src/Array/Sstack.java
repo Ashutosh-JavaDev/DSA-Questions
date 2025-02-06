@@ -58,7 +58,8 @@ public class Sstack {
                 ob.peek();
                 break;
                 case 4:
-                break;
+                return;
+                // break;
                 default:
                 System.out.println("Choose Wisely");
                 break;
