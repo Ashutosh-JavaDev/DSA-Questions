@@ -22,11 +22,23 @@ class stack {
     }
 
     void pop() {
-
+        if(arr[top]==top-1){
+            System.out.println("Stack UnderFlow");
+        }
+        else{
+            System.out.println(arr[top]+" Is removed from the stack");
+            top--;
+        }
     }
 
     void peek() {
-
+                if(arr[top]==top-1){
+            System.out.println("Stack UnderFlow");
+        }
+        else{
+            System.out.println(arr[top]+" Is removed from the stack");
+            top--;
+        }
     }
 }
 
