@@ -43,8 +43,10 @@ public class Sstack {
     public static void main(String[] args) {
         stack ob = new stack();
         int choice;
-        while (1) {
+        Scanner sc=new Scanner(System.in);
+        while (1>0) {
             System.out.println("Choose 1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
+            choice=sc.nextInt();
         }
     }
 
