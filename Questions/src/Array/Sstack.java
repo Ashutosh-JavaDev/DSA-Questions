@@ -17,6 +17,7 @@ class stack {
             data = sc.nextInt();
             top++;
             arr[top]=data;
+            System.out.println(data+" is added at the "+top+" index");
         }
     }
 
