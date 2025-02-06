@@ -16,27 +16,25 @@ class stack {
             System.out.println("Enter the value in the Stack");
             data = sc.nextInt();
             top++;
-            arr[top]=data;
-            System.out.println(data+" is added at the "+top+" index");
+            arr[top] = data;
+            System.out.println(data + " is added at the " + top + " index");
         }
     }
 
     void pop() {
-        if(arr[top]==top-1){
+        if (arr[top] == top - 1) {
             System.out.println("Stack UnderFlow");
-        }
-        else{
-            System.out.println(arr[top]+" Is removed from the stack");
+        } else {
+            System.out.println(arr[top] + " Is removed from the stack");
             top--;
         }
     }
 
     void peek() {
-                if(arr[top]==top-1){
+        if (arr[top] == top - 1) {
             System.out.println("Stack UnderFlow");
-        }
-        else{
-            System.out.println(arr[top]+" Is Peaked from the stack");
+        } else {
+            System.out.println(arr[top] + " Is Peaked from the stack");
         }
     }
 }
