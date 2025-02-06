@@ -1,5 +1,7 @@
 package Array;
+import java.util.Scanner;
 class stack{
+Scanner sc=new Scanner(System.in);
     int size=10;
     int arr[]=new int[size];
     int top=-1;
