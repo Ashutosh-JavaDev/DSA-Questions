@@ -47,6 +47,22 @@ public class Sstack {
         while (1>0) {
             System.out.println("Choose 1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
             choice=sc.nextInt();
+            switch(choice){
+                case 1:
+                ob.push();
+                break;
+                case 2:
+                ob.pop();
+                break;
+                case 3:
+                ob.peek();
+                break;
+                case 4:
+                break;
+                default:
+                System.out.println("Choose Wisely");
+                break;
+            }
         }
     }
 
