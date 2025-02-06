@@ -15,6 +15,8 @@ class stack {
         } else {
             System.out.println("Enter the value in the Stack");
             data = sc.nextInt();
+            top++;
+            arr[top]=data;
         }
     }
 
