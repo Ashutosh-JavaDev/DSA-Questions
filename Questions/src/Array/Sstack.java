@@ -40,5 +40,8 @@ class stack {
 }
 
 public class Sstack {
+    public static void main(String[]args){
+        
+    }
 
 }
