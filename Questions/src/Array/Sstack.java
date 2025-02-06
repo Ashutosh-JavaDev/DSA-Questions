@@ -8,6 +8,10 @@ class stack{
         if(top==size-1){
             System.out.println("Stack Overflow");
         }
+        else{
+            System.out.println("Enter the value in the Stack");
+            data=sc.nextInt();
+        }
     }
     void pop(){
 
