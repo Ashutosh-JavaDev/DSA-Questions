@@ -36,8 +36,7 @@ class stack {
             System.out.println("Stack UnderFlow");
         }
         else{
-            System.out.println(arr[top]+" Is removed from the stack");
-            top--;
+            System.out.println(arr[top]+" Is Peaked from the stack");
         }
     }
 }
