@@ -8,8 +8,8 @@ class quueue {
     int front=-1;
     int rear=-1;
     int queue[] = new int[size];
+    int data;
     void Enqueue(){
-        int data;
         if(front==size-1){
             System.out.println("Queue is Full");
         }
@@ -24,6 +24,10 @@ class quueue {
     void Dequeue(){
         if(rear==-1){
             System.out.println("Queue is Empty,first insert the data");
+        }
+        else{
+            System.out.println(data+" is removed from the queue");
+            rear=rear-1;
         }
     }
 }
