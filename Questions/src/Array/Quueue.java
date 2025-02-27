@@ -22,12 +22,12 @@ class quueue {
         }
     }
     void Dequeue(){
-        if(rear==-1){
+        if(front==-1){
             System.out.println("Queue is Empty,first insert the data");
         }
         else{
-            System.out.println(data+" is removed from the queue");
-            rear=rear-1;
+            System.out.println(queue[front]+" is removed from the queue");
+            front=front-1;
         }
     }
 }
