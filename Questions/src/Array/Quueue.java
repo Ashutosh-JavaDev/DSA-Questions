@@ -14,7 +14,7 @@ class quueue {
             System.out.println("Queue is Full");
         }
         else{
-
+            rear=rear+1;
         }
     }
 }
