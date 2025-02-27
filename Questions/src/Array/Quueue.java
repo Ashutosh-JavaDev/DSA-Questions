@@ -5,12 +5,16 @@ import java.util.Scanner;
 class quueue {
     Scanner sc=new Scanner(System.in);
     int size = 10;
-    int top=-1;
+    int front=-1;
+    int rear=-1;
     int queue[] = new int[size];
     void Enqueue(){
         int data;
-        if(top==size-1){
-            
+        if(front==size-1){
+            System.out.println("Queue is Full");
+        }
+        else{
+
         }
     }
 }
