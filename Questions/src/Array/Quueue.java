@@ -18,6 +18,7 @@ class quueue {
             System.out.println("Enter the value in the queue");
             data=sc.nextInt();
             queue[rear]=data;
+            System.out.println(data+" is added in the queue");
         }
     }
 }
