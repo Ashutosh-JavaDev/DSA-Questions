@@ -6,9 +6,12 @@ class quueue {
     Scanner sc=new Scanner(System.in);
     int size = 10;
     int top=-1;
-    int arr[] = new int[size];
+    int queue[] = new int[size];
     void Enqueue(){
-
+        int data;
+        if(top==size-1){
+            
+        }
     }
 }
 
