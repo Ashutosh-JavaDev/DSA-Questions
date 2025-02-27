@@ -21,6 +21,9 @@ class quueue {
             System.out.println(data+" is added in the queue");
         }
     }
+    void Dequeue(){
+
+    }
 }
 
 public class Quueue {
