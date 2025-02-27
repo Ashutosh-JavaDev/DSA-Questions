@@ -15,6 +15,9 @@ class quueue {
         }
         else{
             rear=rear+1;
+            System.out.println("Enter the value in the queue");
+            data=sc.nextInt();
+            queue[rear]=data;
         }
     }
 }
