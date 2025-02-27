@@ -22,7 +22,9 @@ class quueue {
         }
     }
     void Dequeue(){
-
+        if(rear==-1){
+            System.out.println("Queue is Empty,first insert the data");
+        }
     }
 }
 
