@@ -41,7 +41,7 @@ void main()
     {
         printf("Choose Wisely\n1.To Push()\n2.To Pop()\n3.To Peek()\n4.To Exit()\n");
         scanf("%d",&choose);
-        printf("--------------------------------------------------------------------");
+        printf("--------------------------------------------------------------------")
         switch (choose)
         {
         case 1:
