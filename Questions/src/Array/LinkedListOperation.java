@@ -8,6 +8,6 @@ class Node {
     }
 }
 
-public class StackkLinked {
+public class LinkedListOperation {
 
 }
