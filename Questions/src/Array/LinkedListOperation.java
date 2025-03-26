@@ -8,8 +8,10 @@ class Node {
     }
 }
 class operation{
-    public InsertAtEnd(int data){
-    
+    public int InsertAtBeginning(int data){
+        int temp=0;
+        return temp;
+
     }
 }
 public class LinkedListOperation {
