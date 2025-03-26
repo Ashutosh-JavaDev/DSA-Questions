@@ -7,7 +7,11 @@ class Node {
         this.data=data;
     }
 }
-
+class operation{
+    public InsertAtEnd(int data){
+    
+    }
+}
 public class LinkedListOperation {
 
 }
