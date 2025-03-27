@@ -19,8 +19,9 @@ class Node {
 
 class operation {
     public int InsertAtBeginning(int data) {
-        int temp = 0;
-        return temp;
+        Node head =new Node(data);
+        return head.data;
+       
 
     }
 }
