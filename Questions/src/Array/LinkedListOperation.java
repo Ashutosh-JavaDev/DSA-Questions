@@ -29,5 +29,7 @@ public class LinkedListOperation {
     public static void main(String[] args) {
         Node a=new Node(5);
         Node b=new Node(6);
+        a.next=b;
+        a.Display(a);
     }
 }
