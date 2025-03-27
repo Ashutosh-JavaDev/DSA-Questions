@@ -41,6 +41,9 @@ class Node {
                         tail=newN;
                     }
                 }
+                catch(NumberFormatException e){
+                    e.getMessage();
+                }
             }
         }
     }
