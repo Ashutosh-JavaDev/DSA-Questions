@@ -37,7 +37,8 @@ class Node {
                         head=tail=newN;
                     }
                     else{
-                        
+                        tail.next=newN;
+                        tail=newN;
                     }
                 }
             }
