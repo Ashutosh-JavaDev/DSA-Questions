@@ -19,29 +19,26 @@ class Node {
     }
 
     void create() {
-        Node head=null;
-        Node tail=null;
+        Node head = null;
+        Node tail = null;
         Scanner sc = new Scanner(System.in);
         String str;
-        while(true){
-            str=sc.nextLine();
-            if(str.equals(" ")){
+        while (true) {
+            str = sc.nextLine();
+            if (str.equals(" ")) {
                 return;
-            }
-            else{
-                try{
+            } else {
+                try {
                     System.out.println("Enter the value in the List");
-                    int data=Integer.parseInt(str);
-                    Node newN=new Node(data);
-                    if(head==null){
-                        head=tail=newN;
+                    int data = Integer.parseInt(str);
+                    Node newN = new Node(data);
+                    if (head == null) {
+                        head = tail = newN;
+                    } else {
+                        tail.next = newN;
+                        tail = newN;
                     }
-                    else{
-                        tail.next=newN;
-                        tail=newN;
-                    }
-                }
-                catch(NumberFormatException e){
+                } catch (NumberFormatException e) {
                     e.getMessage();
                 }
             }
