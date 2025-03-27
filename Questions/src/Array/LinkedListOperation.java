@@ -32,9 +32,9 @@ class Node {
                 try{
                     System.out.println("Enter the value in the List");
                     int data=Integer.parseInt(str);
-                    Node a=new Node(data);
+                    Node newN=new Node(data);
                     if(head==null){
-                        head=tail=a;
+                        head=tail=newN;
                     }
                 }
             }
