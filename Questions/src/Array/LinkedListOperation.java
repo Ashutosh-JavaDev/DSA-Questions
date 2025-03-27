@@ -9,7 +9,11 @@ class Node {
     }
 
     void Display() {
+        // Node temp;
+        // int temp;
+        while(temp!=null){
 
+        }
     }
 }
 
