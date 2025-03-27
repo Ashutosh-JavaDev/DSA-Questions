@@ -17,14 +17,16 @@ class Node {
     }
 }
 
-class operation {
-    public int InsertAtBeginning(int data) {
-        int temp = 0;
-        return temp;
+// class operation {
+// public int InsertAtBeginning(int data) {
+// int temp = 0;
+// return temp;
 
-    }
-}
+// }
+// }
 
 public class LinkedListOperation {
+    public static void main(String[] args) {
 
+    }
 }
