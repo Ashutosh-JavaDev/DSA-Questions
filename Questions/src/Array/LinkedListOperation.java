@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Scanner;
+
 class Node {
     int data;
     Node next;
@@ -15,24 +17,26 @@ class Node {
             temp = temp.next;
         }
     }
-}
 
-class operation {
     public int InsertAtBeginning(int data) {
-        Node head =new Node(data);
-        return head.data;
-       
+        Node head=null;
+        Node tail=null;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the List");
+        int size = sc.nextInt();
+        Node head;
+        Node temp = head;
+        while (temp != size) {
 
+        }
     }
 }
 
 public class LinkedListOperation {
     public static void main(String[] args) {
-        Node a = new Node(5);
-        Node b = new Node(61);
-        Node c = new Node(26);
-        Node d = new Node(46);
-        Node e = new Node(12);
-        Node.Display(b);
+        Node x = new Node(0);
+        operation ob = new operation();
+        ob.InsertAtBeginning(5);
+        Node.Display(x);
     }
 }
