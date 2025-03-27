@@ -8,9 +8,11 @@ class Node {
         this.data = data;
     }
 
-    void Display() {
+    void Display(Node head) {
+        Node temp=head;
        while(temp!=null){
-
+        System.out.println(temp.data);
+        temp
         }
     }
 }
