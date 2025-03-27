@@ -23,11 +23,11 @@ class Node {
     }
 
     void create() {
-
+        System.out.println("Press Stop to stop otherwise Enter the Value");
         String str;
         while (true) {
             str = sc.nextLine();
-            if (str.equals(" ")) {
+            if (str.equals("")) {
                 return;
             } else {
                 try {
