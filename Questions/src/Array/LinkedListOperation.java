@@ -27,7 +27,7 @@ class Node {
         String str;
         while (true) {
             str = sc.nextLine();
-            if (str.equals("")) {
+            if (str.equalsIgnoreCase("Stop")) {
                 return;
             } else {
                 try {
