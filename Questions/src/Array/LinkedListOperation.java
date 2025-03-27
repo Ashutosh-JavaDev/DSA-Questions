@@ -28,5 +28,6 @@ class Node {
 public class LinkedListOperation {
     public static void main(String[] args) {
         Node a=new Node(5);
+        Node b=new Node(6);
     }
 }
