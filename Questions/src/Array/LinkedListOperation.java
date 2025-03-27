@@ -36,6 +36,9 @@ class Node {
                     if(head==null){
                         head=tail=newN;
                     }
+                    else{
+                        
+                    }
                 }
             }
         }
