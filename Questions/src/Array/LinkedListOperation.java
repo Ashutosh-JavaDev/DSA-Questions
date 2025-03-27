@@ -52,6 +52,12 @@ class Node {
         head=tail=newN;
         return newN.data;
     }
+    int InsertInMid(int data){
+        Node newN=new Node(data);
+        head.next=newN;
+        newN.next=tail;
+        return newN.data;
+    }
 }
 
 public class LinkedListOperation {
