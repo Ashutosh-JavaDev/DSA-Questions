@@ -8,7 +8,7 @@ class Node {
         this.data = data;
     }
 
-    void Display(Node head) {
+    static void Display(Node head) {
         Node temp = head;
         while (temp != null) {
             System.out.println(temp.data);
@@ -17,13 +17,13 @@ class Node {
     }
 }
 
-// class operation {
-// public int InsertAtBeginning(int data) {
-// int temp = 0;
-// return temp;
+class operation {
+public int InsertAtBeginning(int data) {
+int temp = 0;
+return temp;
 
-// }
-// }
+}
+}
 
 public class LinkedListOperation {
     public static void main(String[] args) {
@@ -32,6 +32,6 @@ public class LinkedListOperation {
         Node c=new Node(26);
         Node d=new Node(46);
         Node e=new Node(12);
-        a.Display(a);
+        Node.Display(b);
     }
 }
