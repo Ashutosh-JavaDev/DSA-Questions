@@ -46,6 +46,10 @@ class Node {
             }
         }
     }
+
+    int InsertInBeginning(int data){
+        Node newN=new Node(data);
+    }
 }
 
 public class LinkedListOperation {
