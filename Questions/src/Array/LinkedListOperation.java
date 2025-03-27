@@ -18,20 +18,20 @@ class Node {
 }
 
 class operation {
-public int InsertAtBeginning(int data) {
-int temp = 0;
-return temp;
+    public int InsertAtBeginning(int data) {
+        int temp = 0;
+        return temp;
 
-}
+    }
 }
 
 public class LinkedListOperation {
     public static void main(String[] args) {
-        Node a=new Node(5);
-        Node b=new Node(61);
-        Node c=new Node(26);
-        Node d=new Node(46);
-        Node e=new Node(12);
+        Node a = new Node(5);
+        Node b = new Node(61);
+        Node c = new Node(26);
+        Node d = new Node(46);
+        Node e = new Node(12);
         Node.Display(b);
     }
 }
