@@ -22,7 +22,10 @@ class Node {
         Node head=null;
         Node tail=null;
         Scanner sc = new Scanner(System.in);
-       
+        String str;
+        while(true){
+            str=sc.nextLine();
+        }
     }
 }
 
