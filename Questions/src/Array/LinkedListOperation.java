@@ -49,6 +49,7 @@ class Node {
 
     int InsertInBeginning(int data){
         Node newN=new Node(data);
+        head=tail=newN;
         return newN.data;
     }
 }
