@@ -28,8 +28,10 @@ class Node {
 public class LinkedListOperation {
     public static void main(String[] args) {
         Node a=new Node(5);
-        Node b=new Node(6);
-        a.next=b;
+        Node b=new Node(61);
+        Node c=new Node(26);
+        Node d=new Node(46);
+        Node e=new Node(12);
         a.Display(a);
     }
 }
