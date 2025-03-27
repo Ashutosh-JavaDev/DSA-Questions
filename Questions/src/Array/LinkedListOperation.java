@@ -52,5 +52,7 @@ public class LinkedListOperation {
     public static void main(String[] args) {
         Node x = new Node(0);
         x.create();
+        System.out.println("Displaying");
+        x.Display();
     }
 }
