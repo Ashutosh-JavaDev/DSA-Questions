@@ -25,6 +25,9 @@ class Node {
         String str;
         while(true){
             str=sc.nextLine();
+            if(str.equals(" ")){
+                return;
+            }
         }
     }
 }
