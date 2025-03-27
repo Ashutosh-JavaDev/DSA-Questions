@@ -10,7 +10,11 @@ class Node {
         this.data = data;
     }
 
-    static void Display(Node head) {
+    Node head = null;
+    Node tail = null;
+    Scanner sc = new Scanner(System.in);
+
+    void Display() {
         Node temp = head;
         while (temp != null) {
             System.out.println(temp.data);
@@ -19,9 +23,7 @@ class Node {
     }
 
     void create() {
-        Node head = null;
-        Node tail = null;
-        Scanner sc = new Scanner(System.in);
+
         String str;
         while (true) {
             str = sc.nextLine();
