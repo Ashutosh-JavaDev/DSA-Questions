@@ -71,6 +71,12 @@ class Node {
         }
 
     }
+    void InsertInEnd(int data){
+        Node newN=new Node(data);
+        if (head==null){
+            head=tail=newN;
+        }
+    }
 
 
 
