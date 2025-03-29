@@ -47,10 +47,10 @@ class Node {
         }
     }
 
-    int InsertInBeginning(int data) {
+    void InsertInBeginning(int data) {
         Node newN = new Node(data);
         head = tail = newN;
-        return newN.data;
+        
     }
 
     int InsertInMid(int data) {
@@ -90,6 +90,6 @@ public class LinkedListOperation {
     public static void main(String[] args) {
         Node x = new Node(0);
         x.choice();
-        
+        x.Display();
     }
 }
