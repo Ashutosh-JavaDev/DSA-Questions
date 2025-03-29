@@ -63,6 +63,15 @@ class Node {
           if(head==null){
             head=tail=newN;
         }
+        else{
+            System.out.println("At which position you want to add the number");
+            int pos=sc.nextInt();
+            Node temp=head;
+            while(temp!=null){
+
+            }
+
+        }
     }
 
     void choice() {
