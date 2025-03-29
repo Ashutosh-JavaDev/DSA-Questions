@@ -76,6 +76,10 @@ class Node {
         if (head==null){
             head=tail=newN;
         }
+        else{
+            tail.next=newN;
+        }
+        tail=newN;
     }
 
 
