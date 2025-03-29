@@ -69,7 +69,6 @@ class Node {
         switch (choose) {
             case 1:
                 create();
-                
                 break;
             case 2:
                 System.out.println("Your List is Empty,Please Create a List First");
@@ -77,7 +76,6 @@ class Node {
                 System.out.println("Enter the number want to add in the List");
                 int num = sc.nextInt();
                 InsertInBeginning(num);
-               
                 break;
             default:
                 System.out.println("Wrong Choice,Choose Wisely");
