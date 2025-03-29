@@ -69,9 +69,10 @@ class Node {
            create();
            break;
            case 2:
-           System.out.println("Enter the number want to insert in the List");
+           System.out.println("Enter the number want to add in the List");
            int num=sc.nextInt();
-           InsertInBeginning(num); 
+           InsertInBeginning(num);
+           Display(); 
         }
     }
 }
