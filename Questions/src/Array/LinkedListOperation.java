@@ -67,53 +67,53 @@ class Node {
                 temp = temp.next;
             }
             newN.next = temp.next;
-            temp.next=newN;
+            temp.next = newN;
         }
 
     }
-    void InsertInEnd(int data){
-        Node newN=new Node(data);
-        if (head==null){
-            head=tail=newN;
+
+    void InsertInEnd(int data) {
+        Node newN = new Node(data);
+        if (head == null) {
+            head = tail = newN;
+        } else {
+            tail.next = newN;
         }
-        else{
-            tail.next=newN;
-        }
-        tail=newN;
+        tail = newN;
     }
 
-    int countLength(){
-        int count=0;
-        Node temp=head;
+    int countLength() {
+        int count = 0;
+        Node temp = head;
 
-        while(temp!=null){
+        while (temp != null) {
             count++;
 
-            temp=temp.next;
+            temp = temp.next;
         }
 
         return count;
     }
-    void DeleteFromBeginning(){
-        
-        if(head==null){
+
+    void DeleteFromBeginning() {
+
+        if (head == null) {
             System.out.println("List is Empty, No Data is here to be delete");
-        }
-        else{
-           head=head.next; 
+        } else {
+            head = head.next;
         }
     }
-    void DeleteAtEnd(){
-        Node temp=head;
-        if(head==null){
+
+    void DeleteAtEnd() {
+        Node temp = head;
+        if (head == null) {
             System.out.println("List is Empty, No Data is here to be delete");
-        }
-        else{
-          for(int i=0;i<countLength()-1;i++){
-            temp=temp.next;
-          }
-          temp=null;
-          tail=temp;
+        } else {
+            for (int i = 0; i < countLength() - 1; i++) {
+                temp = temp.next;
+            }
+            temp = null;
+            tail = temp;
         }
     }
 
