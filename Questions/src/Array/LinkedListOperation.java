@@ -47,10 +47,10 @@ class Node {
         }
     }
 
-    void InsertInBeginning(int data) {
+    int InsertInBeginning(int data) {
         Node newN = new Node(data);
         head = tail = newN;
-        
+        return newN.data;
     }
 
     int InsertInMid(int data) {
