@@ -93,6 +93,21 @@ class Node {
 
         return count;
     }
+    void deleteFromBeginning(){
+        
+        if(head==null){
+            System.out.println("List is Empty, No Data is here to be delete");
+        }
+        else{
+           head=head.next; 
+        }
+    }
+    void DeleteAtEnd(){
+        if(head==null){
+            System.out.println("List is Empty, No Data is here to be delete");
+
+        }
+    }
 
     void choice() {
 
