@@ -123,7 +123,11 @@ class Node {
         else{
             System.out.println("Enter the Positon from the data want to be delete...");
             pos=sc.nextInt();
-            
+            Node temp=head;
+            for(int i=0;i<pos-1;i++){
+                temp=temp.next;
+            }
+            temp.next=temp.next.next;
         }
     }
     void choice() {
