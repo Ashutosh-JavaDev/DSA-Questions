@@ -90,6 +90,8 @@ class Node {
 
             temp=temp.next;
         }
+
+        return temp;
     }
 
     void choice() {
