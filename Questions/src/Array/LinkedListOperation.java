@@ -47,42 +47,42 @@ class Node {
         }
     }
 
-    int InsertInBeginning(int data){
-        Node newN=new Node(data);
-        head=tail=newN;
-        return newN.data;
-    }
-    int InsertInMid(int data){
-        Node newN=new Node(data);
-        head.next=newN;
-        newN.next=tail;
+    int InsertInBeginning(int data) {
+        Node newN = new Node(data);
+        head = tail = newN;
         return newN.data;
     }
 
-    void choice(){
+    int InsertInMid(int data) {
+        Node newN = new Node(data);
+        head.next = newN;
+        newN.next = tail;
+        return newN.data;
+    }
+
+    void choice() {
 
         // Scanner sc=new Scanner(System.in);
         System.out.println("Press 1:To Create\nPress 2:To Insert In Beginning");
-        int choose=sc.nextInt();
-       while(true){
-        if(choose!=1){
-            System.out.println("Kindly first create a List to Perform any Operation");
-            continue;
+        int choose = sc.nextInt();
+        while (true) {
+            if (choose != 1) {
+                System.out.println("Kindly first create a List to Perform any Operation");
+                continue;
+            } else {
+                switch (choose) {
+                    case 1:
+                        create();
+                        Display();
+                        break;
+                    case 2:
+                        System.out.println("Enter the number want to add in the List");
+                        int num = sc.nextInt();
+                        InsertInBeginning(num);
+                        Display();
+                }
+            }
         }
-        else{
-             switch(choose){
-         case 1:
-           create();
-           Display();
-           break;
-           case 2:
-           System.out.println("Enter the number want to add in the List");
-           int num=sc.nextInt();
-           InsertInBeginning(num);
-           Display(); 
-        }
-        }
-       }
     }
 }
 
