@@ -81,7 +81,7 @@ class Node {
                 break;
             default:
                 System.out.println("Wrong Choice,Choose Wisely");
-
+                break;
         }
     }
 }
