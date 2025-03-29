@@ -58,6 +58,22 @@ class Node {
         newN.next=tail;
         return newN.data;
     }
+
+    void choice(){
+
+        // Scanner sc=new Scanner(System.in);
+        System.out.println("Press 1:To Create\nPress 2:To Insert In Beginning");
+        int choose=sc.nextInt();
+        switch(choose){
+           case 1:
+           create();
+           break;
+           case 2:
+           System.out.println("Enter the number want to insert in the List");
+           int num=sc.nextInt();
+           InsertInBeginning(num); 
+        }
+    }
 }
 
 public class LinkedListOperation {
