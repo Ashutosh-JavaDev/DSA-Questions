@@ -64,8 +64,14 @@ class Node {
         // Scanner sc=new Scanner(System.in);
         System.out.println("Press 1:To Create\nPress 2:To Insert In Beginning");
         int choose=sc.nextInt();
-        switch(choose){
-           case 1:
+       while(true){
+        if(choose!=1){
+            System.out.println("Kindly first create a List to Perform any Operation");
+            continue;
+        }
+        else{
+             switch(choose){
+         case 1:
            create();
            Display();
            break;
@@ -75,6 +81,8 @@ class Node {
            InsertInBeginning(num);
            Display(); 
         }
+        }
+       }
     }
 }
 
