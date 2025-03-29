@@ -116,7 +116,16 @@ class Node {
             tail = temp;
         }
     }
-
+    void DeleteFromMid(int pos){
+        if (head == null) {
+            System.out.println("List is Empty, No Data is here to be delete");
+        } 
+        else{
+            System.out.println("Enter the Positon from the data want to be delete...");
+            pos=sc.nextInt();
+            
+        }
+    }
     void choice() {
 
         // Scanner sc=new Scanner(System.in);
