@@ -80,6 +80,10 @@ class Node {
                         int num = sc.nextInt();
                         InsertInBeginning(num);
                         Display();
+                        break;
+                        default:
+                        System.out.println("Wrong Choice,Choose Wisely");
+                        continue;
                 }
             }
         }
