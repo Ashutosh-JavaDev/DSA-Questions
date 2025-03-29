@@ -67,6 +67,7 @@ class Node {
         switch(choose){
            case 1:
            create();
+           Display();
            break;
            case 2:
            System.out.println("Enter the number want to add in the List");
