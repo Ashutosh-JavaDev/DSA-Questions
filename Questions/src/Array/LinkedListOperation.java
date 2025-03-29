@@ -66,8 +66,8 @@ class Node {
             for (int i = 0; i < index - 1; i++) {
                 temp = temp.next;
             }
-            newN = temp.next;
-
+            newN.next = temp.next;
+            temp.next=newN;
         }
 
     }
