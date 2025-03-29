@@ -82,7 +82,15 @@ class Node {
         tail=newN;
     }
 
+    int countLength(int count,Node head){
+        Node temp=head;
 
+        while(temp!=null){
+            count++;
+
+            temp=temp.next;
+        }
+    }
 
     void choice() {
 
