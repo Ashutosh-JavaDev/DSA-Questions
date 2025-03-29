@@ -58,11 +58,11 @@ class Node {
         }
     }
 
-    int InsertInMid(int data) {
+    void InsertInMid(int data) {
         Node newN = new Node(data);
-        head.next = newN;
-        newN.next = tail;
-        return newN.data;
+          if(head==null){
+            head=tail=newN;
+        }
     }
 
     void choice() {
