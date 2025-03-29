@@ -49,30 +49,30 @@ class Node {
 
     void InsertInBeginning(int data) {
         Node newN = new Node(data);
-        if(head==null){
-            head=tail=newN;
-        }
-        else{
-            newN.next=head;
-            head=newN;
+        if (head == null) {
+            head = tail = newN;
+        } else {
+            newN.next = head;
+            head = newN;
         }
     }
 
-    void InsertInMid(int data) {
+    void InsertInMid(int index, int data) {
         Node newN = new Node(data);
-          if(head==null){
-            head=tail=newN;
-        }
-        else{
-            System.out.println("At which position you want to add the number");
-            int pos=sc.nextInt();
-            Node temp=head;
-            while(temp!=null){
-
+        if (head == null) {
+            head = tail = newN;
+        } else {
+            Node temp = head;
+            for (int i = 0; i < index - 1; i++) {
+                temp = temp.next;
             }
+            newN = temp.next;
 
         }
+
     }
+
+
 
     void choice() {
 
