@@ -91,7 +91,7 @@ class Node {
             temp=temp.next;
         }
 
-        return temp;
+        return count;
     }
 
     void choice() {
