@@ -82,7 +82,8 @@ class Node {
         tail=newN;
     }
 
-    int countLength(int count,Node head){
+    int countLength(){
+        int count=0;
         Node temp=head;
 
         while(temp!=null){
@@ -103,11 +104,16 @@ class Node {
         }
     }
     void DeleteAtEnd(){
+        Node temp=head;
         if(head==null){
             System.out.println("List is Empty, No Data is here to be delete");
         }
         else{
-
+          for(int i=0;i<countLength()-1;i++){
+            temp=temp.next;
+          }
+          temp=null;
+          tail=temp;
         }
     }
 
