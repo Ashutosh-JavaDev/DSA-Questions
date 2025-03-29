@@ -81,6 +81,7 @@ class Node {
                 System.out.println("Enter the number want to add in the List");
                 int num = sc.nextInt();
                 InsertInBeginning(num);
+                System.out.println("-----------------------------------------------------");
                 break;
             default:
                 System.out.println("Wrong Choice,Choose Wisely");
