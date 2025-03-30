@@ -148,6 +148,14 @@ class Node {
                 InsertInBeginning(num);
                 System.out.println("-----------------------------------------------------");
                 break;
+                case 3:
+                  System.out.println("Your List is Empty,Please Create a List First");
+                create();
+                System.out.println("At what Index do you want to add Data?");
+                int index=sc.nextInt();
+                if(index>countLength()){
+                    System.out.println("");
+                }
             default:
                 System.out.println("Wrong Choice,Choose Wisely");
                 break;
