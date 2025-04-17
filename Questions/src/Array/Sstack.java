@@ -37,6 +37,19 @@ class stack {
             System.out.println(arr[top] + " Is Peaked from the stack");
         }
     }
+    void display(){
+        int temp=top;
+
+        if(top==-1){
+            System.out.println("Stack is empty");
+        }
+        else{
+            while(temp!=size-1){
+                temp=temp+1;
+                System.out.println(arr[temp]);
+            }
+        }
+    }
 }
 
 public class Sstack {
