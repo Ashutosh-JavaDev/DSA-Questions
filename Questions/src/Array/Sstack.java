@@ -10,7 +10,7 @@ class stack {
 
     void push() {
         int data;
-        if (top == size - 1) {
+        if (top == size-1) {
             System.out.println("Stack Overflow");
         } else {
             System.out.println("Enter the value in the Stack");
@@ -22,7 +22,7 @@ class stack {
     }
 
     void pop() {
-        if (arr[top] == top - 1) {
+        if (top==-1) {
             System.out.println("Stack UnderFlow");
         } else {
             System.out.println(arr[top] + " Is removed from the stack");
