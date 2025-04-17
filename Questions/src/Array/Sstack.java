@@ -58,7 +58,7 @@ public class Sstack {
         int choice;
         Scanner sc=new Scanner(System.in);
         while (1>0) {
-            System.out.println("Choose\n1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Display\n5.To Exit()");
+            System.out.println("Choose\n1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Display()\n5.To Exit()");
             choice=sc.nextInt();
             switch(choice){
                 case 1:
@@ -72,6 +72,7 @@ public class Sstack {
                 break;
                 case 4:
                 ob.display();
+                break;
                 case 5:
                 return;
                 // break;
