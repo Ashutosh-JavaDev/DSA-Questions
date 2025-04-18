@@ -37,6 +37,7 @@ class stackImplementation {
         }
         else{
             System.out.println(stack.get(top)+" is in the Top");
+            return;
         }
     }
 }
