@@ -31,6 +31,14 @@ class stackImplementation {
             System.out.println("New Top Data "+stack.get(top));;
         }
     }
+    void peek(){
+         if(isEmpty()){
+            System.out.println("Stack UnderFlow,Push Data First");
+        }
+        else{
+            System.out.println(stack.get(top)+" is in the Top");
+        }
+    }
 }
 
 public class StackbyArrayList {
