@@ -5,21 +5,18 @@ import java.util.ArrayList;
 
 class stackImplementation {
     private int data;
-    ArrayList<Integer> stack = new ArrayList<>();
+    static ArrayList<Integer> stack = new ArrayList<>();
     int top = -1;
-    boolean isEmpty(){
-        if(top==-1){
-            return true;
-        }
-        return false;
+   static boolean isEmpty(){
+       return stack.size()==0;
     }
     void push(int data) {
         this.data = data;
-        if (top == stack.size() - 1) {
+        if (!isEmpty()) {
             System.out.println("Stack OverFlow");
         } else {
             top=top+1;
-            stack.add(data);
+            stack.add(top, data);
             System.out.println(data+" is added at "+top+" index");
         }
     }
@@ -36,6 +33,7 @@ class stackImplementation {
 public class StackbyArrayList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        stackImplementation ob=new stackImplementation();
 
     }
 }
