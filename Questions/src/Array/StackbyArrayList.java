@@ -37,7 +37,19 @@ class stackImplementation {
         }
         else{
             System.out.println(stack.get(top)+" is in the Top");
-            return;
+            
+        }
+    }
+    void display(){
+        if(isEmpty()){
+            System.out.println("Stack UnderFlow,Nothing to Display");
+        }
+        else{
+            int val=0;
+            while(stack.size()>val){
+                System.out.println(stack.get(val));
+                val++;
+            }
         }
     }
 }
@@ -46,6 +58,31 @@ public class StackbyArrayList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         stackImplementation ob=new stackImplementation();
+        int choice;
+        while (1>0) {
+            System.out.println("Choose\n1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Display()\n5.To Exit()");
+            choice=sc.nextInt();
+            switch(choice){
+                case 1:
+                ob.push(sc.nextInt());
+                break;
+                case 2:
+                ob.pop();
+                break;
+                case 3:
+                ob.peek();
+                break;
+                case 4:
+                ob.display();
+                break;
+                case 5:
+                return;
+                // break;
+                default:
+                System.out.println("Choose Wisely");
+                break;
+            }
+        }
 
     }
 }
