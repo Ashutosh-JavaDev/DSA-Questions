@@ -27,8 +27,7 @@ class stackImplementation {
         else{
             System.out.println(stack.get(top));
             stack.remove(top);
-            top=top-1;
-            System.out.println("New Top Data "+stack.get(top));;
+          top=top-1;
         }
     }
     void peek(){
