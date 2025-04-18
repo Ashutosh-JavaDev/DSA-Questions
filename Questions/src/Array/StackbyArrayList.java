@@ -21,11 +21,14 @@ class stackImplementation {
         }
     }
     void pop(){
-        if(top==-1){
+        if(isEmpty()){
             System.out.println("Stack UnderFlow,Push Data First");
         }
         else{
-            
+            System.out.println(stack.get(top));
+            stack.remove(top);
+            top=top-1;
+            System.out.println("New Top Data "+stack.get(top));;
         }
     }
 }
