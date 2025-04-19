@@ -12,7 +12,12 @@ class Nodes {
     Nodes Tail = null;
 
     void push(int data) {
+        Nodes temp=Head;
+        Nodes newN=new Nodes(data);
+        if(temp==null){
+           temp=Tail=Head;
 
+        }
     }
 }
 
