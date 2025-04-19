@@ -15,7 +15,7 @@ class Nodes {
         Nodes temp=Head;
         Nodes newN=new Nodes(data);
         if(temp==null){
-           temp=Tail=Head;
+        Head=Tail=newN;
 
         }
     }
