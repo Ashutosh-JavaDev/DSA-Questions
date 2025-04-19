@@ -24,8 +24,12 @@ class Nodes {
         }
     }
     void pop(){
+        Nodes temp=null;
         if(Head==null){
             System.out.println("Stack is Empty,Nothing for Delete");
+        }
+        while(temp!=Head){
+            
         }
     }
 }
