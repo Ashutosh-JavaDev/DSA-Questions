@@ -23,6 +23,11 @@ class Nodes {
             Head=newN;
         }
     }
+    void pop(){
+        if(Head==null){
+            System.out.println("Stack is Empty,Nothing for Delete");
+        }
+    }
 }
 
 public class StackbyLinkedList {
