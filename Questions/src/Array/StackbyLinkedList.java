@@ -12,15 +12,15 @@ class Nodes {
     Nodes Tail = null;
 
     void push(int data) {
-        Nodes temp = Head;
+  
         Nodes newN = new Nodes(data);
-        if (temp == null) {
+        if (Head == null) {
             Head = Tail = newN;
         }
         else{
-            temp=temp.next;
-            newN.data=data;
-            temp=newN;
+            Head=Head.next;
+            newN.next=Head;
+            Head=newN;
         }
     }
 }
