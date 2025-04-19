@@ -8,8 +8,8 @@ class Nodes {
         this.data = data;
     }
 
-    Nodes Head = 0;
-    Nodes Tail = 0;
+    Nodes Head = null;
+    Nodes Tail = null;
 
     void push(int data) {
 
