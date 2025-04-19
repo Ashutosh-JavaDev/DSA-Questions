@@ -28,8 +28,8 @@ class Nodes {
         if(Head==null){
             System.out.println("Stack is Empty,Nothing for Delete");
         }
-        while(temp!=Head){
-            
+        while(temp.next!=Head){
+
         }
     }
 }
