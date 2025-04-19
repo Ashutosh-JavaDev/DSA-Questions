@@ -16,7 +16,11 @@ class Nodes {
         Nodes newN = new Nodes(data);
         if (temp == null) {
             Head = Tail = newN;
-
+        }
+        else{
+            temp=temp.next;
+            newN.data=data;
+            temp=newN;
         }
     }
 }
