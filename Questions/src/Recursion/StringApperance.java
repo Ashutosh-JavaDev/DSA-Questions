@@ -5,7 +5,7 @@ class StringFun {
         if (last > str.length() - 1) {
             return;
         } else {
-
+            char sc=str.charAt(str.length());
         }
     }
 }
