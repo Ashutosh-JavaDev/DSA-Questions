@@ -23,6 +23,7 @@ class Nodes {
             Head=Head.next;
             newN.next=Head;
             Head=newN;
+            System.out.println(data+" is added in "+Head+" Index");
         }
     }
     void pop(){
