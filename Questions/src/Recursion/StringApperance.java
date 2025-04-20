@@ -1,6 +1,7 @@
 class StringFun{
-    void ApperanceString(String str){
+    void ApperanceString(String str,int first,int last){
     
+
     }
 }
 public class StringApperance {
