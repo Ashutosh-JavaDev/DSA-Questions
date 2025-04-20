@@ -14,16 +14,16 @@ class Nodes {
     Nodes Tail = null;
 
     void push(int data) {
-  
+Nodes temp=Head;
         Nodes newN = new Nodes(data);
-        if (Head == null) {
+        if (temp == null) {
             Head = Tail = newN;
         }
         else{
-            Head=Head.next;
-            newN.next=Head;
-            Head=newN;
-            System.out.println(data+" is added in "+Head+" Index");
+            temp=temp.next;
+            newN.next=temp;
+            temp=newN;
+            System.out.println(data+" is added in List");
         }
     }
     void pop(){
