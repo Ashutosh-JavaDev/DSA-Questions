@@ -20,11 +20,12 @@ Nodes temp=Head;
             Head = Tail = newN;
         }
         else{
-            temp=temp.next;
+            // temp=temp.next;
             newN.next=temp;
             temp=newN;
-            System.out.println(data+" is added in List");
         }
+        System.out.println(data+" is added in List");
+
     }
     void pop(){
         Nodes temp=null;
@@ -45,9 +46,18 @@ Nodes temp=Head;
             System.out.println(Head.data+" is in the Top");
         }
     }
+    /* void InsertInBeginning(int data) {
+        Node newN = new Node(data);
+        if (head == null) {
+            head = tail = newN;
+        } else {
+            newN.next = head;
+            head = newN;
+        }
+    } */
     void display(){
         Nodes temp=Head;
-        if(Head==null){
+        if(temp==null){
             System.out.println("Stack is Empty,Nothing to Display");
         }
         else{
@@ -56,6 +66,7 @@ Nodes temp=Head;
                 temp=temp.next;
             }
         }
+        System.out.println();
     }
 }
 
