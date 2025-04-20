@@ -29,8 +29,10 @@ class Nodes {
             System.out.println("Stack is Empty,Nothing for Delete");
         }
         while(temp.next!=Head){
-
+            temp=temp.next;
         }
+        temp=Head;
+        System.out.println(temp+" is the New Top");
     }
 }
 
