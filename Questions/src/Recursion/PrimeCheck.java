@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 
 public class PrimeCheck {
     public boolean check(int num, int counter) {

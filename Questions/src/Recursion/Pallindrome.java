@@ -1,4 +1,4 @@
-package Recursion;
+// package Recursion;
 
 public class Pallindrome {
     int rev = 0, d = 1;
