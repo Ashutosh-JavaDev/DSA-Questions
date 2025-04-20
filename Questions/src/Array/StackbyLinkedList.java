@@ -14,21 +14,20 @@ class Nodes {
     Nodes Tail = null;
 
     void push(int data) {
-Nodes temp=Head;
         Nodes newN = new Nodes(data);
-        if (temp == null) {
+        if (Head == null) {
             Head = Tail = newN;
         }
         else{
             // temp=temp.next;
-            newN.next=temp;
-            temp=newN;
+            newN.next=Head;
+            Head=newN;
         }
         System.out.println(data+" is added in List");
 
     }
     void pop(){
-        Nodes temp=null;
+        Nodes temp=Head;
         if(Head==null){
             System.out.println("Stack is Empty,Nothing for Delete");
         }
@@ -46,15 +45,7 @@ Nodes temp=Head;
             System.out.println(Head.data+" is in the Top");
         }
     }
-    /* void InsertInBeginning(int data) {
-        Node newN = new Node(data);
-        if (head == null) {
-            head = tail = newN;
-        } else {
-            newN.next = head;
-            head = newN;
-        }
-    } */
+
     void display(){
         Nodes temp=Head;
         if(temp==null){
