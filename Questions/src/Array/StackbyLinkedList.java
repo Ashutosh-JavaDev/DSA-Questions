@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Scanner;
+
 class Nodes {
     int data;
     Nodes next;
@@ -42,10 +44,46 @@ class Nodes {
             System.out.println(Head.data+" is in the Top");
         }
     }
+    void Display(){
+        if(Head==null){
+            System.out.println("Stack is Empty,Nothing to Display");
+        }
+        else{
+            
+        }
+    }
 }
 
 public class StackbyLinkedList {
     public static void main(String[] args) {
-
+         Scanner sc = new Scanner(System.in);
+         
+        Nodes ob = new Nodes(0);
+        int choice;
+        while (1 > 0) {
+            System.out.println("Choose\n1.TO Push()\n2.To Pop()\n3.To Peek()\n4.To Display()\n5.To Exit()");
+            choice = sc.nextInt();
+            switch (choice) {
+                case 1:
+                System.out.println("Enter the data in the list");
+                    ob.push(sc.nextInt());
+                    break;
+                case 2:
+                    ob.pop();
+                    break;
+                case 3:
+                    ob.peek();
+                    break;
+                case 4:
+                    ob.display();
+                    break;
+                case 5:
+                    return;
+                // break;
+                default:
+                    System.out.println("Choose Wisely");
+                    break;
+            }
+        }
     }
 }
