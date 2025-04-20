@@ -44,7 +44,7 @@ class Nodes {
             System.out.println(Head.data+" is in the Top");
         }
     }
-    void Display(){
+    void display(){
         Nodes temp=Head;
         if(Head==null){
             System.out.println("Stack is Empty,Nothing to Display");
