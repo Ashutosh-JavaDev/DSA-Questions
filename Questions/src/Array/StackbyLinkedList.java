@@ -27,15 +27,13 @@ class Nodes {
 
     }
     void pop(){
-        Nodes temp=null;
+       
         if(Head==null){
             System.out.println("Stack is Empty,Nothing for Delete");
+            return;
         }
-       for(int i=0;i<Head.data-1;i++){
-        temp=temp.next;
-       }
-        temp=Head;
-        System.out.println(temp+" is the New Top");
+        System.out.println(Head.data+" is removed from the List");
+        Head=Head.next;
     }
     void peek(){
         if(Head==null){
