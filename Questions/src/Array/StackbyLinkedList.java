@@ -27,13 +27,13 @@ class Nodes {
 
     }
     void pop(){
-        Nodes temp=Head;
+        Nodes temp=null;
         if(Head==null){
             System.out.println("Stack is Empty,Nothing for Delete");
         }
-        while(temp.next!=Head){
-            temp=temp.next;
-        }
+       for(int i=0;i<Head.data-1;i++){
+        temp=temp.next;
+       }
         temp=Head;
         System.out.println(temp+" is the New Top");
     }
