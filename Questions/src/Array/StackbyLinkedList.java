@@ -45,11 +45,15 @@ class Nodes {
         }
     }
     void Display(){
+        Nodes temp=Head;
         if(Head==null){
             System.out.println("Stack is Empty,Nothing to Display");
         }
         else{
-            
+            while(temp!=null){
+                System.out.print(temp.data+" ");
+                temp=temp.next;
+            }
         }
     }
 }
