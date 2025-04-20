@@ -34,6 +34,14 @@ class Nodes {
         temp=Head;
         System.out.println(temp+" is the New Top");
     }
+    void peek(){
+        if(Head==null){
+            System.out.println("Stack is Empty");
+        }
+        else{
+            System.out.println(Head.data+" is in the Top");
+        }
+    }
 }
 
 public class StackbyLinkedList {
