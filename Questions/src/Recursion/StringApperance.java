@@ -1,5 +1,5 @@
 class StringFun{
-    void ApperanceString(){
+    void ApperanceString(String str){
     
     }
 }
