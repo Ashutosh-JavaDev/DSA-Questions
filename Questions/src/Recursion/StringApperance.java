@@ -3,7 +3,7 @@ class StringFun {
     int last = -1;
 
     void ApperanceString(String str, char ch, int len) {
-        if (len == str.length()) {
+        if (len==str.length()) {
             System.out.println("First Occurence: " + first);
             System.out.println("Second Occurence: " + last);
             return;
