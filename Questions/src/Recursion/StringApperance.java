@@ -1,11 +1,21 @@
 class StringFun {
     int first=-1;
     int last=-1;
-    void ApperanceString(String str,char ch) {
+    void ApperanceString(String str,char ch,int len) {
         if (last > str.length() - 1) {
             return;
         } else {
-            char sc=str.charAt(str.length());
+            char sc=str.charAt(len);
+            if(sc==ch){
+                if(first==-1){
+                    first=len;
+                }
+                else{
+                    last=len;
+                }
+            }
+                 ApperanceString(str, ch, len+1);
+
         }
     }
 }
