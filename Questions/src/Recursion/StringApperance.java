@@ -15,6 +15,8 @@ class StringFun {
                 }
             }
                  ApperanceString(str, ch, len+1);
+                 System.out.println("First Occurence: "+first);
+                 System.out.println("Second Occurence: "+last);
 
         }
     }
