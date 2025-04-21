@@ -24,6 +24,7 @@ class StringFun {
 
 public class StringApperance {
     public static void main(String[] args) {
-
+        StringFun ob=new StringFun();
+        ob.ApperanceString("abahjhaawbsas", 'a', 0);
     }
 }
