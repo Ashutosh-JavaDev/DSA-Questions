@@ -19,7 +19,9 @@ class Operations {
                     set.add(data);
 
                 } catch (InputMismatchException e) {
-                    e.printStackTrace();
+                    // e.printStackTrace();
+                    System.out.println("Wrong Input\nEnter negative or positive integer Number only");
+                    continue;
                 }
             }
             // sc.close();
