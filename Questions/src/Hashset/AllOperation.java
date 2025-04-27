@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Operations {
-    public static void functions() {
+    public static void addValue() {
         HashSet<Integer> set = new HashSet<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value want to add in set\nPress stop to STOP");
@@ -30,12 +30,15 @@ class Operations {
         }
 
     }
+    public static void Iteration(){
+        
+    }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.functions();
+        // ob.functions();
 
     }
 }
