@@ -44,7 +44,7 @@ class Operations {
     }
     public static void getvalue(){
         addValue();
-        
+        set.size();
     }
 }
 
