@@ -42,6 +42,10 @@ class Operations {
         System.out.println(i.next()+" ");
        }
     }
+    public static void getvalue(){
+        addValue();
+        
+    }
 }
 
 public class AllOperation {
