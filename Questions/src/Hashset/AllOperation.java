@@ -78,8 +78,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-       boolean res= ob.ISEmpty();
-       System.out.println(res);
+      ob.cloneHash();
 
     }
 }
