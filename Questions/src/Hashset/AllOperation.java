@@ -49,6 +49,7 @@ class Operations {
         return set.size();
     }
     public static boolean ISEmpty(){
+        addValue();
         return set.isEmpty();
     }
 }
@@ -56,7 +57,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.getSize();
+        ob.ISEmpty();
 
     }
 }
