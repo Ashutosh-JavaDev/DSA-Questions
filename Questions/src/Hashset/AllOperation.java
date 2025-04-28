@@ -28,19 +28,20 @@ class Operations {
             // sc.close();
 
         }
-        System.out.println(set);
+        // System.out.println(set);
 
     }
 
     public static void Iteration() {
-
+        // set.iterator();
+        System.out.println(set.iterator());
     }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        // ob.functions();
+        ob.addValue();
 
     }
 }
