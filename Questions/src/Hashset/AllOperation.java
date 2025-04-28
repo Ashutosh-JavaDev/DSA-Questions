@@ -56,13 +56,13 @@ class Operations {
 
     public static void cloneHash() {
         addValue();
-        HashSet<Integer> secSet = (HashSet<Integer>)set.clone();
+        HashSet<Integer> secSet = (HashSet<Integer>) set.clone();
         System.out.println("Second set after cloning first set: " + secSet);
         System.out.println("Enter the Value in the new HashSet\nor Press Stop to stop adding");
         while (true) {
             String newStr = sc.nextLine();
             if (newStr.equalsIgnoreCase("stop")) {
-                System.out.println("Final Set: "+secSet);
+                System.out.println("Final Set: " + secSet);
                 return;
             } else {
                 try {
@@ -75,12 +75,31 @@ class Operations {
 
         }
     }
+
+    public static void convertArray() {
+        addValue();
+        HashSet<String> str=new HashSet<>();
+        str.add("Apple");
+        str.add("Banana");
+        str.add("Guava");
+        str.add("Orange");
+        str.add("Graphes");
+
+        int n=set.size();
+        String arr[]=new String[n];
+       str.toArray(arr);
+       System.out.println("Array Elements: ");
+       for(String c:str){
+        System.out.println(c);
+
+       }
+    }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.cloneHash();
+        ob.convertArray();
 
     }
 }
