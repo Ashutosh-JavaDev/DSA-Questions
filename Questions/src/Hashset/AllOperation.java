@@ -48,29 +48,30 @@ class Operations {
         addValue();
         return set.size();
     }
-    public static boolean ISEmpty(){
+
+    public static boolean ISEmpty() {
         addValue();
         return set.isEmpty();
     }
-    public static  void cloneHash(){
+
+    public static void cloneHash() {
         addValue();
-        HashSet<Integer>secSet=new HashSet<>();
+        HashSet<Integer> secSet = (HashSet<Integer>)set.clone();
         System.out.println("Enter the Value in the new HashSet\nor Press Stop to stop adding");
-        while(true){
-            String newStr=sc.nextLine();
-            if(newStr.equalsIgnoreCase("stop")){
-                System.out.println(secSet=(HashSet)set.clone());
+        while (true) {
+            String newStr = sc.nextLine();
+            if (newStr.equalsIgnoreCase("stop")) {
+                System.out.println("Final Set: "+secSet);
                 return;
-            }
-            else{
-                try{
-                    int data=Integer.parseInt(newStr);
+            } else {
+                try {
+                    int data = Integer.parseInt(newStr);
                     secSet.add(data);
-                }
-                catch(InputMismatchException e){
+                } catch (InputMismatchException e) {
                     e.printStackTrace();
                 }
             }
+
         }
     }
 }
@@ -78,7 +79,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-      ob.cloneHash();
+        ob.cloneHash();
 
     }
 }
