@@ -1,5 +1,5 @@
 package Hashset;
-
+import java.util.Iterator;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -34,14 +34,20 @@ class Operations {
 
     public static void Iteration() {
         // set.iterator();
-        System.out.println(set.iterator());
+        addValue();
+       Iterator<Integer>i=set.iterator();
+       System.out.println(set);
+       System.out.println("Iterations  Values are: ");
+       while(i.hasNext()){
+        System.out.println(i.next()+" ");
+       }
     }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.addValue();
+        ob.Iteration();
 
     }
 }
