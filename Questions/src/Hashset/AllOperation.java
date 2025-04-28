@@ -46,7 +46,7 @@ class Operations {
 
     public static void getSize() {
         addValue();
-        System.out.println(set.size());
+        System.out.println("Number of values in the set after removing the Duplicate "+set.size());
     }
 }
 
