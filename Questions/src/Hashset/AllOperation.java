@@ -51,7 +51,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.Iteration();
+        ob.getSize();
 
     }
 }
