@@ -57,6 +57,7 @@ class Operations {
     public static void cloneHash() {
         addValue();
         HashSet<Integer> secSet = (HashSet<Integer>)set.clone();
+        System.out.println("Second set after cloning first set: " + secSet);
         System.out.println("Enter the Value in the new HashSet\nor Press Stop to stop adding");
         while (true) {
             String newStr = sc.nextLine();
