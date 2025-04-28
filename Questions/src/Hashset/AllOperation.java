@@ -2,6 +2,7 @@ package Hashset;
 
 import java.util.Iterator;
 import java.util.TreeSet;
+// import java.util.TreeSet.lower(7);
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -79,51 +80,65 @@ class Operations {
 
     public static void convertArray() {
         // addValue();
-        HashSet<String> str=new HashSet<>();
+        HashSet<String> str = new HashSet<>();
         str.add("Apple");
         str.add("Banana");
         str.add("Guava");
         str.add("Orange");
         str.add("Apple");
-        System.out.println("Set Element: "+str);
-        int n=set.size();
-        String arr[]=new String[n];
-       str.toArray(arr);
-       System.out.println("Array Elements: ");
-       for(String c:str){
-        System.out.println(c);
+        System.out.println("Set Element: " + str);
+        int n = set.size();
+        String arr[] = new String[n];
+        str.toArray(arr);
+        System.out.println("Array Elements: ");
+        for (String c : str) {
+            System.out.println(c);
 
-       }
+        }
     }
-    public static void TreesetCreation(){
-       TreeSet<Integer>i=new TreeSet<>();
-       i.add(21);
-       i.add(12);
-       i.add(43);
-       i.add(3);
-       i.add(15);
-       System.out.println(i);
+
+    public static void TreesetCreation() {
+        TreeSet<Integer> i = new TreeSet<>();
+        i.add(21);
+        i.add(12);
+        i.add(43);
+        i.add(3);
+        i.add(15);
+        System.out.println(i);
     }
-    public static void convertTreeset(){
-        HashSet<Integer>i=new HashSet<>();
+
+    public static void convertTreeset() {
+        HashSet<Integer> i = new HashSet<>();
         i.add(21);
         i.add(12);
         i.add(42);
         i.add(29);
         i.add(22);
-        TreeSet<Integer>s=new TreeSet<>(i);
+        TreeSet<Integer> s = new TreeSet<>(i);
         // i=s;
         System.out.println("Array Element: ");
-        for(int d:s){
+        for (int d : s) {
             System.out.println(d);
         }
+    }
+
+    public static void checkNumber() {
+        TreeSet<Integer> i = new TreeSet<>();
+        i.add(21);
+        i.add(22);
+        i.add(13);
+        i.add(21);
+        i.add(1);
+        i.add(3);
+    //    if(i.)
+    
     }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.TreesetCreation();
+        ob.convertTreeset();
 
     }
 }
