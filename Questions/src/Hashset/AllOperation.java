@@ -104,6 +104,20 @@ class Operations {
        i.add(15);
        System.out.println(i);
     }
+    public static void convertTreeset(){
+        HashSet<Integer>i=new HashSet<>();
+        i.add(21);
+        i.add(12);
+        i.add(42);
+        i.add(29);
+        i.add(22);
+        TreeSet<Integer>s=new TreeSet<>(i);
+        // i=s;
+        System.out.println("Array Element: ");
+        for(int d:s){
+            System.out.println(d);
+        }
+    }
 }
 
 public class AllOperation {
