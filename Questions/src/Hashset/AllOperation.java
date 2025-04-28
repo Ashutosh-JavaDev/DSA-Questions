@@ -42,7 +42,7 @@ class Operations {
         System.out.println(i.next()+" ");
        }
     }
-    public static void getvalue(){
+    public static void getSize(){
         addValue();
         set.size();
     }
