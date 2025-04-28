@@ -1,6 +1,7 @@
 package Hashset;
 
 import java.util.Iterator;
+import java.util.TreeSet;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -77,14 +78,14 @@ class Operations {
     }
 
     public static void convertArray() {
-        addValue();
+        // addValue();
         HashSet<String> str=new HashSet<>();
         str.add("Apple");
         str.add("Banana");
         str.add("Guava");
         str.add("Orange");
-        str.add("Graphes");
-
+        str.add("Apple");
+        System.out.println("Set Element: "+str);
         int n=set.size();
         String arr[]=new String[n];
        str.toArray(arr);
@@ -94,12 +95,21 @@ class Operations {
 
        }
     }
+    public static void TreesetCreation(){
+       TreeSet<Integer>i=new TreeSet<>();
+       i.add(21);
+       i.add(12);
+       i.add(43);
+       i.add(3);
+       i.add(15);
+       System.out.println(i);
+    }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.convertArray();
+        ob.TreesetCreation();
 
     }
 }
