@@ -5,14 +5,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Operations {
+    static HashSet<Integer> set = new HashSet<>();
+    static Scanner sc = new Scanner(System.in);
+
     public static void addValue() {
-        HashSet<Integer> set = new HashSet<>();
-        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value want to add in set\nPress stop to STOP");
         while (true) {
             String str = sc.nextLine();
             if (str.equalsIgnoreCase("stop")) {
-                return;
+                break;
             } else {
                 try {
                     int data = Integer.parseInt(str);
@@ -25,13 +26,14 @@ class Operations {
                 }
             }
             // sc.close();
-            System.out.println(set);
 
         }
+        System.out.println(set);
 
     }
-    public static void Iteration(){
-        
+
+    public static void Iteration() {
+
     }
 }
 
