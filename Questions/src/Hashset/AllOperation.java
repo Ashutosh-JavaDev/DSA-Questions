@@ -52,12 +52,34 @@ class Operations {
         addValue();
         return set.isEmpty();
     }
+    public static  void cloneHash(){
+        addValue();
+        HashSet<Integer>secSet=new HashSet<>();
+        System.out.println("Enter the Value in the new HashSet\nor Press Stop to stop adding");
+        while(true){
+            String newStr=sc.nextLine();
+            if(newStr.equalsIgnoreCase("stop")){
+                System.out.println(secSet=(HashSet)set.clone());
+                return;
+            }
+            else{
+                try{
+                    int data=Integer.parseInt(newStr);
+                    secSet.add(data);
+                }
+                catch(InputMismatchException e){
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.ISEmpty();
+       boolean res= ob.ISEmpty();
+       System.out.println(res);
 
     }
 }
