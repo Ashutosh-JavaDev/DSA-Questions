@@ -2,6 +2,7 @@ package Hashset;
 
 import java.util.Iterator;
 import java.util.TreeSet;
+import java.util.ArrayList;
 // import java.util.TreeSet.lower(7);
 import java.util.HashSet;
 import java.util.InputMismatchException;
@@ -130,8 +131,17 @@ class Operations {
         i.add(21);
         i.add(1);
         i.add(3);
-    //    if(i.)
-    
+        ArrayList<Integer> list = new ArrayList<>(i);
+        int x = 0;
+        int count=0;
+        while (x < i.size()) {
+            if (list.get(0) > 7) {
+                count++;
+            }
+            x++;
+        }
+        System.out.println("Total Number of value that are greater than 7 is :"+count);
+
     }
 }
 
