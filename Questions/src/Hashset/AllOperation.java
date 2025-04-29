@@ -148,9 +148,8 @@ class Operations {
 
     }
 
-    public static int comparision() {
-        int one = 0;
-        int two = 0;
+    public static void comparision() {
+        
         HashSet<Integer> i = new HashSet<>();
         i.add(21);
         i.add(12);
