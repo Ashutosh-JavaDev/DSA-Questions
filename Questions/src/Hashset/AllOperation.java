@@ -131,6 +131,7 @@ class Operations {
         i.add(21);
         i.add(1);
         i.add(3);
+        
         ArrayList<Integer> list = new ArrayList<>(i);
         int x = 0;
         int count = 0;
