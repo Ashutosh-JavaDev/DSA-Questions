@@ -156,14 +156,14 @@ class Operations {
         i.add(42);
         i.add(29);
         i.add(22);
+        System.out.println(i);
         HashSet<Integer> v = new HashSet<>();
         v.add(21);
         v.add(12);
+        v.add(40);
+        v.add(49);
         v.add(42);
-        v.add(29);
-        v.add(22);
-        i.equals(v);
-        HashSet<Integer>com=new HashSet<>();
+        System.out.println(v);
         for(int j:i){
             System.out.println(v.contains(j)?"Yes":"No");
         }
@@ -173,7 +173,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.checkNumber();
+        ob.comparision();
 
     }
 }
