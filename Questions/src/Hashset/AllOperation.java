@@ -131,7 +131,7 @@ class Operations {
         i.add(21);
         i.add(1);
         i.add(3);
-        
+
         ArrayList<Integer> list = new ArrayList<>(i);
         int x = 0;
         int count = 0;
@@ -146,6 +146,28 @@ class Operations {
 
         System.out.println("Total Number of value that are greater than 7 is : " + count);
 
+    }
+
+    public static int comparision() {
+        int one = 0;
+        int two = 0;
+        HashSet<Integer> i = new HashSet<>();
+        i.add(21);
+        i.add(12);
+        i.add(42);
+        i.add(29);
+        i.add(22);
+        HashSet<Integer> v = new HashSet<>();
+        v.add(21);
+        v.add(12);
+        v.add(42);
+        v.add(29);
+        v.add(22);
+        i.equals(v);
+        HashSet<Integer>com=new HashSet<>();
+        for(int j:i){
+            System.out.println(v.contains(j)?"Yes":"No");
+        }
     }
 }
 
