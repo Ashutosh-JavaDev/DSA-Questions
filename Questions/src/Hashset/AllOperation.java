@@ -133,14 +133,17 @@ class Operations {
         i.add(3);
         ArrayList<Integer> list = new ArrayList<>(i);
         int x = 0;
-        int count=0;
+        int count = 0;
+        System.out.println(list);
         while (x < i.size()) {
-            if (list.get(0) > 7) {
+            if (list.get(x) > 7) {
                 count++;
             }
+
             x++;
         }
-        System.out.println("Total Number of value that are greater than 7 is :"+count);
+
+        System.out.println("Total Number of value that are greater than 7 is : " + count);
 
     }
 }
@@ -148,7 +151,7 @@ class Operations {
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.convertTreeset();
+        ob.checkNumber();
 
     }
 }
