@@ -168,12 +168,23 @@ class Operations {
             System.out.println(v.contains(j)?"Yes":"No");
         }
     }
+    public static void removeset(){
+        HashSet<Integer> i = new HashSet<>();
+        i.add(21);
+        i.add(12);
+        i.add(42);
+        i.add(29);
+        i.add(22);
+        System.out.println(i);
+        i.clear(); 
+        System.out.println(i);
+    }
 }
 
 public class AllOperation {
     public static void main(String[] args) {
         Operations ob = new Operations();
-        ob.comparision();
+        ob.removeset();
 
     }
 }
