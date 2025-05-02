@@ -11,15 +11,18 @@ public class main extends JFrame implements ActionListener {
     JTextField field;
     JButton button;
      public main(){
-        setLocation(450, 100);
+        setLocation(550, 100);
         setTitle("UNIQUE WORD ANALYZER");
         setLayout(null);
-        setSize(800, 850);
+        setSize(600,650);
         getContentPane().setBackground(Color.white);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
      }
      public void actionPerformed(ActionEvent ae) {
         setVisible(false);
+    }
+    public static void main(String[] args) {
+        main ob=new main();
     }
 }
