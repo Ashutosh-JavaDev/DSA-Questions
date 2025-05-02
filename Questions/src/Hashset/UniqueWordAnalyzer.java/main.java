@@ -16,6 +16,7 @@ public class main extends JFrame implements ActionListener {
         l1.setBounds(200,100,250,30);
         l1.setFont(new Font("Arial", Font.BOLD, 20));
         add(l1);
+        field=new JTextField();
         field.setBounds(150,150,250,250);
         field.setFont(new Font("Arial",Font.PLAIN,10));
         add(field);
