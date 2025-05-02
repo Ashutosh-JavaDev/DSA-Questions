@@ -12,7 +12,7 @@ public class main extends JFrame implements ActionListener {
     JButton button;
      public main(){
         setLocation(450, 100);
-        setTitle("REGISTRATION FORM");
+        setTitle("UNIQUE WORD ANALYZER");
         setLayout(null);
         setSize(800, 850);
         getContentPane().setBackground(Color.white);
