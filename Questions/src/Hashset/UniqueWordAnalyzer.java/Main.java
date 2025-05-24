@@ -45,6 +45,10 @@ public class Main extends JFrame implements ActionListener {
      public void actionPerformed(ActionEvent ae) {
         if(ae.getSource()==button){
             HashSet <String>  set=new HashSet<>();
+            HashSet <String> duplicate=new HashSet<>();
+            String str=field.getText();
+            set.add(str);
+                
         }
         setVisible(false);
     }
