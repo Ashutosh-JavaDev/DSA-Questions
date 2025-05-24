@@ -52,7 +52,10 @@ public class Main extends JFrame implements ActionListener {
             set.add(str);
             for (int i = 0; i < set.size(); i++) {
                 for (int j = i + 1; j < set.size(); j++) {
-
+                    if(i==j){
+                        break;
+                    }   
+                    // if(set.get(i))
                 }
             }
 
