@@ -48,6 +48,11 @@ public class Main extends JFrame implements ActionListener {
             HashSet <String> duplicate=new HashSet<>();
             String str=field.getText();
             set.add(str);
+            for(int i=0;i<set.size();i++){
+                for(int j=i+1;j<set.size();j++){
+                    
+                }
+            }
                 
         }
         setVisible(false);
