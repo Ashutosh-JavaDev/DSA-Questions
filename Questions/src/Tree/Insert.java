@@ -21,6 +21,15 @@ class Node {
         }
         return root;
     }
+    public static void inOrder(Node root){
+        if(root==null){
+            return;
+        }
+        inOrder(root.left);
+        System.out.println(root.data);
+        inOrder(root.Right);
+
+    }
 }
 
 public class Insert {
@@ -31,5 +40,7 @@ public class Insert {
         for (int i =0;i<arr.length;i++) {
             newNode.insertInNull(root, arr[i]);
         }
+        newNode.inOrder(root);
+        System.out.println();
     }
 }
