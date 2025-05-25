@@ -55,7 +55,7 @@ public class Main extends JFrame implements ActionListener {
                     if(i==j){
                         break;
                     }   
-                    // if(set.get(i))
+                    
                 }
             }
 
