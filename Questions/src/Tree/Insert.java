@@ -1,7 +1,6 @@
 package Tree;
 
 class Node {
-    Node root;
     Node left;
     Node Right;
     int data;
@@ -9,11 +8,18 @@ class Node {
     Node(int data) {
         this.data = data;
     }
-    public void insertInNull(int val){
+    public Node insertInNull(Node root ,int val){
         if(root==null){
-            Node newNode=new Node(val);
-            root=newNode;
+             root=new Node(val);
+            return root;
         }
+        if(root.data>val){
+            root.left=insertInNull(root.left, val);
+        }
+        else{
+            root.Right=insertInNull(root.Right, val);
+        }
+        return root;
     }
 }
 
