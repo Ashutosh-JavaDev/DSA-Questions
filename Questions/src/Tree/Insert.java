@@ -21,12 +21,13 @@ class Node {
         }
         return root;
     }
-    public static void inOrder(Node root){
-        if(root==null){
+
+    public static void inOrder(Node root) {
+        if (root == null) {
             return;
         }
         inOrder(root.left);
-        System.out.println(root.data);
+        System.out.print(root.data + " ");
         inOrder(root.Right);
 
     }
@@ -37,8 +38,8 @@ public class Insert {
         Node newNode = new Node(0);
         int arr[] = { 3, 1, 4, 2, 5, 4 };
         Node root = null;
-        for (int i =0;i<arr.length;i++) {
-            newNode.insertInNull(root, arr[i]);
+        for (int i = 0; i < arr.length; i++) {
+            root = newNode.insertInNull(root, arr[i]);
         }
         newNode.inOrder(root);
         System.out.println();
