@@ -1,13 +1,14 @@
 package Tree;
-class Node{
-    Node Left;
-    Node Right;
+class Nodes{
+    Nodes Left;
+    Nodes Right;
     int data;
-    Node(int data){
+    Nodes(int data){
         this.data=data;
     }
-    public static Node insertion(Node root,int val){
+    public static Nodes insertion(Nodes root,int val){
         if(root==null){
+            root=new Nodes(val);
             return root;
         }
         else if(root.data>val){
@@ -18,15 +19,25 @@ class Node{
         }
         return root;
     }
-    public static  void inOrder(Node root){
+    public static  void inorder(Nodes root){
         if(root==null){
             return;
         }
-        inOrder(root.Left);
+        inorder(root.Left);
         System.out.print(root.data+" ");
-        inOrder(root.Right);
+        inorder(root.Right);
     }
 }
 public class SearchBst {
-    
+    public static void main(String[]args){
+        int arr[]={21,23,43,1,2,3,43,238};
+
+        Nodes n=new Nodes(0);
+        Nodes root=null;
+        for(int i=0;i<arr.length;i++){
+            root=n.insertion(root, arr[i]);
+        }
+        n.inorder(root);
+        System.out.println();
+    }
 }
