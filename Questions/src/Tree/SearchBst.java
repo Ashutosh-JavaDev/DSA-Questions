@@ -53,5 +53,11 @@ public class SearchBst {
         }
         n.inorder(root);
         System.out.println();
+        if(n.BST(root, 1)){
+            System.out.println("Found");
+        }
+        else{
+            System.out.println("Not Found");
+        }
     }
 }
