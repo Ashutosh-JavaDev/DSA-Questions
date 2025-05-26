@@ -18,7 +18,14 @@ class Node{
         }
         return root;
     }
-
+    public static  void inOrder(Node root){
+        if(root==null){
+            return;
+        }
+        inOrder(root.Left);
+        System.out.print(root.data+" ");
+        inOrder(root.Right);
+    }
 }
 public class SearchBst {
     
