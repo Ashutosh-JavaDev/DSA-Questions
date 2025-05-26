@@ -27,6 +27,20 @@ class Nodes{
         System.out.print(root.data+" ");
         inorder(root.Right);
     }
+    public static boolean BST(Nodes root,int key){
+        if(root==null){
+            return false;
+        }
+        else if(root.data>key){
+            return BST(root.Left, key);
+        }
+        else if(root.data==key){
+            return BST(root, key);
+        }
+        else{
+            return BST(root.Right, key);
+        }
+    }
 }
 public class SearchBst {
     public static void main(String[]args){
