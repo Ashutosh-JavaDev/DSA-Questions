@@ -1,13 +1,24 @@
 package Hashset.GFG;
 
 public class IntegerMINandMAX {
-    public static int minMax(){
-        int arr[]={12,32,214,42,13};
-        int max=Integer.MAX_VALUE;
-        return max;
+    public static void minMax() {
+        int arr[] = { 12, 32, 24, 42, 13 };
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (int num : arr) {
+            if (num > max) {
+                max = num;
+            }
+            if (num < min) {
+                min = num;
+            }
+        }
+        System.out.println(max);
+        System.out.println(min);
     }
-    public static void main(String[]args){
-        int res=minMax();
-        System.out.println(res);
+
+    public static void main(String[] args) {
+        minMax();
+
     }
 }
