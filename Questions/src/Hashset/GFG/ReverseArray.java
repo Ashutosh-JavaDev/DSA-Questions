@@ -5,15 +5,16 @@ public class ReverseArray {
         int arr[]={21,12,24,342,132};
         int start=0,end=arr.length-1;
         while(start<end){
-            int temp=start;
-            start=end;
-            end=temp;
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
             start++;
             end--;
         }
         for(int num:arr){
             System.out.print(num+" ");
         }
+        System.out.println();
     }
     public static void main(String[]args){
         Rarray();
