@@ -35,7 +35,7 @@ class Nodes{
             return BST(root.Left, key);
         }
         else if(root.data==key){
-            return BST(root, key);
+            return true;
         }
         else{
             return BST(root.Right, key);
@@ -53,7 +53,7 @@ public class SearchBst {
         }
         n.inorder(root);
         System.out.println();
-        if(n.BST(root, 1)){
+        if(n.BST(root, 12)){
             System.out.println("Found");
         }
         else{
