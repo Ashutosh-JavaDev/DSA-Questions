@@ -20,7 +20,6 @@ class abst extends inheritAbstractClass{
 }
 public class myabstractClass {
     inheritAbstractClass ob=new inheritAbstractClass();
-    
     // ob.greet();
     // ob.sound();
 }
