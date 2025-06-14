@@ -19,7 +19,8 @@ class abst extends inheritAbstractClass{
     }
 }
 public class myabstractClass {
-    inheritAbstractClass ob=new inheritAbstractClass();
-    // ob.greet();
-    // ob.sound();
+    public static void main(String[] args) {
+        abst ob=new abst();
+        ob.greet();
+    }
 }
