@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Scanner;
+
 public class MAXSubArray {
     public static int Sum(int[] arr){
         int sum=arr[0];
@@ -9,5 +11,16 @@ public class MAXSubArray {
             maxSum=Math.max(maxSum, sum);
         }
         return maxSum;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the Array");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+        for(int i=0;i<size;i++){
+            arr[i]=sc.nextInt();
+        }
+        int res=Sum(arr);
+        System.out.println("Max SubArray: "+res);
     }
 }
