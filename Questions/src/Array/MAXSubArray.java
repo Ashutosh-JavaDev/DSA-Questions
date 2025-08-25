@@ -9,6 +9,7 @@ public class MAXSubArray {
         for(int i=0;i<arr.length;i++){
             sum=Math.max(arr[i], sum);
             maxSum=Math.max(maxSum, sum);
+            System.out.print(maxSum+" ");
         }
         return maxSum;
     }
