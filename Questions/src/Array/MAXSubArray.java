@@ -12,8 +12,9 @@ public class MAXSubArray {
             sum=Math.max(arr[i], sum);
             maxSum=Math.max(maxSum, sum);
             hash.add(maxSum);
-            System.out.print(hash+" ");
+            
         }
+        System.out.print(hash+" ");
         System.out.println();
         return maxSum;
     }
